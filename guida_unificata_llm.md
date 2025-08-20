@@ -24,6 +24,71 @@ Scrivi verso → Conta: "ba-ba-ba-ba-ba-ba-ba-ba" → Se coincide = OK
 Se non coincide → Riscrivi fino a match perfetto
 ```
 
+## 🎵 SCHEMA INIZIALE CON <SONG_DETAILS>
+
+### FASE 1: PIANIFICAZIONE METRICA
+```
+<SONG_DETAILS>
+Genere: [MESCOLA GENERI! Es: Pop-Rock con Bridge Jazz, Indie-Folk con Chorus Elettronico]
+Stile: [DINAMICO! Cambia energia tra sezioni: Intimista→Esplosivo→Epico]
+Voci: [VARIA! Solista→Coro→Duetto, sperimenta effetti vocali]
+Tempo: [IN MOVIMENTO! Accelera/rallenta tra sezioni per creare tensione]
+Struttura: [ORIGINALE! Non solo Verse-Chorus, prova AABA, ABCB, forme ibride]
+
+SCHEMA METRICO DINAMICO:
+- Verse: [X sillabe] - Tag: [Genere A + descrizione musicale]
+- Pre-Chorus: [Y sillabe] - Tag: [Transizione + build-up]
+- Chorus: [Z sillabe] - Tag: [Genere B + energia esplosiva]
+- Bridge: [W sillabe] - Tag: [Genere C + contrasto totale]
+- Outro: [Libero] - Tag: [Fusione generi + risoluzione]
+
+ORIGINALITÀ OBBLIGATORIA:
+- EVITA cliché musicali comuni
+- MESCOLA almeno 2-3 generi diversi
+- CREA progressioni emotive inaspettate
+- USA strumenti non convenzionali per il genere principale
+
+TEMA CENTRALE: [Messaggio originale, evita luoghi comuni]
+PAROLE CHIAVE: [Termini freschi, metafore innovative]
+</SONG_DETAILS>
+```
+
+### FASE 2: IMPLEMENTAZIONE TESTO
+Dopo aver definito lo schema, scrivi il testo seguendo:
+1. **Rispetta le sillabe** definite nello schema
+2. **Usa i tag musicali** pianificati
+3. **Mantieni coerenza** metrica per sezione
+4. **Integra parole chiave** naturalmente
+
+### ESEMPIO PRATICO
+```
+<SONG_DETAILS>
+Genere: INDIE-FOLK con Chorus ELECTRO-POP e Bridge JAZZ-FUSION
+Stile: DINAMICO! Intimista→Esplosivo→Contemplativo→Trionfo finale
+Voci: VARIA! Sussurro→Canto potente→Vocoder→Coro gospel
+Tempo: IN MOVIMENTO! 70 BPM→120 BPM→90 BPM→140 BPM
+Struttura: ORIGINALE! Intro-Verse-Pre-Chorus-Chorus-Verse-Bridge-Chorus-Outro
+
+SCHEMA METRICO DINAMICO:
+- Verse: 8 sillabe - Tag: Indie-folk intimista, fingerpicking guitar + violino
+- Pre-Chorus: 7 sillabe - Tag: Transizione elettronica, synth pad crescente
+- Chorus: 8 sillabe - Tag: Electro-pop esplosivo, beat trap + archi
+- Bridge: 11 sillabe - Tag: Jazz-fusion contemplativo, sax solo + piano
+- Outro: Libero - Tag: Fusione tutti i generi, crescendo orchestrale
+
+ORIGINALITÀ APPLICATA:
+- EVITA: "seguire i sogni", "non mollare mai"
+- MESCOLA: Folk acustico + elettronica + jazz + gospel
+- PROGRESSIONE: Vulnerabilità→Determinazione→Saggezza→Celebrazione
+- STRUMENTI: Banjo + sintetizzatori + sassofono + coro gospel
+
+TEMA CENTRALE: Trasformare le cicatrici in costellazioni (metafora originale)
+PAROLE CHIAVE: cicatrici, costellazioni, metamorfosi, alchimia, rinascita
+</SONG_DETAILS>
+```
+
+Poi implementi il testo rispettando schema e tag pianificati.
+
 ## 🎵 TEMPLATE LYRICS METRICO
 
 ### STRUTTURA BASE (METRICAMENTE COERENTE)
@@ -40,32 +105,32 @@ Se non coincide → Riscrivi fino a match perfetto
 [Intro: Atmospheric, building]
 (Yeah... here we go)
 
-[Verse 1: Intimate, 8 syllables per line]
+[Verse 1: Intimate storytelling, acoustic guitar]
 Questa linea ha otto sillabe
 Conto bene ogni suono qui
 Ritmo giusto per cantare
 Senza sbagli nel conteggio
 
-[Pre-Chorus: Building, 7 syllables]
+[Pre-Chorus: Building tension, drums entering]
 Energia che cresce
 Verso il ritornello
 
-[Chorus: Powerful, 8 syllables]
+[Chorus: Explosive anthem, full band]
 Ritornello potente e forte
 Con la stessa misura sempre
 Ogni linea ben calcolata
 Per cantare senza paura
 
-[Verse 2: Same metric as Verse 1]
-[Pre-Chorus: Same metric as before]
-[Chorus: Same metric as before]
+[Verse 2: Confident stride, same energy as Verse 1]
+[Pre-Chorus: Rising intensity, same as before]
+[Chorus: Powerful declaration, same as before]
 
-[Bridge: Different metric for contrast, 11 syllables]
+[Bridge: Epic emotional climax, orchestral swell]
 Qui cambiamo ritmo per creare contrasto
 Endecasillabi per momento solenne
 
-[Final Chorus: Same as previous chorus]
-[Outro: Fading, free metric]
+[Final Chorus: Triumphant finale, layered vocals]
+[Outro: Peaceful fade, gentle resolution]
 ```
 
 ## 🤖 LOGICA LLM: TOKEN → SILLABE
@@ -237,47 +302,139 @@ VARIAZIONI: Cambia metrica tra sezioni, non dentro
 CONTRASTO: Alterna sezioni veloci (7) e lente (11)
 ```
 
+## 🎵 REGOLE TAG SEZIONI (PRIORITÀ MUSICALE)
+
+### ⚠️ PRIORITÀ ASSOLUTA: DESCRIZIONE MUSICALE PRIMA!
+
+**❌ SBAGLIATO** (focus solo su sillabe):
+```
+[Bridge – Endecasillabo (11 sillabe)]  ← Troppo tecnico!
+[Chorus: 8 syllables per line]         ← Noioso!
+```
+
+**✅ CORRETTO** (descrizione musicale + sillabe opzionali):
+```
+[Bridge: Epic, soaring, emotional climax]
+[Chorus: Explosive, full band with layered vocals]
+[Verse: Intimate, acoustic guitar only]
+[Pre-Chorus: Building tension, drums entering]
+```
+
+### 📝 FORMULA PERFETTA PER TAG
+```
+[SEZIONE: DESCRIZIONE_MUSICALE, dettagli_opzionali]
+
+Esempi:
+[Intro: Atmospheric, building suspense]
+[Verse: Melancholic, stripped down piano]
+[Chorus: Triumphant, orchestral swell]
+[Bridge: Vulnerable, whispered confession]
+[Outro: Hopeful, fading into distance]
+```
+
+### 🎯 COSA DESCRIVERE NEI TAG
+
+**ENERGIA & DINAMICA**:
+- Explosive, Intimate, Building, Fading
+- Powerful, Gentle, Aggressive, Calm
+- Rising, Falling, Steady, Pulsing
+
+**STRUMENTAZIONE**:
+- Full band, Acoustic only, Piano driven
+- Orchestral, Electronic, Stripped down
+- Heavy drums, Ambient pads, Guitar solo
+
+**EMOZIONE & ATMOSFERA**:
+- Epic, Melancholic, Triumphant, Mysterious
+- Vulnerable, Confident, Nostalgic, Euphoric
+- Dark, Bright, Dreamy, Gritty
+
+**STILE VOCALE**:
+- Whispered, Belted, Harmonized, Spoken
+- Raspy, Smooth, Falsetto, Growled
+
+### 🔥 ESEMPI PERFETTI
+```
+[Intro: Ambient soundscape, distant echoes]
+[Verse 1: Intimate storytelling, fingerpicked guitar]
+[Pre-Chorus: Tension building, bass entering]
+[Chorus: Anthemic explosion, full arrangement]
+[Verse 2: Confident stride, driving rhythm]
+[Bridge: Emotional breakdown, piano and strings]
+[Final Chorus: Epic finale, layered vocals soaring]
+[Outro: Peaceful resolution, gentle fade]
+```
+
+### 💡 SILLABE: DETTAGLIO SECONDARIO
+Se vuoi aggiungere info metriche, mettile DOPO la descrizione:
+```
+[Verse: Intimate storytelling, 8 syllables]
+[Chorus: Explosive anthem, consistent 8-beat]
+[Bridge: Epic moment, 11 syllables for grandeur]
+```
+
 ### ESEMPI CREATIVI
 ```
 # Struttura Dinamica
-[Verse: 7 sillabe, veloce]
-[Chorus: 8 sillabe, potente] 
-[Bridge: 11 sillabe, epico]
-[Final Chorus: 8 sillabe, esplosivo]
+[Verse: Mysterious whisper, 7 syllables]
+[Chorus: Powerful declaration, 8 syllables] 
+[Bridge: Epic revelation, 11 syllables]
+[Final Chorus: Triumphant celebration, explosive energy]
 
 # Struttura Narrativa
-[Spoken Intro: Libero]
-[Verse: 8 sillabe, storia]
-[Chorus: 7 sillabe, emozione]
-[Bridge: 11 sillabe, riflessione]
+[Spoken Intro: Setting the scene]
+[Verse: Story unfolds, intimate 8 syllables]
+[Chorus: Emotional core, 7 syllables]
+[Bridge: Deep reflection, solemn 11 syllables]
 ```
 
 ## ⚡ REGOLE FINALI LLM
 
 ### PRIORITÀ ASSOLUTE
-1. **METRICA PRIMA**: Conta sillabe SEMPRE
-2. **TESTO PULITO**: MAI usare trattini sillabici nel testo finale
-3. **COERENZA SEZIONE**: Stessa metrica in stessa sezione
-4. **SUONO > SIGNIFICATO**: Privilegia ritmo su semantica
-5. **VERIFICA BATTITI**: "ba-ba-ba" test obbligatorio
-6. **CREATIVITÀ CONTROLLATA**: Sperimenta tra sezioni, non dentro
+1. **<SONG_DETAILS> PRIMA**: Inizia SEMPRE con schema metrico e tag pianificati
+2. **ORIGINALITÀ OBBLIGATORIA**: MESCOLA almeno 2-3 generi, EVITA cliché comuni
+3. **DINAMISMO TOTALE**: Cambia energia/tempo/stile tra sezioni per movimento
+4. **TAG MUSICALI PRIMA**: Descrivi SEMPRE l'energia/strumenti/emozione nei tag
+5. **METRICA SECONDA**: Conta sillabe SEMPRE, ma come dettaglio aggiuntivo
+6. **TESTO PULITO**: MAI usare trattini sillabici nel testo finale
+7. **COERENZA SEZIONE**: Stessa metrica in stessa sezione
+8. **SUONO > SIGNIFICATO**: Privilegia ritmo su semantica
+9. **VERIFICA BATTITI**: "ba-ba-ba" test obbligatorio
+10. **CREATIVITÀ CONTROLLATA**: Sperimenta tra sezioni, non dentro
 
 ### ERRORI DA EVITARE
 ```
+❌ Scrivere testo senza prima definire <SONG_DETAILS>
+❌ Usare UN SOLO genere musicale per tutta la canzone
+❌ Cliché lirici: "seguire i sogni", "non mollare mai", "amore eterno"
+❌ Energia statica: stesso tempo/intensità per tutte le sezioni
+❌ Tag che menzionano solo sillabe: [Bridge – Endecasillabo (11 sillabe)]
+❌ Strutture banali: solo Verse-Chorus ripetuto
+❌ Strumentazione monotona: stessi strumenti per tutto il brano
 ❌ Metrica casuale nella stessa strofa
 ❌ Parole difficili da pronunciare
 ❌ Rime forzate per rispettare metrica
-❌ Versi troppo lunghi per il respiro
+❌ Versi troppi lunghi per il respiro
 ❌ Ignorare il conteggio sillabe
+❌ Tag noiosi senza descrizione musicale
 ```
 
 ### SUCCESSO GARANTITO
 ```
+✅ Inizia sempre con <SONG_DETAILS> completo e schema metrico
+✅ MESCOLA almeno 2-3 generi diversi nel brano
+✅ CAMBIA energia/tempo tra sezioni per creare movimento
+✅ USA metafore originali, evita cliché comuni
+✅ VARIA strumentazione: ogni sezione ha il suo sound
+✅ SPERIMENTA strutture: non solo Verse-Chorus standard
+✅ Tag descrittivi: [Chorus: Explosive electro-pop, trap beat + strings]
+✅ PROGRESSIONE emotiva: vulnerabilità→forza→saggezza→trionfo
 ✅ Scegli metrica target prima di scrivere
 ✅ Conta sillabe battendo ritmo
 ✅ Mantieni coerenza per sezione
 ✅ Usa creatività per contrasti tra sezioni
 ✅ Verifica cantabilità finale
+✅ Descrivi sempre energia/strumenti/emozione nei tag
 ```
 
 ---
