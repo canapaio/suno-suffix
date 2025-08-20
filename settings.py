@@ -2,17 +2,17 @@ from cat.mad_hatter.decorators import plugin
 from pydantic import BaseModel, Field
 
 class SunoSettings(BaseModel):
-    guida_filename: str = Field(
+    guide_filename: str = Field(
         default="mini_guida_suno_4.5.md",
-        description="Nome del file della guida Suno"
+        description="Name of the guide file to load"
     )
-    guida_folder: str = Field(
+    guide_folder: str = Field(
         default="",
-        description="Cartella custom per la guida (vuoto = ricerca automatica)"
+        description="Custom folder for the guide file (empty = automatic search)"
     )
     trigger: str = Field(
         default=":s:",
-        description="Trigger per attivare la guida Suno"
+        description="Trigger text to activate guide content injection"
     )
 
 @plugin
