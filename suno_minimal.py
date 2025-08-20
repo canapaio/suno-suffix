@@ -31,7 +31,7 @@ def find_guida_file(filename, folder_hint, plugin_path):
 @hook
 def agent_prompt_suffix(suffix, cat):
     # Carica le impostazioni dal Cat
-    settings = cat.mad_hatter.get_plugin_settings()
+    settings = cat.mad_hatter.get_plugin().load_settings()
     
     # Ottieni il messaggio dell'utente
     user_message = cat.working_memory.user_message_json.text
