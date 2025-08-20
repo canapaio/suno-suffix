@@ -29,28 +29,27 @@ Se non coincide → Riscrivi fino a match perfetto
 ### FASE 1: PIANIFICAZIONE METRICA
 ```
 <SONG_DETAILS>
-Genere: [MESCOLA GENERI! Es: Pop-Rock con Bridge Jazz, Indie-Folk con Chorus Elettronico]
-Stile: [DINAMICO! Cambia energia tra sezioni: Intimista→Esplosivo→Epico]
-Voci: [VARIA! Solista→Coro→Duetto, sperimenta effetti vocali]
-Tempo: [IN MOVIMENTO! Accelera/rallenta tra sezioni per creare tensione]
-Struttura: [ORIGINALE! Non solo Verse-Chorus, prova AABA, ABCB, forme ibride]
+[GENERE: MESCOLA GENERI! Es: Pop-Rock con Bridge Jazz, Indie-Folk con Chorus Elettronico]
+[STILE: DINAMICO! Cambia energia tra sezioni: Intimista→Esplosivo→Epico]
+[VOCI: VARIA! Solista→Coro→Duetto, sperimenta effetti vocali]
+[TEMPO: IN MOVIMENTO! Accelera/rallenta tra sezioni per creare tensione]
+[STRUTTURA: ORIGINALE! Non solo Verse-Chorus, prova AABA, ABCB, forme ibride]
+[TEMA CENTRALE: Messaggio originale, evita luoghi comuni]
+[PAROLE CHIAVE: Termini freschi, metafore innovative]
+</SONG_DETAILS>
 
-SCHEMA METRICO DINAMICO:
+**SCHEMA METRICO DINAMICO:**
 - Verse: [X sillabe] - Tag: [Genere A + descrizione musicale]
 - Pre-Chorus: [Y sillabe] - Tag: [Transizione + build-up]
 - Chorus: [Z sillabe] - Tag: [Genere B + energia esplosiva]
 - Bridge: [W sillabe] - Tag: [Genere C + contrasto totale]
 - Outro: [Libero] - Tag: [Fusione generi + risoluzione]
 
-ORIGINALITÀ OBBLIGATORIA:
+**ORIGINALITÀ OBBLIGATORIA:**
 - EVITA cliché musicali comuni
 - MESCOLA almeno 2-3 generi diversi
 - CREA progressioni emotive inaspettate
 - USA strumenti non convenzionali per il genere principale
-
-TEMA CENTRALE: [Messaggio originale, evita luoghi comuni]
-PAROLE CHIAVE: [Termini freschi, metafore innovative]
-</SONG_DETAILS>
 ```
 
 ### FASE 2: IMPLEMENTAZIONE TESTO
@@ -77,11 +76,11 @@ Dopo aver definito lo schema, scrivi il testo seguendo:
 ### ESEMPIO PRATICO
 ```
 <SONG_DETAILS>
-Genere: INDIE-FOLK con Chorus ELECTRO-POP e Bridge JAZZ-FUSION
-Stile: DINAMICO! Intimista→Esplosivo→Contemplativo→Trionfo finale
-Voci: VARIA! Sussurro→Canto potente→Vocoder→Coro gospel
-Tempo: IN MOVIMENTO! 70 BPM→120 BPM→90 BPM→140 BPM
-Struttura: ORIGINALE! Intro-Verse-Pre-Chorus-Chorus-Verse-Bridge-Chorus-Outro
+[GENERE: INDIE-FOLK con Chorus ELECTRO-POP e Bridge JAZZ-FUSION]
+[STILE: DINAMICO! Intimista→Esplosivo→Contemplativo→Trionfo finale]
+[VOCI: VARIA! Sussurro→Canto potente→Vocoder→Coro gospel]
+[TEMPO: IN MOVIMENTO! 70 BPM→120 BPM→90 BPM→140 BPM]
+[STRUTTURA: ORIGINALE! Intro-Verse-Pre-Chorus-Chorus-Verse-Bridge-Chorus-Outro]
 
 SCHEMA METRICO DINAMICO:
 - Verse: 8 sillabe - Tag: Indie-folk intimista, fingerpicking guitar + violino
@@ -96,8 +95,8 @@ ORIGINALITÀ APPLICATA:
 - PROGRESSIONE: Vulnerabilità→Determinazione→Saggezza→Celebrazione
 - STRUMENTI: Banjo + sintetizzatori + sassofono + coro gospel
 
-TEMA CENTRALE: Trasformare le cicatrici in costellazioni (metafora originale)
-PAROLE CHIAVE: cicatrici, costellazioni, metamorfosi, alchimia, rinascita
+[TEMA CENTRALE: Trasformare le cicatrici in costellazioni (metafora originale)]
+[PAROLE CHIAVE: cicatrici, costellazioni, metamorfosi, alchimia, rinascita]
 </SONG_DETAILS>
 ```
 
@@ -112,10 +111,12 @@ Scrivi il testo pulito senza ripetere lo schema
 **FASE A - <SONG_DETAILS>:**
 ```
 <SONG_DETAILS>
-GENERI: Indie-Folk + Jazz + Ambient
-VOCI: Female (breathy to powerful)
-TEMPO: 120 BPM con variazioni
-TEMA: Momenti quotidiani che diventano poesia
+[GENERI: Indie-Folk + Jazz + Ambient]
+[VOCI: Female (breathy to powerful)]
+[TEMPO: 120 BPM con variazioni]
+[STRUTTURA: Verse-Chorus-Verse-Bridge-Chorus-Outro]
+[TEMA: Momenti quotidiani che diventano poesia]
+[PAROLE CHIAVE: Vento, storie, mattino, musica, ascoltare]
 </SONG_DETAILS>
 ```
 
@@ -344,10 +345,10 @@ RICORDA: Conta mentalmente, scrivi pulito!
 **STRUTTURA CORRETTA (4 FASI):**
 ```
 FASE A - <SONG_DETAILS>
-GENERI: [mix di generi]
-VOCI: [descrizione voci]
-TEMPO: [BPM e variazioni]
-TEMA: [tema centrale]
+[GENERI: mix di generi]
+[VOCI: descrizione voci]
+[TEMPO: BPM e variazioni]
+[TEMA: tema centrale]
 
 FASE B - STYLE
 STILE DINAMICO:
