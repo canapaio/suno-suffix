@@ -54,11 +54,25 @@ PAROLE CHIAVE: [Termini freschi, metafore innovative]
 ```
 
 ### FASE 2: IMPLEMENTAZIONE TESTO
+**⚠️ ATTENZIONE: SEPARA SEMPRE SCHEMA DA TESTO FINALE!**
+
 Dopo aver definito lo schema, scrivi il testo seguendo:
 1. **Rispetta le sillabe** definite nello schema
 2. **Usa i tag musicali** pianificati
 3. **Mantieni coerenza** metrica per sezione
 4. **Integra parole chiave** naturalmente
+
+### 🚫 ERRORI CRITICI DA EVITARE:
+- **NON mescolare** <SONG_DETAILS> con il testo finale
+- **NON aggiungere** commenti narrativi nel testo
+- **NON ripetere** lo schema metrico nel testo finale
+- **NON usare** linguaggio descrittivo tra le sezioni
+
+### ✅ FASI OBBLIGATORIE:
+**FASE A:** <SONG_DETAILS> - Generi, voci, tempo, tema
+**FASE B:** STYLE - Descrizione dello stile musicale dinamico
+**FASE C:** SCHEMA STRUCTURE - Struttura con sillabe consigliate per sezione
+**FASE D:** CANZONE - Testo finale pulito con tag musicali
 
 ### ESEMPIO PRATICO
 ```
@@ -87,7 +101,74 @@ PAROLE CHIAVE: cicatrici, costellazioni, metamorfosi, alchimia, rinascita
 </SONG_DETAILS>
 ```
 
-Poi implementi il testo rispettando schema e tag pianificati.
+**FASE A - SOLO SCHEMA:**
+Definisci tutto in <SONG_DETAILS> senza testo
+
+**FASE B - SOLO TESTO:**
+Scrivi il testo pulito senza ripetere lo schema
+
+### ESEMPIO DELLE 4 FASI:
+
+**FASE A - <SONG_DETAILS>:**
+```
+<SONG_DETAILS>
+GENERI: Indie-Folk + Jazz + Ambient
+VOCI: Female (breathy to powerful)
+TEMPO: 120 BPM con variazioni
+TEMA: Momenti quotidiani che diventano poesia
+</SONG_DETAILS>
+```
+
+**FASE B - STYLE:**
+```
+STILE DINAMICO:
+- Verse: Intimo, fingerpicked guitar
+- Chorus: Espansivo, piano jazz + archi
+- Bridge: Contemplativo, ambient textures
+```
+
+**FASE C - SCHEMA STRUCTURE:**
+```
+STRUCTURE: Verse-Chorus-Verse-Bridge-Chorus-Outro
+SILLABE CONSIGLIATE:
+- Verse: 8 sillabe per verso
+- Chorus: 8-9 sillabe per verso
+- Bridge: 10 sillabe per verso
+```
+
+**FASE D - CANZONE:**
+```
+[Verse 1: Intimo, fingerpicked guitar]
+Il vento entra nella stanza
+Porta storie del mattino
+
+[Chorus: Espansivo, piano jazz + archi]
+Ogni momento ha la sua musica
+Basta saperla ascoltare
+```
+
+### 🚨 ERRORI REALI DA NON RIPETERE:
+
+**❌ ERRORE 1 - Testo narrativo prima della canzone:**
+```
+Ah! 🌿 C'è un respiro che si diffonde...
+Sono qui, KaguraAI, con la mia mente attiva...
+```
+**✅ CORRETTO:** Inizia direttamente con <SONG_DETAILS>
+
+**❌ ERRORE 2 - Commenti descrittivi nel testo:**
+```
+[Intro: Soft and atmospheric]
+(Whispered — distant): "Ecco… il caffè è acceso."
+```
+**✅ CORRETTO:** Solo tag musicali, niente descrizioni narrative
+
+**❌ ERRORE 3 - Testo dopo la canzone:**
+```
+✨ Ecco cosa penso: questa canzone non è solo...
+Tu puoi immaginarla: In uno studio dove...
+```
+**✅ CORRETTO:** Finisci con [Outro], basta
 
 ## 🎵 TEMPLATE LYRICS METRICO
 
@@ -255,6 +336,51 @@ RICORDA: Conta mentalmente, scrivi pulito!
 ✅ Ogni verso ha stesso numero sillabe?
 ✅ Ritornello ha metrica coerente?
 ✅ Bridge ha metrica diversa per contrasto?
+✅ Parole facili da pronunciare
+```
+
+## 🎯 FORMATO FINALE OBBLIGATORIO
+
+**STRUTTURA CORRETTA (4 FASI):**
+```
+FASE A - <SONG_DETAILS>
+GENERI: [mix di generi]
+VOCI: [descrizione voci]
+TEMPO: [BPM e variazioni]
+TEMA: [tema centrale]
+
+FASE B - STYLE
+STILE DINAMICO:
+- Sezione: Descrizione musicale
+- Sezione: Descrizione musicale
+
+FASE C - SCHEMA STRUCTURE
+STRUCTURE: [struttura completa]
+SILLABE CONSIGLIATE:
+- Sezione: X sillabe per verso
+- Sezione: Y sillabe per verso
+
+FASE D - CANZONE
+[Sezione: Tag musicale]
+Testo pulito
+
+[Sezione: Tag musicale]
+Testo pulito
+```
+
+**⚠️ MAI AGGIUNGERE:**
+- Introduzioni narrative
+- Commenti personali
+- Descrizioni tra parentesi nel testo
+- Spiegazioni dopo la canzone
+- Emoji nel testo musicale
+- Linguaggio descrittivo
+
+**✅ RICORDA:**
+Solo schema → Solo testo → Fine
+
+## 🔍 CHECKLIST FINALE
+```
 ✅ Parole facili da pronunciare velocemente?
 ✅ Rime naturali, non forzate?
 ✅ Respiro corretto tra le frasi?
@@ -391,19 +517,23 @@ Se vuoi aggiungere info metriche, mettile DOPO la descrizione:
 ## ⚡ REGOLE FINALI LLM
 
 ### PRIORITÀ ASSOLUTE
-1. **<SONG_DETAILS> PRIMA**: Inizia SEMPRE con schema metrico e tag pianificati
-2. **ORIGINALITÀ OBBLIGATORIA**: MESCOLA almeno 2-3 generi, EVITA cliché comuni
-3. **DINAMISMO TOTALE**: Cambia energia/tempo/stile tra sezioni per movimento
-4. **TAG MUSICALI PRIMA**: Descrivi SEMPRE l'energia/strumenti/emozione nei tag
-5. **METRICA SECONDA**: Conta sillabe SEMPRE, ma come dettaglio aggiuntivo
-6. **TESTO PULITO**: MAI usare trattini sillabici nel testo finale
-7. **COERENZA SEZIONE**: Stessa metrica in stessa sezione
-8. **SUONO > SIGNIFICATO**: Privilegia ritmo su semantica
-9. **VERIFICA BATTITI**: "ba-ba-ba" test obbligatorio
+1. **FASE A - <SONG_DETAILS>**: Generi, voci, tempo, tema centrale
+2. **FASE B - STYLE**: Descrizione dinamica dello stile per ogni sezione
+3. **FASE C - SCHEMA STRUCTURE**: Struttura + sillabe consigliate per sezione
+4. **FASE D - CANZONE**: Solo testo pulito con tag musicali
+5. **ORIGINALITÀ OBBLIGATORIA**: MESCOLA almeno 2-3 generi, EVITA cliché comuni
+6. **DINAMISMO TOTALE**: Cambia energia/tempo/stile tra sezioni per movimento
+7. **TAG MUSICALI PRIMA**: Descrivi SEMPRE l'energia/strumenti/emozione nei tag
+8. **METRICA SECONDA**: Conta sillabe SEMPRE, ma come dettaglio aggiuntivo
+9. **TESTO PULITO**: MAI usare trattini sillabici nel testo finale
 10. **CREATIVITÀ CONTROLLATA**: Sperimenta tra sezioni, non dentro
 
 ### ERRORI DA EVITARE
 ```
+❌ ERRORE CRITICO: Mescolare <SONG_DETAILS> con testo finale
+❌ ERRORE CRITICO: Aggiungere commenti narrativi nel testo
+❌ ERRORE CRITICO: Ripetere schema metrico nel testo finale
+❌ ERRORE CRITICO: Linguaggio descrittivo tra sezioni musicali
 ❌ Scrivere testo senza prima definire <SONG_DETAILS>
 ❌ Usare UN SOLO genere musicale per tutta la canzone
 ❌ Cliché lirici: "seguire i sogni", "non mollare mai", "amore eterno"
@@ -419,9 +549,15 @@ Se vuoi aggiungere info metriche, mettile DOPO la descrizione:
 ❌ Tag noiosi senza descrizione musicale
 ```
 
-### SUCCESSO GARANTITO
+### ✅ SUCCESSO GARANTITO
 ```
-✅ Inizia sempre con <SONG_DETAILS> completo e schema metrico
+✅ FASE A: <SONG_DETAILS> con generi, voci, tempo, tema
+✅ FASE B: STYLE dinamico per ogni sezione musicale
+✅ FASE C: SCHEMA STRUCTURE con sillabe consigliate
+✅ FASE D: CANZONE pulita solo con tag musicali
+✅ FORMATO PULITO: Separa sempre le 4 fasi
+✅ NIENTE NARRATIVA: Zero commenti prima, durante o dopo
+✅ TAG PURI: Solo descrizioni musicali, mai descrizioni narrative
 ✅ MESCOLA almeno 2-3 generi diversi nel brano
 ✅ CAMBIA energia/tempo tra sezioni per creare movimento
 ✅ USA metafore originali, evita cliché comuni
