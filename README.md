@@ -164,7 +164,7 @@ Contributions are welcome! Please feel free to submit issues, feature requests, 
 
 ## 🔗 Links
 
-- **Plugin Repository**: [GitHub](https://github.com/kael-canapaio/suno-minimal)
+- **Plugin Repository**: [GitHub](https://github.com/canapaio/suno-suffix)
 - **Cheshire Cat**: [Official Website](https://cheshirecat.ai/)
 - **Suno AI**: [Official Website](https://suno.ai/)
 
