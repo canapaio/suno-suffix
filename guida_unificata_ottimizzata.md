@@ -15,7 +15,7 @@
 🎛️ ADVANCED OPTIONS:
 - Vocal Gender: Male/Female/Auto
 - Weirdness: 0% (safe) → 100% (experimental)
-- Style Influence: 0% (loose) → 67% (strong)
+- Style Influence: 0% (loose) → 100% (strong)
 - Exclude Styles: "generi da evitare"
 ```
 
@@ -86,14 +86,39 @@ Verifica: Conta "ba-ba-ba-ba-ba-ba-ba-ba" → Se coincide = OK
 
 ## 🎸 FASE B: STYLE
 
-### EVOLUZIONE V4.0 → V4.5
+### 🎯 STYLE SEMANTICO V4.5: LA RIVOLUZIONE NARRATIVA
+
+#### EVOLUZIONE V4.0 → V4.5
+**Da "Tag Soup" a Storytelling Musicale:**
+
+**❌ V4.0 (Tag Soup):**
 ```
-❌ V4.0 (Tag Soup): "Trap, sad, female vocal, 808s"
-✅ V4.5 (Narrativo): "Una ballata trap malinconica con voce femminile
-    che fluttua su 808s profondi e synth eterei..."
+Trap, sad, female vocal, 808s
 ```
 
-### ARCHITETTURA DUE CAMPI
+**✅ V4.5 (Semantico Narrativo):**
+```
+Una ballata trap malinconica con voce femminile
+che fluttua su 808s profondi e synth eterei.
+Ogni beat racconta una storia di solitudine urbana.
+```
+
+#### 🔧 TECNICHE STYLE SEMANTICO
+1. **Storytelling Musicale:** Descrivere come "racconto"
+2. **Metafore Sonore:** "Note come gocce di pioggia"
+3. **Progressione Emotiva:** "Inizia timido, esplode in passione"
+4. **Atmosfera Cinematografica:** "Come una scena al tramonto"
+5. **Layering Descrittivo:** Strumenti + emozioni + dinamiche
+
+#### 📝 TEMPLATE STYLE SEMANTICO
+```
+Un [GENERE] [AGGETTIVO] che [AZIONE INIZIALE].
+[ELEMENTO PRINCIPALE] [METAFORA/DESCRIZIONE].
+L'atmosfera [EVOLUZIONE EMOTIVA].
+[DETTAGLIO TECNICO INTEGRATO NATURALMENTE].
+```
+
+### 🏗️ ARCHITETTURA DUE CAMPI
 ```
 🚨 SEPARAZIONE CRITICA:
 LYRICS FIELD = Solo testo + meta-tag strutturali
@@ -106,6 +131,38 @@ STYLE FIELD = Descrizioni musicali + atmosfera
 LYRICS: [Verse] "Walking through empty streets"
 STYLE: "Trap drums, heavy reverb, urban atmosphere"
 ```
+
+### 📋 SONG_DETAILS: CONTROLLO AVANZATO
+
+#### ✅ QUANDO USARE SONG_DETAILS
+- **Progetti Professionali:** Controllo massimo necessario
+- **Limite Style Field:** Quando 1000 caratteri non bastano
+- **Generi Complessi:** Layering avanzato e fusioni
+- **Collaborazioni:** Specifiche precise richieste
+
+#### ⚠️ COME USARE SONG_DETAILS (BENE)
+**❌ Troppo Rigido:**
+```
+[GENERI: Indie-Folk + Jazz-Fusion]
+[VOCI: Female (breathy)]
+[TEMPO: 75 BPM]
+```
+
+**✅ Integrato e Naturale:**
+```
+<SONG_DETAILS>
+[GENERI: Indie-Folk con sfumature Jazz-Fusion e tocchi Ambient]
+[ATMOSFERA: Intima e crescente, come un risveglio emotivo]
+[VOCE: Femminile, inizia sussurrata e si rafforza progressivamente]
+[DINAMICA: 75 BPM → esplosione a 102 BPM → ritorno calmo a 94 BPM]
+</SONG_DETAILS>
+```
+
+#### 🎯 PRINCIPI SONG_DETAILS
+1. **Flessibilità:** Non sempre tutte le categorie
+2. **Integrazione:** Mescolare con descrizioni poetiche
+3. **Necessità:** Usare solo quando serve davvero
+4. **Naturalezza:** Linguaggio fluido, non "etichette"
 
 ### BLUEPRINT PROMPTING (Tecnica Avanzata)
 ```
@@ -301,36 +358,17 @@ Vers'altri cieli
 
 ---
 
-## ✅ CHECKLIST FINALE
+## 🎯 LIBERTÀ CREATIVA
 
-**FASE 0 - ADVANCED OPTIONS:**
-- [ ] **Titolo** definito (evocativo, 5-6 parole max)
-- [ ] **Vocal Gender** selezionato (Male/Female/Auto)
-- [ ] **Weirdness** impostato (0-100% creatività)
-- [ ] **Style Influence** configurato (0-67% controllo)
-- [ ] **Exclude Styles** specificati se necessario
+*Questa guida è uno strumento, non una gabbia.*
 
-**FASE A-B-C-D:**
-- [ ] `<SONG_DETAILS>` completo con originalità
-- [ ] Style narrativo V4.5 (non tag soup V4.0)
-- [ ] Separazione critica Lyrics/Style (no bleed)
-- [ ] Meta-tag avanzati categorizzati
-- [ ] Blueprint prompting per dinamiche
-- [ ] Layering avanzato applicato
-- [ ] Conteggio sillabe verificato
-- [ ] Struttura metrica coerente
+Segui il flusso **0→A→B→C→D** come meglio credi:
+- Usa le tecniche che servono al tuo progetto
+- Adatta la complessità al contesto
+- Lascia che la creatività guidi le scelte
+- La qualità nasce dall'equilibrio, non dalla rigidità
 
-**TECNICHE AVANZATE APPLICATE:**
-- [ ] Prompting narrativo vs tag soup
-- [ ] Meta-tag contestualizzati
-- [ ] Trucco asterischi per effetti
-- [ ] Anti-pattern evitati
-
-**DOPO LA GENERAZIONE:**
-- [ ] Verifica metrica con conteggio manuale
-- [ ] Controllo coerenza emotiva
-- [ ] Test cantabilità su melodia immaginaria
-- [ ] Aggiustamenti finali se necessario
+**Ricorda:** Ogni LLM ha il suo stile, ogni canzone ha le sue necessità. Questa guida ti dà gli strumenti, tu decidi come usarli.
 
 ---
 
