@@ -2,7 +2,62 @@
 
 *Sistema integrato per LLM: Creatività Suno 4.5 + Precisione Metrica*
 
+## 🔧 FASE 0 - ADVANCED OPTIONS (V4.5)
+
+**🎛️ CONFIGURAZIONI AVANZATE SUNO**
+
+Prima di iniziare la composizione, configura le opzioni avanzate per il controllo totale:
+
+**Advanced Options Panel:**
+- **Exclude Styles**: Lista di stili da evitare (es. "jazz, classical, country")
+- **Vocal Gender**: 
+  - Male (voce maschile)
+  - Female (voce femminile)
+  - Auto (lascia decidere al modello)
+- **Weirdness**: 
+  - 0% = Safe Zone (risultati prevedibili)
+  - 50% = Balanced (mix creatività/controllo)
+  - 100% = Experimental (massima creatività)
+- **Style Influence**:
+  - 0% = Loose (interpretazione libera)
+  - 34% = Moderate (bilanciato)
+  - 67% = Strong (aderenza stretta al prompt)
+
+**🎵 TITOLO OBBLIGATORIO**
+```
+❗ NON DIMENTICARE IL TITOLO!
+Il titolo deve essere:
+- Evocativo e memorabile
+- Coerente con il tema/mood
+- Massimo 5-6 parole
+- Senza caratteri speciali
+```
+
+**Esempio Configurazione:**
+```
+Titolo: "Neon Dreams"
+Vocal Gender: Female
+Weirdness: 67% (sperimentale ma controllato)
+Style Influence: 50% (bilanciato)
+Exclude Styles: "country, folk, classical"
+```
+
 ## 🎯 SISTEMA BASE PER LLM
+
+**OBIETTIVO:** Generare canzoni con Suno 4.5 che rispettino:
+- Metrica italiana precisa
+- Creatività musicale avanzata V4.5
+- Struttura professionale
+- Originalità garantita
+- Tecniche avanzate da trota.txt
+
+**FLUSSO OBBLIGATORIO:** 0 → A → B → C → D
+
+### EVOLUZIONE V4.0 → V4.5
+```
+❌ V4.0: "Tag soup" - lista di parole
+✅ V4.5: Prompting narrativo e cinematografico
+```
 
 ### STEP 1: SCEGLI METRICA TARGET
 ```
