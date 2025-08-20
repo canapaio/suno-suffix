@@ -47,32 +47,62 @@ User: "Review my code :style:"
 You can customize the plugin through the Cheshire Cat settings:
 
 - **`trigger`**: The text that activates the plugin (default: `:s:`)
-- **`guida_filename`**: Name of your content file (default: `mini_guida_suno_4.5.md`)
+- **`guide_filename`**: Name of your content file (default: `guida_unificata_llm.md`)
 - **`guida_folder`**: Custom folder path for your content file (optional)
 
 ### Customization Examples
 
 **For API Documentation:**
-- `guida_filename`: `api_reference.md`
+- `guide_filename`: `api_reference.md`
 - `trigger`: `:api:`
 
 **For Coding Standards:**
-- `guida_filename`: `coding_guidelines.md`
+- `guide_filename`: `coding_guidelines.md`
 - `trigger`: `:style:`
 
 **For Product Information:**
-- `guida_filename`: `product_specs.md`
+- `guide_filename`: `product_specs.md`
 - `trigger`: `:specs:`
+
+## 📚 Available Guides
+
+The plugin includes **two comprehensive guides** for Suno AI integration:
+
+### 🎯 **guida_unificata_llm.md** (Default - Recommended)
+- **Advanced unified system** with complete metric control
+- **LLM-optimized templates** for consistent results
+- **Anti-hyphen rules** for Suno 4.5 compatibility
+- **Practical planning sessions** and automatic checklists
+- **Best for**: Professional songwriting, complex metrics, consistent quality
+
+### 📝 **mini_guida_suno_4.5.md** (Compact Alternative)
+- **Essential Suno guidelines** in compact format
+- **Quick reference** for basic song creation
+- **Lightweight approach** for simple use cases
+- **Best for**: Quick songs, beginners, minimal setup
+
+### 🔄 How to Switch Between Guides
+
+Change the `guide_filename` setting in your Cheshire Cat admin:
+
+```python
+# For advanced unified guide (default)
+guide_filename = "guida_unificata_llm.md"
+
+# For compact guide
+guide_filename = "mini_guida_suno_4.5.md"
+```
 
 ## 📁 File Structure
 
 ```
 suno-suffix/
-├── plugin.json             # Plugin metadata
-├── settings.py             # Configuration schema
-├── suno_minimal.py         # Main plugin logic
-├── mini_guida_suno_4.5.md  # Default content file (Suno AI guide)
-└── README.md              # This file
+├── plugin.json                # Plugin metadata
+├── settings.py                # Configuration schema
+├── suno_minimal.py            # Main plugin logic
+├── guida_unificata_llm.md     # Advanced unified guide (default)
+├── mini_guida_suno_4.5.md     # Compact Suno AI guide (alternative)
+└── README.md                  # This file
 ```
 
 ## 🔧 Installation
@@ -125,7 +155,7 @@ python test_plugin.py
 
 **Content file not found?**
 - Ensure your content file exists in the expected location
-- Check the `guida_filename` setting matches your actual file
+- Check the `guide_filename` setting matches your actual file
 - Review the logs for file search paths
 - Verify file permissions and encoding (should be UTF-8)
 

@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 
 class SunoSettings(BaseModel):
     guide_filename: str = Field(
-        default="mini_guida_suno_4.5.md",
+        default="guida_unificata_llm.md",
         description="Name of the guide file to load"
     )
     guide_folder: str = Field(
