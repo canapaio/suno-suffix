@@ -82,15 +82,6 @@ suno-suffix/
 3. **Restart** your Cheshire Cat instance
 4. **Configure** the plugin settings if needed
 
-## 🧪 Testing
-
-Run the included test to verify everything works:
-
-```bash
-cd suno-suffix
-python test_plugin.py
-```
-
 ## 🛠️ Technical Details
 
 ### How it Works
