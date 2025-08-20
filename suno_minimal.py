@@ -44,7 +44,8 @@ def agent_prompt_suffix(suffix, cat):
         # Cerca il file della guida
         guida_filename = settings.get('guida_filename', 'mini_guida_suno_4.5.md')
         guida_folder = settings.get('guida_folder', '')
-        guida_path = find_guida_file(guida_filename, guida_folder, cat.mad_hatter.find_plugin(__file__))
+        plugin_dir = os.path.dirname(__file__)
+        guida_path = find_guida_file(guida_filename, guida_folder, plugin_dir)
         
         if guida_path:
             try:
