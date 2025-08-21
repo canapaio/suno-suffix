@@ -1,11 +1,11 @@
-# GUIDA UNIFICATA SUNO + METRICA - SISTEMA LLM OTTIMIZZATO
+# GUIDA SUNO 4.5 - SISTEMA LLM OTTIMIZZATO
 
-*Sistema integrato per LLM: Creatività Suno 4.5 + Precisione Metrica*
-*Versione compatta e lineare seguendo flusso 0→A→B→C→D*
+*Sistema integrato per LLM: Creatività + Precisione Metrica*
+*Flusso lineare 0→A→B→C→D*
 
 ## 🔧 FASE 0: ADVANCED OPTIONS
 
-### CONFIGURAZIONI SUNO V4.5
+### CONFIGURAZIONI SUNO
 ```
 🎵 TITOLO: [NON DIMENTICARE!]
 - Evocativo e memorabile (5-6 parole max)
@@ -25,7 +25,9 @@ Titolo: "Digital Echoes"
 Vocal Gender: Female
 Weirdness: 50% (bilanciato)
 Style Influence: 34% (moderato)
-Exclude Styles: "country, classical"
+Exclude Styles: "country, classical, opera, folk, bluegrass, gospel, traditional, orchestral, chamber music, baroque, romantic, medieval, gregorian, polka, waltz, tango, mariachi, flamenco, klezmer, bagpipe, didgeridoo, sitar, gamelan, throat singing, yodeling, sea shanty, military march, funeral dirge, lullaby, nursery rhyme, christmas carol, hymn, chant, ambient drone, field recording, nature sounds, white noise, silence"
+
+💡 **STRATEGIA**: Lista estesa forza Suno a selezionare generi più moderni e creativi
 ```
 
 ---
@@ -88,7 +90,7 @@ Verifica: Conta "ba-ba-ba-ba-ba-ba-ba-ba" → Se coincide = OK
 
 ## 🎸 FASE B: STYLE
 
-### 🎯 STYLE SEMANTICO V4.5: LA RIVOLUZIONE NARRATIVA
+### 🎯 STYLE SEMANTICO: LA RIVOLUZIONE NARRATIVA
 
 #### 🌍 LINGUA RACCOMANDATA: INGLESE PER LO STYLE
 **Perché inglese**: Training LLM superiore + terminologia musicale precisa  
@@ -103,48 +105,33 @@ Verifica: Conta "ba-ba-ba-ba-ba-ba-ba-ba" → Se coincide = OK
 ❌ Ellissi (...), trattini lunghi (—), parentesi complesse  
 ✅ Terminologia musicale diretta e atmosfera
 
-#### EVOLUZIONE V4.0 → V4.5
-**Da "Tag Soup" a Storytelling Musicale:**
-
-**❌ V4.0 (Tag Soup):**
-```
-Trap, sad, female vocal, 808s
-```
-
-**✅ V4.5 (Semantico Narrativo):**
 ```
 A melancholic trap ballad with female vocals
 floating over deep 808s and ethereal synths.
 Every beat tells a story of urban solitude.
 ```
 
-#### 🔧 TECNICHE STYLE SEMANTICO
-1. **Storytelling Musicale:** Descrivere come "racconto"
-2. **Metafore Sonore:** "Note come gocce di pioggia"
-3. **Progressione Emotiva:** "Inizia timido, esplode in passione"
-4. **Atmosfera Cinematografica:** "Come una scena al tramonto"
-5. **Layering Descrittivo:** Strumenti + emozioni + dinamiche
+#### 🔧 SEMANTIC STYLE TECHNIQUES
+1. **Musical Storytelling:** Describe as "narrative"
+2. **Sound Metaphors:** "Notes like raindrops"
+3. **Emotional Progression:** "Starts shy, explodes into passion"
+4. **Cinematic Atmosphere:** "Like a sunset scene"
+5. **Descriptive Layering:** Instruments + emotions + dynamics
 
 #### 📝 TEMPLATE STYLE SICURO
 
-**🌍 INGLESE (Raccomandato):**
+🚨 **FORMATO CRITICO STYLE:**
 ```
-[GENRE] [ENERGY] with [INSTRUMENTS], [RHYTHM] over [DRUMS]. 
-[VOICE] vocals, [ATMOSPHERE] mood.
-```
-
-**🇮🇹 ITALIANO (Alternativo):**
-```
-Un [GENERE] [ENERGIA] con [STRUMENTI], [RITMO] su [BATTERIA]. 
-Voce [CARATTERISTICA], atmosfera [AGGETTIVO].
+✅ UN SOLO PARAGRAFO senza a capo
+✅ Frasi separate da punti, non da invii
+✅ Massimo 1000 caratteri
+❌ NO multiple righe o paragrafi
+❌ NO elenchi puntati
 ```
 
-**Template Semantico Avanzato:**
+**Esempio Style Semantico:**
 ```
-Un [GENERE] [AGGETTIVO] che [AZIONE INIZIALE].
-[ELEMENTO PRINCIPALE] [METAFORA/DESCRIZIONE].
-L'atmosfera [EVOLUZIONE EMOTIVA].
-[DETTAGLIO TECNICO INTEGRATO NATURALMENTE].
+Indie folk melancholic with guitar strings like whispered secrets. Intimate atmosphere building to cathartic release. Nostalgic and contemplative.
 ```
 
 ### 🏗️ ARCHITETTURA DUE CAMPI
@@ -333,9 +320,11 @@ SILLABE CONSIGLIATE:
 Testo pulito senza trattini
 Rispettando sillabe pianificate
 
-[Sezione: Descrizione musicale]
-Testo pulito senza trattini
-Rispettando sillabe pianificate
+🚨 DIVIETO ASSOLUTO:
+❌ Note esplicative nel testo (💡 NOTA RIME, spiegazioni, commenti)
+❌ Spiegazioni delle rime o della metrica
+❌ Commenti tra parentesi nel testo
+✅ Solo testo cantabile pulito
 ```
 
 ### TAG SEZIONI CORRETTI
@@ -372,7 +361,7 @@ Queste cicatrici sul cuore (B)
 Brillano nella notte scura (A)
 Guide per chi sa guardare (B)
 
-💡 NOTA RIME: Schema ABAB con rime "ora/scura" e "cuore/guardare" - semplici e orecchiabili
+
 
 [Bridge: Contemplative jazz-fusion, sax solo]
 L'alchimia del tempo trasforma tutto il dolore
@@ -383,7 +372,7 @@ Stelle che guidano
 Vers'altri cieli
 ```
 
-**📝 NOTA:** Style in inglese (nei tag delle sezioni), testo in italiano. Questa è la formula corretta per Suno V4.5.
+**📝 IMPORTANTE:** Style in inglese (nei tag delle sezioni), testo in italiano.
 
 ---
 
@@ -407,6 +396,9 @@ Vers'altri cieli
 ❌ Linguaggio descrittivo tra sezioni musicali
 ❌ Introduzioni narrative prima della canzone
 ❌ Spiegazioni dopo la canzone
+❌ NOTE ESPLICATIVE nel testo (💡 NOTA RIME, spiegazioni)
+❌ STYLE multi-paragrafo con a capo
+❌ Commenti tra parentesi nel testo cantabile
 ```
 
 ### ERRORI CREATIVI
@@ -461,10 +453,4 @@ Segui il flusso **0→A→B→C→D** come meglio credi:
 
 ---
 
-## 🎭 END OF SUNO V4.5 GUIDE
-
-*🎼 Thank you for using this guide! You now have all the tools to create amazing music with Suno V4.5. From here, feel free to explore other topics, chat freely, or use different tools. The musical journey continues beyond these pages... 🎵*
-
 **✨ Happy creating! ✨**
-
----
