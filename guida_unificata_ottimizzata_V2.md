@@ -4,24 +4,35 @@
 
 ## 🔧 FASE 0: CONFIGURAZIONE
 
-### SETUP SUNO
+### ADVANCED OPTIONS
 ```
 🎵 TITOLO: Evocativo, 5-6 parole max, senza caratteri speciali
-🎛️ VOCAL GENDER: Male/Female/Auto
-🎛️ WEIRDNESS: 0% (safe) → 100% (experimental)
-🎛️ STYLE INFLUENCE: 0% (loose) → 100% (strong)
+🎛️ GENDER: Male/Female/Auto - Imposta il genere della voce principale
+🎛️ WEIRDNESS: 0% (normale) → 100% (sperimentale) - Controlla quanto sarà sperimentale il brano
+🎛️ INFLUENCE: 0% (libero) → 100% (fedele) - Controlla quanto lo stile seguirà la descrizione
 🎛️ EXCLUDE STYLES: "country, classical, opera, folk, bluegrass, gospel, traditional, orchestral, chamber music, baroque, romantic, medieval, gregorian, polka, waltz, tango, mariachi, flamenco, klezmer, bagpipe, didgeridoo, sitar, gamelan, throat singing, yodeling, sea shanty, military march, funeral dirge, lullaby, nursery rhyme, christmas carol, hymn, chant, ambient drone, field recording, nature sounds, white noise, silence"
+**NOTA:** Rimuovi da questa lista gli stili che desideri includere e lascia solo quelli che NON vuoi nel brano
 ```
 
-### ADVANCED OPTIONS
+### 💡 ESEMPIO SETUP COMPLETO
+```
+Titolo: "Digital Echoes" | Gender: Female | Weirdness: 50% | Influence: 34%
+Exclude: "country, classical, opera" (rimuovi generi desiderati)
+```
 
-**Configurazioni Avanzate:**
+---
+
+## 🎵 FASE A: <SONG_DETAILS>...</SONG_DETAILS>
+
+> **NOTA IMPORTANTE:** La sezione SONG_DETAILS non è obbligatoria, ma è molto utile per ottenere risultati precisi. Suno tende a fraintendere descrizioni troppo "romanzate", quindi una struttura chiara con meta-tag aiuta a ottenere esattamente ciò che desideri.
+
+### PARAMETRI MUSICALI AVANZATI
 - `[Tempo: 120-140 BPM]` per controllo ritmo
 - `[Key: C Major]` per tonalità specifica
 - `[Time Signature: 4/4]` per metrica
 - `[Duration: 3:30]` per lunghezza target (fino a 8 minuti)
 
-**FUNZIONALITÀ SUNO AVANZATE:**
+### FUNZIONALITÀ SUNO AVANZATE
 - **Generi Espansi:** Supporto completo per mashup di generi (es. "midwest emo + neosoul", "EDM + folk")
 - **Voci Potenziate:** Gamma emotiva completa, da sussurri intimi a performance potenti con vibrato
 - **Suoni Complessi:** Supporto per elementi sottili come "uplifting nostalgic tones", "leaf textures", "melodic whistling"
@@ -41,19 +52,57 @@ TRONCA (accento ultima) = +1 sillaba
 SDRUCCIOLA (accento terzultima) = -1 sillaba
 ```
 
----
+### GUIDA PASSO-PASSO PER CREARE SONG_DETAILS
 
-## 🎵 FASE A: <SONG_DETAILS>
+**Cosa sono i SONG_DETAILS?** 
+Una sezione che fornisce a Suno istruzioni chiare sulla struttura e lo stile della canzone.
 
-### TEMPLATE
+**Passaggi per creare SONG_DETAILS efficaci:**
+
+1. **Inizia con i tag di apertura e chiusura**
+   - Apri con `<SONG_DETAILS>` e chiudi con `</SONG_DETAILS>`
+
+2. **Scegli i generi musicali** 
+   - Seleziona 2-3 generi dall'ELENCO_GENERI
+   - Esempio: `[GENERI: Indie-Folk, Electro-Pop]`
+
+3. **Definisci il tipo di voci**
+   - Scegli dall'ELENCO_VOCI per definire lo stile vocale
+   - Esempio: `[VOCI: Breathy-to-Powerful, Layered-Harmonies]`
+
+4. **Specifica il tempo/ritmo**
+   - Usa l'ELENCO_BPM per indicare la velocità
+   - Esempio: `[TEMPO: 90-100 (Moderate)]`
+
+5. **Indica la struttura della canzone**
+   - Scegli dall'ELENCO_STRUTTURE per definire le sezioni
+   - Esempio: `[STRUTTURA: Verse-Chorus-Verse-Chorus-Bridge-Chorus]`
+
+6. **Definisci il tema principale**
+   - Descrivi brevemente l'argomento della canzone
+   - Esempio: `[TEMA: Trasformazione personale]`
+
+7. **Aggiungi parole chiave**
+   - Usa l'ELENCO_METAFORE per arricchire il contenuto
+   - Esempio: `[PAROLE CHIAVE: Metamorfosi-Rinascita, Architetture-Sogni]`
+
+### REGOLE IMPORTANTI
+
+- Usa **parentesi quadre** per ogni elemento: `[Tag: Valore]`
+- Metti i tag più **importanti all'inizio** (generi e voci)
+- Usa **un solo tag per categoria** per evitare conflitti
+- Sii **specifico e conciso** - evita descrizioni vaghe
+- Combina **elementi complementari** (es. generi compatibili)
+
+### ESEMPIO COMPLETO
 ```
 <SONG_DETAILS>
-[GENERI: Scegli da ELENCO_GENERI, mescola 2-3]
-[VOCI: Scegli da ELENCO_VOCI, varia dinamiche]
-[TEMPO: Dinamico, usa ELENCO_BPM]
-[STRUTTURA: Scegli da ELENCO_STRUTTURE]
-[TEMA: Originale, evita cliché]
-[PAROLE CHIAVE: Da ELENCO_METAFORE]
+[GENERI: Indie-Folk, Electro-Pop]
+[VOCI: Breathy-to-Powerful, Layered-Harmonies]
+[TEMPO: 90-100 (Moderate)]
+[STRUTTURA: Verse-Chorus-Verse-Chorus-Bridge-Chorus]
+[TEMA: Trasformazione personale]
+[PAROLE CHIAVE: Metamorfosi-Rinascita, Architetture-Sogni]
 </SONG_DETAILS>
 ```
 
@@ -114,7 +163,7 @@ Oceani-Pensiero, Galassie-Emozioni, Ponti-Invisibili, Radici-Cielo
 ### REGOLE STYLE
 ```
 ✅ UN PARAGRAFO, max 1000 caratteri
-✅ INGLESE per terminologia musicale
+✅ INGLESE per terminologia musicale (consigliato scrivere tutto lo style in iglese anche se la canzone sarà in italiano)
 ✅ Frasi separate da punti
 ❌ NO a capo, elenchi, parentesi complesse
 ❌ NO "come se", "sembra", "storia", riferimenti culturali
@@ -122,9 +171,14 @@ Oceani-Pensiero, Galassie-Emozioni, Ponti-Invisibili, Radici-Cielo
 
 **IMPORTANTE:** Lo STYLE deve essere un paragrafo unico senza a capo, solo frasi separate da punti.
 
-**META-TAG USAGE (Solo in Custom Lyrics):**
-- I meta-tag funzionano SOLO nel campo Custom Lyrics, non nello STYLE
-- Formato: [Tag: Value] con parentesi quadre
+### META-TAG
+
+**DOVE USARE I META-TAG:**
+- I meta-tag funzionano **ESCLUSIVAMENTE** nel campo Custom Lyrics
+- **NON** funzionano nel campo STYLE
+
+**FORMATO E REGOLE DEI META-TAG:**
+- Formato: `[Tag: Value]` con parentesi quadre
 - Posizionare i tag chiave nei primi 20-30 caratteri per massima efficacia
 - Usare 1 tag per categoria, massimo 2-3 strumenti per canzone
 - Evitare tag conflittuali (es. Energy: High + Energy: Low)
@@ -139,6 +193,12 @@ Verse, Chorus, Bridge, Intro, Outro, Hook, Refrain, Solo, Break, Drop, Build, Fa
 3. Emotional Arc: "starts shy, explodes into passion"
 4. Cinematic Feel: "sunset atmosphere"
 5. Layered Description: strumenti + emozioni + dinamiche
+```
+
+### 🎵 PROGRESSIONE ENERGETICA
+```
+Verse: Intimo → Pre-Chorus: Crescendo → Chorus: Esplosivo → Bridge: Contrasto
+Cambia strumentazione ogni sezione per varietà
 ```
 
 ### ELENCHI STYLE
@@ -191,6 +251,18 @@ Vocal-Effect-Reverb, Vocal-Effect-Delay, Vocal-Tone-Whisper
 3. CONTA battendo ritmo
 4. Se ≠ target → RISCRIVI
 5. Se = target → PROCEDI
+```
+
+### 🧠 CONTEGGIO VELOCE
+```
+Batti il ritmo mentalmente mentre leggi
+Se non "suona" giusto → troppo lungo/corto
+```
+
+### ⚡ FIX VELOCE
+```
+Troppo lungo → Rimuovi aggettivi | Troppo corto → Aggiungi articoli
+Rima forzata → Cambia ultima parola
 ```
 
 **ELENCO_METRICHE:**
@@ -315,6 +387,12 @@ Rispettando sillabe pianificate
 - Qualità = equilibrio, non rigidità
 
 **Ricorda:** Suno capisce "chitarra distorta" meglio di "dolore dell'anima". Preferisce istruzioni musicali a poesie elaborate.
+
+### ✨ FILOSOFIA ONE-SHOT
+```
+Pianifica prima, esegui con fiducia
+La creatività nasce dall'equilibrio tra struttura e spontaneità
+```
 
 ---
 
