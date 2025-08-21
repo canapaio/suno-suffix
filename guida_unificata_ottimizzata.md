@@ -288,12 +288,27 @@ INDIE/ALTERNATIVE:
 - Bridge: 9 sillabe (variazione sottile)
 ```
 
+### REGOLE SPECIFICHE CHORUS/RITORNELLO
+```
+🎵 CHORUS = CUORE DELLA CANZONE:
+✅ RIME OBBLIGATORIE: Almeno ABAB o AABB
+✅ SEMPLICITÀ: Parole comuni, facili da ricordare
+✅ ORECCHIABILITÀ: Melodia che "si attacca" subito
+✅ RIPETIBILITÀ: Facile da cantare insieme
+✅ IMPATTO EMOTIVO: Il momento più forte del brano
+
+ESEMPI RIME CHORUS:
+ABAB: "sole/cuore/parole/amore"
+AABB: "notte/rotte/stelle/belle"
+```
+
 ### VERIFICA QUALITÀ
 ```
 ✅ Ogni verso = stesso numero sillabe?
 ✅ Parole facili da pronunciare?
 ✅ Rime naturali, non forzate?
 ✅ Respiro corretto tra frasi?
+✅ CHORUS: Rime presenti e orecchiabili?
 ```
 
 ### ESEMPIO FASE C
@@ -352,10 +367,12 @@ Le stelle danzano
 Sopra le mie ferite
 
 [Chorus: Explosive electro-pop, full arrangement]
-Sono costellazioni ora
-Queste cicatrici sul cuore
-Brillano nella notte scura
-Guide per chi sa guardare
+Sono costellazioni ora (A)
+Queste cicatrici sul cuore (B)
+Brillano nella notte scura (A)
+Guide per chi sa guardare (B)
+
+💡 NOTA RIME: Schema ABAB con rime "ora/scura" e "cuore/guardare" - semplici e orecchiabili
 
 [Bridge: Contemplative jazz-fusion, sax solo]
 L'alchimia del tempo trasforma tutto il dolore
@@ -410,6 +427,8 @@ Vers'altri cieli
 ❌ Versi troppo lunghi per il respiro
 ❌ Ignorare conteggio sillabe
 ❌ Usare trattini sillabici nel testo finale
+❌ CHORUS SENZA RIME: Il ritornello DEVE avere rime
+❌ CHORUS COMPLESSO: Evitare parole difficili nel ritornello
 ```
 
 ---
