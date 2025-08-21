@@ -64,6 +64,8 @@ Verifica: Conta "ba-ba-ba-ba-ba-ba-ba-ba" → Se coincide = OK
 </SONG_DETAILS>
 ```
 
+**🚨 IMPORTANTE:** Chiudi sempre con `</SONG_DETAILS>` - il tag di chiusura è obbligatorio!
+
 ### ORIGINALITÀ OBBLIGATORIA
 - **EVITA:** "seguire sogni", "non mollare mai", "amore eterno"
 - **MESCOLA:** Almeno 2-3 generi diversi per sezione
@@ -88,10 +90,12 @@ Verifica: Conta "ba-ba-ba-ba-ba-ba-ba-ba" → Se coincide = OK
 
 ### 🎯 STYLE SEMANTICO V4.5: LA RIVOLUZIONE NARRATIVA
 
-#### 🌍 LINGUA RACCOMANDATA: INGLESE
+#### 🌍 LINGUA RACCOMANDATA: INGLESE PER LO STYLE
 **Perché inglese**: Training LLM superiore + terminologia musicale precisa  
 **Limite**: 1000 caratteri massimi  
 **Focus**: Storia della MUSICA (✅), non trama della canzone (❌)
+
+**🎤 IMPORTANTE TESTO CANZONE:** Lo STYLE è in inglese, ma il TESTO della canzone deve essere in ITALIANO (a meno che non sia specificato diversamente). Suno è per cantautrici/cantautori italiani che cantano in italiano.
 
 #### 🚨 EVITA CRASH - PAROLE PERICOLOSE
 ❌ "come se", "sembra", "storia", "scena", "all'inizio", "poi"  
@@ -146,15 +150,30 @@ L'atmosfera [EVOLUZIONE EMOTIVA].
 ### 🏗️ ARCHITETTURA DUE CAMPI
 ```
 🚨 SEPARAZIONE CRITICA:
-LYRICS FIELD = Solo testo + meta-tag strutturali
-STYLE FIELD = Descrizioni musicali + atmosfera
+LYRICS FIELD = Solo testo + meta-tag strutturali (IN ITALIANO)
+STYLE FIELD = Descrizioni musicali + atmosfera (IN INGLESE)
 
 ❌ LYRICS BLEED (Errore):
 [Verse] "This song has trap drums and reverb"
 
 ✅ CORRETTO:
-LYRICS: [Verse] "Walking through empty streets"
-STYLE: "Trap drums, heavy reverb, urban atmosphere"
+LYRICS: [Verse] "Cammino per strade vuote" (ITALIANO)
+STYLE: "Trap drums, heavy reverb, urban atmosphere" (INGLESE)
+```
+
+### 🎭 REGOLA D'ORO: STYLE vs TESTO
+```
+🎵 STYLE FIELD (Inglese):
+- Descrizioni strumentali
+- Atmosfere musicali  
+- Tecniche di produzione
+- Energia e dinamiche
+
+🎤 LYRICS FIELD (Italiano):
+- Testo della canzone
+- Tag delle sezioni [Verse], [Chorus], etc.
+- Parole che canta l'artista
+- Contenuto lirico
 ```
 
 ### 📋 SONG_DETAILS: CONTROLLO AVANZATO
@@ -346,6 +365,8 @@ In saggezza che illumina il cammino futuro
 Stelle che guidano
 Vers'altri cieli
 ```
+
+**📝 NOTA:** Style in inglese (nei tag delle sezioni), testo in italiano. Questa è la formula corretta per Suno V4.5.
 
 ---
 
