@@ -88,6 +88,17 @@ Verifica: Conta "ba-ba-ba-ba-ba-ba-ba-ba" → Se coincide = OK
 
 ### 🎯 STYLE SEMANTICO V4.5: LA RIVOLUZIONE NARRATIVA
 
+#### 🌍 LINGUA RACCOMANDATA: INGLESE
+**Perché inglese**: Training LLM superiore + terminologia musicale precisa  
+**Limite**: 1000 caratteri massimi  
+**Focus**: Storia della MUSICA (✅), non trama della canzone (❌)
+
+#### 🚨 EVITA CRASH - PAROLE PERICOLOSE
+❌ "come se", "sembra", "storia", "scena", "all'inizio", "poi"  
+❌ Riferimenti culturali ("Black Mirror", "anni '80")  
+❌ Ellissi (...), trattini lunghi (—), parentesi complesse  
+✅ Terminologia musicale diretta e atmosfera
+
 #### EVOLUZIONE V4.0 → V4.5
 **Da "Tag Soup" a Storytelling Musicale:**
 
@@ -98,9 +109,9 @@ Trap, sad, female vocal, 808s
 
 **✅ V4.5 (Semantico Narrativo):**
 ```
-Una ballata trap malinconica con voce femminile
-che fluttua su 808s profondi e synth eterei.
-Ogni beat racconta una storia di solitudine urbana.
+A melancholic trap ballad with female vocals
+floating over deep 808s and ethereal synths.
+Every beat tells a story of urban solitude.
 ```
 
 #### 🔧 TECNICHE STYLE SEMANTICO
@@ -110,7 +121,21 @@ Ogni beat racconta una storia di solitudine urbana.
 4. **Atmosfera Cinematografica:** "Come una scena al tramonto"
 5. **Layering Descrittivo:** Strumenti + emozioni + dinamiche
 
-#### 📝 TEMPLATE STYLE SEMANTICO
+#### 📝 TEMPLATE STYLE SICURO
+
+**🌍 INGLESE (Raccomandato):**
+```
+[GENRE] [ENERGY] with [INSTRUMENTS], [RHYTHM] over [DRUMS]. 
+[VOICE] vocals, [ATMOSPHERE] mood.
+```
+
+**🇮🇹 ITALIANO (Alternativo):**
+```
+Un [GENERE] [ENERGIA] con [STRUMENTI], [RITMO] su [BATTERIA]. 
+Voce [CARATTERISTICA], atmosfera [AGGETTIVO].
+```
+
+**Template Semantico Avanzato:**
 ```
 Un [GENERE] [AGGETTIVO] che [AZIONE INIZIALE].
 [ELEMENTO PRINCIPALE] [METAFORA/DESCRIZIONE].
@@ -326,6 +351,16 @@ Vers'altri cieli
 
 ## 🚨 ERRORI CRITICI DA EVITARE
 
+### ERRORI ANTI-GLITCH
+```
+❌ Stili narrativi complessi ("La storia inizia quando...")
+❌ Riferimenti culturali esterni (film, luoghi, epoche)
+❌ Descrizioni multi-paragrafo
+❌ Metafore elaborate e filosofiche
+✅ Descrizioni musicali dirette e tecniche
+✅ Un paragrafo fluido sotto 1000 caratteri
+```
+
 ### ERRORI STRUTTURALI
 ```
 ❌ Mescolare <SONG_DETAILS> con testo finale
@@ -368,6 +403,10 @@ Segui il flusso **0→A→B→C→D** come meglio credi:
 - Lascia che la creatività guidi le scelte
 - La qualità nasce dall'equilibrio, non dalla rigidità
 
+**🎵 Cosa vuole Suno**: Pensa a Suno come un musicista digitale che capisce "chitarra distorta" meglio di "dolore dell'anima". Preferisce istruzioni musicali a poesie elaborate.
+
+**🎨 Beneficio del dubbio**: Le regole anti-glitch sono suggerimenti per evitare crash, non imposizioni creative. Scegli italiano se preferisci, sii poetico se vuoi, ma ricorda i limiti tecnici.
+
 **Ricorda:** Ogni LLM ha il suo stile, ogni canzone ha le sue necessità. Questa guida ti dà gli strumenti, tu decidi come usarli.
 
 ---
@@ -382,5 +421,10 @@ Segui il flusso **0→A→B→C→D** come meglio credi:
 
 ---
 
-*Sistema ottimizzato: -40% token, +100% chiarezza*
-*Flusso lineare A→B→C→D per risultati professionali garantiti*
+## 🎭 END OF SUNO V4.5 GUIDE
+
+*🎼 Thank you for using this guide! You now have all the tools to create amazing music with Suno V4.5. From here, feel free to explore other topics, chat freely, or use different tools. The musical journey continues beyond these pages... 🎵*
+
+**✨ Happy creating! ✨**
+
+---
