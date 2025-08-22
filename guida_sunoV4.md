@@ -1,6 +1,6 @@
 # GUIDA SUNO 4.5 - VERSIONE UNIFICATA
 
-*Flusso lineare: 0→A→B→C*
+*Flusso lineare: A→B→C→D*
 
 ## 🧠 PIANIFICAZIONE STRATEGICA
 
@@ -14,10 +14,10 @@ Prima di utilizzare le varie fasi, dedica un momento a riflettere:
    - Chi è il pubblico target?
 
 2. **COME USERÒ LE FASI?**
-   - FASE 0: Quali opzioni avanzate mi servono per questo brano?
-   - FASE A: Che stile musicale descriverò? Quali strumenti e atmosfere?
-   - FASE B: Come integrerò tempo musicale e metrica del testo?
-   - FASE C: Come organizzerò le sezioni finali per massimo impatto?
+   - FASE A: Quali opzioni avanzate mi servono per questo brano?
+   - FASE B: Che stile musicale descriverò? Quali strumenti e atmosfere?
+   - FASE C: Come integrerò tempo musicale e metrica del testo?
+   - FASE D: Come organizzerò le sezioni finali per massimo impatto?
 
 3. **STRATEGIA IN PAROLE POVERE - GUIDA MENTALE:**
    - NON serve un piano tecnico, ma una bussola emotiva e creativa
@@ -29,7 +29,7 @@ Prima di utilizzare le varie fasi, dedica un momento a riflettere:
 
 ---
 
-## 🔧 PHASE 0: CONFIGURATION
+## 🔧 FASE A: CONFIGURATION
 
 ### ADVANCED OPTIONS
 ```
@@ -49,7 +49,7 @@ Exclude: "country, classical, opera" (rimuovi generi desiderati)
 
 ---
 
-## 🎸 PHASE A: STYLE
+## 🎸 FASE B: STYLE
 
 ### STYLE RULES
 ```
@@ -133,7 +133,7 @@ Vocal-Effect-Reverb, Vocal-Effect-Delay, Vocal-Tone-Whisper
 
 ---
 
-## ⏱️ PHASE B: TEMPO E METRICA
+## ⏱️ FASE C: TEMPO E METRICA
 
 ### 🎵 **MAPPATURA BPM E METRICA INTEGRATA**
 
@@ -293,13 +293,22 @@ Energy: [Energy: High], [Energy: Medium], [Energy: Low], [Mood: Uplifting],
 
 ---
 
-## 🎤 PHASE C: FINAL TEXT
+## 🎤 FASE D: FINAL TEXT
 
 ### FORMAT
 ```
-[Sezione: Descrizione da ATMOSPHERES_LIST]
+[Sezione: {seleziona elemento da ATMOSPHERES_LIST della FASE B}]
 Testo pulito italiano
 Rispettando sillabe pianificate
+
+💡 ESEMPIO CORRETTO (usando elementi dalle tabelle FASE B):
+[Verse: {da ATMOSPHERES_LIST: Intimate-storytelling}, {da INSTRUMENTS_LIST: Fingerpicked-Guitar}]
+[Chorus: {da ATMOSPHERES_LIST: Explosive-anthem}, {da DYNAMICS_LIST: Full-band-energy}]
+
+❌ SBAGLIATO:
+[Verse: Descrizione da ATMOSPHERES_LIST]
+[Chorus: dalla FASE B]
+[Verse: Intimate storytelling, fingerpicked guitar] (senza riferimento alle tabelle)
 
 🚨 DIVIETI:
 ❌ Note esplicative (💡 NOTA RIME)
@@ -333,9 +342,9 @@ Aggettivi tecnici efficaci (evita metafore elaborate)
 
 ### STRUCTURAL
 ```
-Usa mappatura BPM-metrica integrata per target sillabico (evita metrica casuale)
-Progressione dinamica Verse→Chorus→Bridge con coerenza tempo-metrica (evita energia statica)
-Un solo BPM per canzone con target sillabico coerente (evita tempi multipli e metrica scollegata)
+Usa mappatura BPM-metrica integrata dalla FASE C per target sillabico (evita metrica casuale)
+Progressione dinamica Verse→Chorus→Bridge con coerenza tempo-metrica dalla FASE C (evita energia statica)
+Un solo BPM per canzone con target sillabico coerente dalla FASE C (evita tempi multipli e metrica scollegata)
 ```
 
 ### CREATIVE
