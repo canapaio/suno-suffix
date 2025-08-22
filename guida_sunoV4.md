@@ -297,13 +297,13 @@ Energy: [Energy: High], [Energy: Medium], [Energy: Low], [Mood: Uplifting],
 
 ### FORMAT
 ```
-[Sezione: {seleziona elemento da ATMOSPHERES_LIST della FASE B}]
+[Sezione: (seleziona elemento da ATMOSPHERES_LIST della FASE B)]
 Testo pulito italiano
 Rispettando sillabe pianificate
 
 💡 ESEMPIO CORRETTO (usando elementi dalle tabelle FASE B):
-[Verse: {da ATMOSPHERES_LIST: Intimate-storytelling}, {da INSTRUMENTS_LIST: Fingerpicked-Guitar}]
-[Chorus: {da ATMOSPHERES_LIST: Explosive-anthem}, {da DYNAMICS_LIST: Full-band-energy}]
+[Verse: (da ATMOSPHERES_LIST: Intimate-storytelling), (da INSTRUMENTS_LIST: Fingerpicked-Guitar)]
+[Chorus: (da ATMOSPHERES_LIST: Explosive-anthem), (da DYNAMICS_LIST: Full-band-energy)]
 
 ❌ SBAGLIATO:
 [Verse: Descrizione da ATMOSPHERES_LIST]
