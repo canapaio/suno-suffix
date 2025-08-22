@@ -1,19 +1,51 @@
-# GUIDA SUNO V4.5 - SEMANTIC STYLE MASTERY
+# GUIDA SUNO V4.5 - VERSIONE UNIFICATA V3
 *Formato: Markdown (.md)*
 
-*Approccio Rivoluzionario: Style Semantico + Sezioni Dettagliate*
+*Flusso lineare ottimizzato: 0→A→B→C→D*
 
 ---
 
-## 🎯 FILOSOFIA
+## 🔧 FASE 0: CONFIGURATION
 
-**Principio Fondamentale**: Suno supporta istruzioni di style dettagliate e conversazionali, non più solo keyword sparse.
+### ADVANCED OPTIONS
+```
+🎵 TITOLO: Evocativo, 5-6 parole max, senza caratteri speciali
+🎛️ VOCAL GENDER: Male/Female/Auto - Imposta il genere della voce principale
+🎛️ WEIRDNESS: 0% (normale) → 100% (sperimentale) - Controlla quanto sarà sperimentale il brano
+🎛️ INFLUENCE: 0% (libero) → 100% (fedele) - Controlla quanto lo stile seguirà la descrizione
+🎛️ EXCLUDE STYLES: "country, classical, opera, folk, bluegrass, gospel, traditional, orchestral, chamber music, baroque, romantic, medieval, gregorian, polka, waltz, tango, mariachi, flamenco, klezmer, bagpipe, didgeridoo, sitar, gamelan, throat singing, yodeling, sea shanty, military march, funeral dirge, lullaby, nursery rhyme, christmas carol, hymn, chant, ambient drone, field recording, nature sounds, white noise, silence"
+**NOTA:** Rimuovi da questa lista gli stili che desideri includere e lascia solo quelli che NON vuoi nel brano
+```
+
+### 💡 ESEMPIO SETUP COMPLETO
+```
+Titolo: "Digital Echoes" | Vocal Gender: Female | Weirdness: 50% | Influence: 34%
+Exclude: "country, classical, opera" (rimuovi generi desiderati)
+```
 
 ---
 
-## 🎵 PHASE 1: STYLE SEMANTICO CINEMATICO
+## 🎵 FASE A: STYLE SEMANTICO CINEMATICO
+
+### STYLE RULES
+```
+✅ UN PARAGRAFO, max 1000 caratteri
+✅ INGLESE per terminologia musicale (consigliato scrivere tutto lo style in inglese anche se la canzone sarà in italiano)
+✅ Frasi separate da punti
+❌ NO a capo, elenchi, parentesi complesse (un unico paragrafo con più frasi e dettagli tecnici)
+❌ NO "come se", "sembra", "storia", riferimenti culturali
+```
+
+**IMPORTANTE:** Lo STYLE deve essere un paragrafo unico senza a capo, solo frasi separate da punti.
 
 ### 🎬 **TEMPLATE NARRATIVO MUSICALE**
+
+**FILOSOFIA:** Lo style non descrive una storia, ma crea un'**esperienza sensoriale musicale**. Ogni parola deve evocare suoni, atmosfere e dinamiche specifiche.
+
+```
+✅ CORRETTO: "Fingerpicked guitar with ethereal reverb tails, building into explosive distorted riffs"
+❌ SBAGLIATO: "Una storia di amore perduto che si trasforma in speranza"
+```
 
 **Formula Universale (INGLESE OBBLIGATORIO):**
 ```
@@ -21,6 +53,15 @@
 [ELEMENT] [POSITION] [VOCAL_STYLE]. [RHYTHM_ELEMENTS] [ACTION] the [ENERGY] [SECTION2]. 
 The [SECTION3] [ACTION] [ATMOSPHERIC_ELEMENTS], [INTENSITY_CHANGE]. 
 [FINAL_SECTION] [ACTION] to [ELEMENTS] for [ENDING_MOOD].
+```
+
+### SEMANTIC TECHNIQUES
+```
+1. Musical Storytelling: "narrative progression"
+2. Sound Metaphors: "notes like raindrops"
+3. Emotional Arc: "starts shy, explodes into passion"
+4. Cinematic Feel: "sunset atmosphere"
+5. Layered Description: strumenti + emozioni + dinamiche
 ```
 
 ### 🎯 **ESEMPIO PERFETTO:**
@@ -32,6 +73,51 @@ drive the high-energy chorus. The bridge layers in more atmospheric
 elements, increasing the intensity. Returning chorus keeps the momentum, 
 and the outro strips back to bass, glitch effects, and lingering pad 
 swells for a melancholic fade.
+```
+
+### 🎵 PROGRESSIONE ENERGETICA
+```
+Verse: Intimo → Pre-Chorus: Crescendo → Chorus: Esplosivo → Bridge: Contrasto
+Cambia strumentazione ogni sezione per varietà
+```
+
+### STYLE LISTS
+
+**INSTRUMENTS_LIST:**
+```
+Fingerpicked-Guitar, Deep-808s, Ethereal-Synths, Analog-Warmth,
+Distorted-Bass, Crisp-Drums, Lush-Strings, Vintage-Keys, Glitchy-Beats,
+Ambient-Pads, Brass-Stabs, Vinyl-Crackle, Tape-Saturation, Reverb-Tails,
+Sidechain-Pump, Filter-Sweeps, Granular-Texture, Field-Recordings,
+Electric Guitar (Distorted), Acoustic Guitar, Strings (Legato), 808, 
+Slap Bass, Crunchy Guitar Riffs, Piano-driven, Ambient Beats, Groovy Rhythms, 
+Pounding Drums, Aggressive Riffs, Guitar Loops, Steady Rhythm
+```
+
+**ATMOSPHERES_LIST:**
+```
+Melancholic-Introspection, Urban-Solitude, Nostalgic-Warmth, Euphoric-Release,
+Dark-Contemplation, Dreamy-Float, Gritty-Reality, Ethereal-Escape,
+Intimate-Vulnerability, Epic-Grandeur, Mysterious-Depth, Playful-Energy,
+Emotional-Catharsis, Cinematic-Drama, Minimalist-Space, Chaotic-Beauty,
+Atmospheric, Ambient, Emotional, Festive, Peaceful, Joyful, Heartfelt, 
+Vibrant, Cool, Eclectic, Progressive, Theatrical, Anthemic, Danceable, 
+Groovy, Futuristic, Unusual, Operatic, Psychedelic, Mystical, Youthful, 
+Intimate, Powerful, Leaf Textures, Uplifting Nostalgic Tones
+```
+
+**DYNAMICS_LIST:**
+```
+Builds-Gradually, Explosive-Drops, Intimate-Whispers, Soaring-Climax,
+Stripped-Back-Moments, Layered-Complexity, Rhythmic-Pulse, Floating-Weightless,
+Driving-Forward, Gentle-Sway, Intense-Energy, Calm-Reflection,
+Tension-Release, Organic-Flow, Electronic-Precision, Raw-Emotion,
+Buildup, Drop, Breakdown, Crescendo, Diminuendo, Staccato, Legato, Syncopation, 
+Polyrhythm, Cross-rhythm, Tempo-shift, Dynamic-contrast, Rhythmic-displacement, 
+Metric-modulation, Energy-High, Energy-Medium, Energy-Low, Tempo-Mid, 
+Texture-Gritty, Mood-Uplifting, Mood-Intense, Catchy-Hook, Emotional-Bridge, 
+Powerful-Outro, Pre-Chorus, Guitar-Solo, Female-Vocal, Male-Vocal, Harmony-Yes, 
+Vocal-Effect-Reverb, Vocal-Effect-Delay, Vocal-Tone-Whisper
 ```
 
 ### 🔧 **VOCABOLARIO TECNICO EFFICACE**
@@ -60,9 +146,14 @@ crisp, distorted, ambient, gritty, smooth, raw, polished,
 vintage, modern, ethereal, punchy, warm, cold, saturated
 ```
 
+**PAROLE PERICOLOSE DA EVITARE NELLO STYLE:**
+```
+Verse, Chorus, Bridge, Intro, Outro, Hook, Refrain, Solo, Break, Drop, Build, Fade, Repeat, Loop, Section, Part, Segment, Transition, Interlude, Coda
+```
+
 ---
 
-## 📝 PHASE 2: SEZIONI ULTRA-DETTAGLIATE
+## 📝 FASE B: SEZIONI ULTRA-DETTAGLIATE
 
 ### 🎤 **SINTASSI CORRETTA SUNO**
 
@@ -133,7 +224,7 @@ raw emotional, auto-tuned modern, layered harmonies
 
 ---
 
-## 🎭 PHASE 3: PROGRESSIONE DINAMICA
+## 🎭 FASE C: PROGRESSIONE DINAMICA
 
 ### 📈 **MAPPA ENERGETICA**
 
@@ -172,7 +263,7 @@ Slow → Fast
 
 ---
 
-## ⏱️ PHASE 4: GESTIONE TEMPO E BPM
+## ⏱️ FASE D: GESTIONE TEMPO E BPM
 
 ### 🎵 **MAPPATURA BPM PER GENERE**
 
@@ -263,7 +354,7 @@ building to powerful orchestral climax"
 
 ---
 
-## 🎼 PHASE 5: METRICA E STRUTTURA
+## 🎼 FASE E: METRICA E STRUTTURA
 
 ### 📏 **CONTEGGIO SILLABICO VELOCE**
 
@@ -305,7 +396,7 @@ Bridge → Hook → Outro
 
 ---
 
-## 🚀 PHASE 6: ESEMPI PRATICI COMPLETI
+## 🚀 FASE F: ESEMPI PRATICI COMPLETI
 
 ### 🎸 **ESEMPIO 1: ALTERNATIVE ROCK**
 
@@ -392,6 +483,80 @@ Siamo il futuro che arriva già
 ## ⚠️ ERRORI DA EVITARE ASSOLUTAMENTE
 
 ### ❌ **ANTI-PATTERN SUNO**
+
+**STYLE NARRATIVI COMPLESSI:**
+```
+❌ "Una storia epica di un eroe che attraversa mondi fantastici"
+✅ INVECE: "Epic orchestral swells with heroic brass fanfares"
+
+❌ "Come un film di Miyazaki che prende vita attraverso la musica"
+✅ INVECE: "Whimsical piano melodies with ethereal string arrangements"
+
+❌ "Immagina di essere in una foresta incantata al tramonto"
+✅ INVECE: "Ambient nature textures with warm acoustic guitar"
+```
+
+**RIFERIMENTI CULTURALI ESTERNI:**
+```
+❌ "Stile Beatles anni '60"
+✅ INVECE: "Vintage harmonies with analog warmth and jangly guitars"
+
+❌ "Come Radiohead ma più allegro"
+✅ INVECE: "Alternative rock with uplifting electronic textures"
+
+❌ "Atmosfera da film di Tarantino"
+✅ INVECE: "Gritty surf guitar with cinematic tension"
+```
+
+**DESCRIZIONI MULTI-PARAGRAFO:**
+```
+❌ Style su più righe
+✅ INVECE: Un paragrafo fluido con frasi separate da punti
+
+❌ Elenchi puntati nello style
+✅ INVECE: Descrizione continua con aggettivi specifici
+
+❌ Parentesi complesse (come questa)
+✅ INVECE: Frasi dirette senza interruzioni
+```
+
+### ❌ **ERRORI STRUTTURALI**
+
+**METRICA CASUALE:**
+```
+❌ Versi di lunghezza random
+✅ INVECE: Usa METRICS_LIST per target sillabico coerente
+
+❌ Rime forzate che non suonano naturali
+✅ INVECE: Cambia ultima parola per rime naturali
+
+❌ Parole difficili da pronunciare cantando
+✅ INVECE: Parole semplici e orecchiabili
+```
+
+**ENERGIA STATICA:**
+```
+❌ Stesso livello energetico per tutta la canzone
+✅ INVECE: Usa progressione Verse→PreChorus→Chorus→Bridge
+
+❌ Strumentazione monotona
+✅ INVECE: Cambia strumenti ogni sezione per varietà
+
+❌ Mancanza di contrasti dinamici
+✅ INVECE: Alterna momenti intimi ed esplosivi
+```
+
+**TEMPO INCONSISTENTE:**
+```
+❌ Cambi di BPM multipli nella stessa canzone
+✅ INVECE: Un solo tag [TEMPO: X BPM] per canzone
+
+❌ Tag [TEMPO: 120 BPM] ripetuti
+✅ INVECE: Usa [Accelerando] o [Ritardando] per variazioni
+
+❌ BPM non adatti al genere scelto
+✅ INVECE: Consulta MAPPATURA BPM PER GENERE
+```
 
 **NON Usare:**
 ```
