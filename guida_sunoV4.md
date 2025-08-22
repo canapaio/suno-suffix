@@ -1,6 +1,33 @@
 # GUIDA SUNO 4.5 - VERSIONE UNIFICATA
 
-*Flusso lineare: 0→A→B→C→D*
+*Flusso lineare: 0→A→B→C*
+
+## 🧠 PIANIFICAZIONE STRATEGICA
+
+**PRIMA DI INIZIARE - FACCIO MENTE LOCALE:**
+
+Prima di utilizzare le varie fasi, dedica un momento a riflettere:
+
+1. **COSA VOGLIO OTTENERE?** 
+   - Che tipo di canzone sto creando? (genere, mood, energia)
+   - Qual è il messaggio o l'emozione principale?
+   - Chi è il pubblico target?
+
+2. **COME USERÒ LE FASI?**
+   - FASE 0: Quali opzioni avanzate mi servono per questo brano?
+   - FASE A: Che stile musicale descriverò? Quali strumenti e atmosfere?
+   - FASE B: Come integrerò tempo musicale e metrica del testo?
+   - FASE C: Come organizzerò le sezioni finali per massimo impatto?
+
+3. **STRATEGIA IN PAROLE POVERE - GUIDA MENTALE:**
+   - NON serve un piano tecnico, ma una bussola emotiva e creativa
+   - Scrivi in 2-3 frasi semplici la "sensazione" che vuoi creare
+   - Esempio: "Voglio che chi ascolta si senta nostalgico ma speranzoso. Inizierò dolce e piano, poi esploderò di energia nel ritornello."
+   - Pensa come se stessi raccontando l'idea a un amico al bar
+
+**RICORDA:** Questo non è un piano tecnico, ma una guida mentale per mantenere la direzione creativa durante tutto il processo.
+
+---
 
 ## 🔧 PHASE 0: CONFIGURATION
 
@@ -106,44 +133,45 @@ Vocal-Effect-Reverb, Vocal-Effect-Delay, Vocal-Tone-Whisper
 
 ---
 
-## ⏱️ PHASE B: GESTIONE TEMPO E BPM
+## ⏱️ PHASE B: TEMPO E METRICA
 
-### 🎵 **MAPPATURA BPM PER GENERE**
+### 🎵 **MAPPATURA BPM E METRICA INTEGRATA**
 
-**Generi Lenti (60-90 BPM):**
+**Generi Lenti (60-90 BPM) → Metrica Estesa:**
 ```
-BALLAD: 60-80 BPM - "Slow ballad with gentle piano, intimate vocals"
-AMBIENT: 70-85 BPM - "Atmospheric pads with floating melodies"
-DOWNTEMPO: 80-90 BPM - "Relaxed groove with subtle percussion"
-SOUL/R&B: 70-85 BPM - "Smooth bass with laid-back drums"
-```
-
-**Generi Medi (90-120 BPM):**
-```
-POP: 100-120 BPM - "Upbeat pop with driving rhythm"
-ROCK: 110-130 BPM - "Steady rock beat with powerful drums"
-FUNK: 95-110 BPM - "Groovy bass with syncopated rhythm"
-REGGAE: 90-110 BPM - "Laid-back reggae with off-beat emphasis"
+BALLAD: 60-80 BPM → Verse(11), Chorus(8) - "Slow ballad with gentle piano, intimate vocals"
+AMBIENT: 70-85 BPM → Verse(9), Chorus(7) - "Atmospheric pads with floating melodies"
+DOWNTEMPO: 80-90 BPM → Verse(10), Chorus(8) - "Relaxed groove with subtle percussion"
+SOUL/R&B: 70-85 BPM → Verse(9), Chorus(8) - "Smooth bass with laid-back drums"
 ```
 
-**Generi Veloci (120+ BPM):**
+**Generi Medi (90-120 BPM) → Metrica Standard:**
 ```
-DANCE/EDM: 120-140 BPM - "Four-on-the-floor with pulsing energy"
-TRAP: 130-160 BPM - "Hard-hitting 808s with rapid hi-hats"
-DRUM & BASS: 160-180 BPM - "Fast breakbeats with heavy bass"
-HARDCORE: 180+ BPM - "Aggressive drums with intense energy"
+POP: 100-120 BPM → Verse(8), Chorus(7) - "Upbeat pop with driving rhythm"
+ROCK: 110-130 BPM → Verse(8), Chorus(8) - "Steady rock beat with powerful drums"
+FUNK: 95-110 BPM → Verse(7), Chorus(8) - "Groovy bass with syncopated rhythm"
+REGGAE: 90-110 BPM → Verse(8), Chorus(7) - "Laid-back reggae with off-beat emphasis"
 ```
 
-### 🎯 **SINTASSI TEMPO CORRETTA**
+**Generi Veloci (120+ BPM) → Metrica Compatta:**
+```
+DANCE/EDM: 120-140 BPM → Verse(6), Chorus(7) - "Four-on-the-floor with pulsing energy"
+TRAP: 130-160 BPM → Verse(variabile), Chorus(8) - "Hard-hitting 808s with rapid hi-hats"
+DRUM & BASS: 160-180 BPM → Verse(6), Chorus(6) - "Fast breakbeats with heavy bass"
+HARDCORE: 180+ BPM → Verse(5), Chorus(6) - "Aggressive drums with intense energy"
+```
+
+### 🎯 **SINTASSI TEMPO-METRICA CORRETTA**
 
 **Formato Raccomandato:**
 ```
-✅ CORRETTO: "Upbeat pop track at 120 BPM with driving four-on-the-floor"
-✅ CORRETTO: "Slow ballad with gentle 70 BPM feel, intimate piano"
-✅ CORRETTO: "High-energy dance track with pulsing 128 BPM rhythm"
+✅ CORRETTO: "Upbeat pop track at 120 BPM with driving four-on-the-floor" → 8 sillabe verso
+✅ CORRETTO: "Slow ballad with gentle 70 BPM feel, intimate piano" → 11 sillabe verso
+✅ CORRETTO: "High-energy dance track with pulsing 128 BPM rhythm" → 6 sillabe verso
 
 ❌ EVITARE: [TEMPO: 120 BPM] ripetuto multiple volte
 ❌ EVITARE: Cambi di BPM numerici nella stessa canzone
+❌ EVITARE: Metrica casuale senza considerare il tempo
 ```
 
 ### 🎪 **CAMBI DI TEMPO DINAMICI**
@@ -158,76 +186,78 @@ HARDCORE: 180+ BPM - "Aggressive drums with intense energy"
 [Rallentando] - Rallentamento dolce
 ```
 
-**Esempi Pratici:**
+**Esempi Pratici con Metrica:**
 ```
-[Verse: Steady 100 BPM with relaxed groove]
-[Pre-Chorus: Building energy, slight accelerando feel]
-[Chorus: Driving 110 BPM with powerful rhythm]
-[Bridge: Ritardando to intimate 80 BPM feel]
-[Final Chorus: Return to energetic 110 BPM drive]
+[Verse: Steady 100 BPM with relaxed groove] → 8 sillabe
+[Pre-Chorus: Building energy, slight accelerando feel] → 7 sillabe
+[Chorus: Driving 110 BPM with powerful rhythm] → 8 sillabe
+[Bridge: Ritardando to intimate 80 BPM feel] → 11 sillabe
+[Final Chorus: Return to energetic 110 BPM drive] → 8 sillabe
 ```
 
-### 🎵 **INTEGRAZIONE TEMPO-GENERE**
+### 🎵 **INTEGRAZIONE TEMPO-GENERE-METRICA**
 
-**Template per Genere:**
+**Template Completi:**
 
-**Rock/Alternative:**
+**Rock/Alternative (120 BPM → 8 sillabe):**
 ```
 "Driving rock anthem at 120 BPM with pounding drums and power chords, 
 building from intimate verse to explosive chorus energy"
+Verse(8), Chorus(8), Bridge(11)
 ```
 
-**Electronic/Dance:**
+**Electronic/Dance (128 BPM → 6-7 sillabe):**
 ```
 "Pulsing electronic track at 128 BPM with four-on-the-floor kick, 
 layered synths building to euphoric drop"
+Verse(6), Chorus(7), Bridge(8)
 ```
 
-**Pop/Commercial:**
+**Pop/Commercial (110 BPM → 8-7 sillabe):**
 ```
 "Upbeat pop anthem at 110 BPM with catchy hooks and driving rhythm, 
 polished production with radio-ready appeal"
+Verse(8), Chorus(7), Bridge(10)
 ```
 
-**Hip-Hop/Trap:**
+**Hip-Hop/Trap (140 BPM → variabile-8 sillabe):**
 ```
 "Hard-hitting trap beat at 140 BPM with booming 808s and crisp hi-hats, 
 dark atmospheric pads with aggressive energy"
+Verse(variabile), Chorus(8), Bridge(6)
 ```
 
----
-
-## 📐 PHASE C: METRIC STRUCTURE
+### 📐 **PROCESSO METRICO INTEGRATO**
 
 ### PROCESS
 ```
-1. SCEGLI target sillabe da METRICS_LIST
-2. SCRIVI verso
-3. CONTA battendo ritmo
-4. Se ≠ target → RISCRIVI
-5. Se = target → PROCEDI
+1. SCEGLI genere e BPM dalla mappatura integrata
+2. IDENTIFICA target sillabe automatico (es. 120 BPM → 8 sillabe)
+3. SCRIVI verso rispettando il target
+4. CONTA battendo ritmo mentalmente
+5. Se ≠ target → RISCRIVI
+6. Se = target → PROCEDI alla sezione successiva
 ```
 
-### 🧠 CONTEGGIO VELOCE
+### 🧠 CONTEGGIO VELOCE TEMPO-METRICA
 ```
 Batti il ritmo mentalmente mentre leggi
-Se non "suona" giusto → troppo lungo/corto
+Se non "suona" giusto → troppo lungo/corto per il BPM
+Tempo veloce = sillabe compatte | Tempo lento = sillabe estese
 ```
 
-### ⚡ FIX VELOCE
+### ⚡ FIX VELOCE INTEGRATO
 ```
-Troppo lungo → Rimuovi aggettivi | Troppo corto → Aggiungi articoli
-Rima forzata → Cambia ultima parola
+Troppo lungo per BPM → Rimuovi aggettivi | Troppo corto → Aggiungi articoli
+Rima forzata → Cambia ultima parola mantenendo target sillabico
+Tempo-metrica non coerente → Rivedi mappatura BPM-sillabe
 ```
 
-**METRICS_LIST:**
+**REGOLA D'ORO TEMPO-METRICA:**
 ```
-ROCK/METAL: Verse(8), Chorus(8), Bridge(11)
-INDIE/ALT: Verse(7), Chorus(8), Bridge(9)
-POP/COMMERCIAL: Verse(8), Chorus(7), Bridge(10)
-RAP/HIP-HOP: Verse(variabile), Chorus(8), Bridge(6)
-BALLAD: Verse(11), Chorus(8), Bridge(11)
-ELETTRONICA: Verse(6), Chorus(7), Bridge(8)
+🎵 Più veloce il BPM → Meno sillabe per verso
+🎵 Più lento il BPM → Più sillabe per verso
+🎵 Un solo BPM per canzone → Target sillabico coerente
 ```
 
 **SOUND_EFFECTS_LIST:**
@@ -263,7 +293,7 @@ Energy: [Energy: High], [Energy: Medium], [Energy: Low], [Mood: Uplifting],
 
 ---
 
-## 🎤 PHASE D: FINAL TEXT
+## 🎤 PHASE C: FINAL TEXT
 
 ### FORMAT
 ```
@@ -303,9 +333,9 @@ Aggettivi tecnici efficaci (evita metafore elaborate)
 
 ### STRUCTURAL
 ```
-Usa METRICS_LIST per target sillabico (evita metrica casuale)
-Progressione dinamica Verse→Chorus→Bridge (evita energia statica)
-Un solo BPM per canzone, usa tag espressivi per variazioni (evita tempi multipli)
+Usa mappatura BPM-metrica integrata per target sillabico (evita metrica casuale)
+Progressione dinamica Verse→Chorus→Bridge con coerenza tempo-metrica (evita energia statica)
+Un solo BPM per canzone con target sillabico coerente (evita tempi multipli e metrica scollegata)
 ```
 
 ### CREATIVE
