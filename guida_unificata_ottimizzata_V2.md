@@ -1,4 +1,5 @@
-# GUIDA SUNO 4.5 - SISTEMA LLM OTTIMIZZATO
+# GUIDA TECNICA AVANZATA SUNO
+*Formato: Markdown (.md)*
 
 *Flusso lineare: 0→A→B→C→D*
 
@@ -7,7 +8,7 @@
 ### ADVANCED OPTIONS
 ```
 🎵 TITOLO: Evocativo, 5-6 parole max, senza caratteri speciali
-🎛️ GENDER: Male/Female/Auto - Imposta il genere della voce principale
+🎛️ VOCAL GENDER: Male/Female/Auto - Imposta il genere della voce principale
 🎛️ WEIRDNESS: 0% (normale) → 100% (sperimentale) - Controlla quanto sarà sperimentale il brano
 🎛️ INFLUENCE: 0% (libero) → 100% (fedele) - Controlla quanto lo stile seguirà la descrizione
 🎛️ EXCLUDE STYLES: "country, classical, opera, folk, bluegrass, gospel, traditional, orchestral, chamber music, baroque, romantic, medieval, gregorian, polka, waltz, tango, mariachi, flamenco, klezmer, bagpipe, didgeridoo, sitar, gamelan, throat singing, yodeling, sea shanty, military march, funeral dirge, lullaby, nursery rhyme, christmas carol, hymn, chant, ambient drone, field recording, nature sounds, white noise, silence"
@@ -16,7 +17,7 @@
 
 ### 💡 ESEMPIO SETUP COMPLETO
 ```
-Titolo: "Digital Echoes" | Gender: Female | Weirdness: 50% | Influence: 34%
+Titolo: "Digital Echoes" | Vocal Gender: Female | Weirdness: 50% | Influence: 34%
 Exclude: "country, classical, opera" (rimuovi generi desiderati)
 ```
 
@@ -26,7 +27,7 @@ Exclude: "country, classical, opera" (rimuovi generi desiderati)
 
 > **NOTA IMPORTANTE:** La sezione SONG_DETAILS non è obbligatoria, ma è molto utile per ottenere risultati precisi. Suno tende a fraintendere descrizioni troppo "romanzate", quindi una struttura chiara con meta-tag aiuta a ottenere esattamente ciò che desideri.
 
-> **AGGIORNAMENTO V3:** SONG_DETAILS ora utilizza **formato inglese standard** per massima compatibilità con Suno AI 4.5. Il formato inglese garantisce interpretazione più precisa e risultati più consistenti.
+> **NOTA TECNICA:** SONG_DETAILS utilizza **formato inglese standard** per massima compatibilità. Il formato inglese garantisce interpretazione più precisa e risultati più consistenti.
 
 ### ADVANCED MUSICAL PARAMETERS
 - `[TEMPO: 120-140 BPM]` per controllo ritmo
@@ -35,12 +36,21 @@ Exclude: "country, classical, opera" (rimuovi generi desiderati)
 - `[DURATION: 3:30]` per lunghezza target (fino a 8 minuti)
 
 ### ADVANCED SUNO FEATURES
+- **Multi-Genre Fusion:** Supporto avanzato per fusion di generi con risultati coerenti
 - **Generi Espansi:** Supporto completo per mashup di generi (es. "midwest emo + neosoul", "EDM + folk")
 - **Voci Potenziate:** Gamma emotiva completa, da sussurri intimi a performance potenti con vibrato
 - **Suoni Complessi:** Supporto per elementi sottili come "uplifting nostalgic tones", "leaf textures", "melodic whistling"
-- **Prompt Enhancement:** Trasformazione automatica di idee semplici in descrizioni dettagliate
+- **Prompt Enhancement Helper:** Tool automatico che elabora idee semplici in descrizioni ricche e dettagliate
 - **Covers + Personas:** Combinazione per remix completi di voce, stile e struttura
-- **Audio Ottimizzato:** Mix bilanciati con qualità audio superiore
+- **Audio Professionale:** Mix bilanciati con qualità audio superiore
+
+**MULTI-GENRE FUSION EXAMPLES (Style Field):**
+```
+"country hip-hop fusion with acoustic guitar riffs and 808 beats, featuring tight hip-hop drums and subtle banjo accents"
+"indie-folk electronic with organic textures and digital elements"
+"jazz-trap with complex harmonies and modern beats"
+"rock-reggaeton with distorted guitars and latin percussion"
+```
 
 ### BASE METRICS
 ```
@@ -54,7 +64,7 @@ TRONCA (accento ultima) = +1 sillaba
 SDRUCCIOLA (accento terzultima) = -1 sillaba
 ```
 
-### STEP-BY-STEP GUIDE TO CREATE SONG_DETAILS (ENGLISH FORMAT)
+### GUIDA PASSO-PASSO PER CREARE SONG_DETAILS (FORMATO INGLESE)
 
 **Cosa sono i SONG_DETAILS?** 
 Una sezione che fornisce a Suno istruzioni chiare sulla struttura e lo stile della canzone usando il formato standard inglese.
@@ -65,36 +75,36 @@ Una sezione che fornisce a Suno istruzioni chiare sulla struttura e lo stile del
    - Apri con `<SONG_DETAILS>` e chiudi con `</SONG_DETAILS>`
 
 2. **Scegli i generi musicali** 
-   - Seleziona 2-3 generi da GENRE_LIST
-   - Esempio: `[GENRE: Indie-Folk, Electro-Pop, Urban-Energy]`
+   - **OBBLIGATORIO:** Seleziona SOLO da GENRE_LIST (vedi sotto)
+   - Esempio: `[GENRE: {scegli da GENRE_LIST}, {scegli da GENRE_LIST}]`
 
 3. **Definisci il tipo di voci**
-   - Scegli da VOCALS_LIST per definire lo stile vocale
-   - Esempio: `[VOCALS: Breathy-to-Powerful, Layered-Harmonies]`
+   - **OBBLIGATORIO:** Scegli SOLO da VOCALS_LIST (vedi sotto)
+   - Esempio: `[VOCALS: {scegli da VOCALS_LIST}, {scegli da VOCALS_LIST}]`
 
 4. **Specifica il tempo/ritmo**
-   - Usa TEMPO_LIST per indicare la velocità
-   - Esempio: `[TEMPO: 120-135 BPM]`
+   - **OBBLIGATORIO:** Usa SOLO valori da TEMPO_LIST (vedi sotto)
+   - Esempio: `[TEMPO: {scegli da TEMPO_LIST}]`
 
 5. **Indica l'energia**
-   - Definisci il livello energetico
-   - Esempio: `[ENERGY: High]`
+   - **OBBLIGATORIO:** Scegli SOLO da ENERGY_LIST (vedi sotto)
+   - Esempio: `[ENERGY: {scegli da ENERGY_LIST}]`
 
 6. **Indica la struttura della canzone**
-   - Scegli da STRUCTURE_LIST per definire le sezioni
-   - Esempio: `[STRUCTURE: Intro-Verse-PreChorus-Chorus-Verse-PreChorus-Chorus-Bridge-FinalChorus-Outro]`
+   - **OBBLIGATORIO:** Combina elementi da STRUCTURE_LIST (vedi sotto)
+   - Esempio: `[STRUCTURE: {combina da STRUCTURE_LIST}]`
 
 7. **Definisci l'atmosfera**
-   - Descrivi brevemente l'umore della canzone
-   - Esempio: `[MOOD: Transformative, Energetic]`
+   - **OBBLIGATORIO:** Scegli SOLO da ATMOSPHERES_LIST (vedi sotto)
+   - Esempio: `[MOOD: {scegli da ATMOSPHERES_LIST}]`
 
 8. **Definisci il tema principale**
    - Descrivi brevemente l'argomento della canzone
-   - Esempio: `[THEME: Silence transforming into movement and energy]`
+   - Esempio: `[THEME: {descrizione libera del tema}]`
 
 9. **Aggiungi parole chiave**
-   - Usa parole evocative per arricchire il contenuto
-   - Esempio: `[KEYWORDS: Stone, breath, touch, growth, rhythm, courage, community]`
+   - **RACCOMANDATO:** Usa elementi da INSTRUMENTS_LIST e DYNAMICS_LIST
+   - Esempio: `[KEYWORDS: {parole chiave libere + elementi dalle liste}]`
 
 ### IMPORTANT RULES
 
@@ -104,47 +114,58 @@ Una sezione che fornisce a Suno istruzioni chiare sulla struttura e lo stile del
 - Sii **specifico e conciso** - evita descrizioni vaghe
 - Combina **elementi complementari** (es. generi compatibili)
 
+### ⚠️ REGOLA CRITICA
+
+**🚨 ATTENZIONE:** Quando crei SONG_DETAILS, devi:
+- **CONSULTARE OBBLIGATORIAMENTE** le tabelle GENRE_LIST, VOCALS_LIST, TEMPO_LIST, ENERGY_LIST, ATMOSPHERES_LIST, STRUCTURE_LIST, INSTRUMENTS_LIST, DYNAMICS_LIST che trovi più avanti in questo documento
+- **NON INVENTARE** valori di fantasia
+- **NON USARE** valori non presenti nelle liste
+- **SELEZIONARE SOLO** dai valori forniti nelle tabelle
+- Se non trovi un valore adatto, scegli il più simile dalle liste
+
+**VIOLAZIONE = RISULTATO SCADENTE**
+
 ### COMPLETE EXAMPLES FOR DIFFERENT GENRES
 
-**Esempio 1: Alternative Rock (stile Nirvana)**
+**Esempio 1: Alternative Rock (TEMPLATE)**
 ```
 <SONG_DETAILS>
-[GENRE: Grunge, Alternative-Rock, Raw-Energy]
-[VOCALS: Raw-Male, Emotional-Intensity, Distorted-Edge]
-[TEMPO: 115-130 BPM]
-[ENERGY: High]
-[STRUCTURE: Intro-Verse-Chorus-Verse-Chorus-Bridge-Chorus-Outro]
-[MOOD: Melancholic, Rebellious]
-[THEME: Friendship, nostalgia, growing apart]
-[KEYWORDS: Memory, time, connection, loss, youth, authenticity]
+[GENRE: {scegli 2-3 da GENRE_LIST sezione Rock & Alternative}]
+[VOCALS: {scegli da VOCALS_LIST per stile maschile/raw}]
+[TEMPO: {scegli da TEMPO_LIST per rock}]
+[ENERGY: {scegli da ENERGY_LIST}]
+[STRUCTURE: {combina da STRUCTURE_LIST}]
+[MOOD: {scegli da ATMOSPHERES_LIST per mood rock}]
+[THEME: {descrizione libera del tema}]
+[KEYWORDS: {combina parole libere + elementi da INSTRUMENTS_LIST}]
 </SONG_DETAILS>
 ```
 
-**Esempio 2: Electronic Dance Pop**
+**Esempio 2: Electronic Dance Pop (TEMPLATE)**
 ```
 <SONG_DETAILS>
-[GENRE: Dance-Pop, Electropop, Synthwave]
-[VOCALS: Ethereal-Female, Layered-Harmonies, Auto-Tuned-Accents]
-[TEMPO: 128-132 BPM]
-[ENERGY: Dynamic]
-[STRUCTURE: Intro-Verse-PreChorus-Chorus-Drop-Verse-PreChorus-Chorus-Bridge-FinalChorus-Outro]
-[MOOD: Uplifting, Euphoric]
-[THEME: Transformation, empowerment, digital love]
-[KEYWORDS: Neon, pulse, electric, freedom, dance, future]
+[GENRE: {scegli 2-3 da GENRE_LIST sezione Electronic & Dance}]
+[VOCALS: {scegli da VOCALS_LIST per stile femminile/ethereal}]
+[TEMPO: {scegli da TEMPO_LIST per dance}]
+[ENERGY: {scegli da ENERGY_LIST}]
+[STRUCTURE: {combina da STRUCTURE_LIST con Drop}]
+[MOOD: {scegli da ATMOSPHERES_LIST per mood uplifting}]
+[THEME: {descrizione libera del tema}]
+[KEYWORDS: {combina parole libere + elementi da INSTRUMENTS_LIST elettronici}]
 </SONG_DETAILS>
 ```
 
-**Esempio 3: Hip-Hop Storytelling**
+**Esempio 3: Hip-Hop Storytelling (TEMPLATE)**
 ```
 <SONG_DETAILS>
-[GENRE: Hip-Hop, Trap, Lyrical-Storytelling]
-[VOCALS: Confident-Male, Rhythmic-Flow, Emotional-Delivery]
-[TEMPO: 85-95 BPM]
-[ENERGY: Medium]
-[STRUCTURE: Intro-Verse-Hook-Verse-Hook-Bridge-Hook-Outro]
-[MOOD: Introspective, Determined]
-[THEME: Personal growth, overcoming obstacles]
-[KEYWORDS: Journey, struggle, success, authenticity, street, wisdom]
+[GENRE: {scegli 2-3 da GENRE_LIST sezione Hip-Hop & Urban}]
+[VOCALS: {scegli da VOCALS_LIST per stile rap/flow}]
+[TEMPO: {scegli da TEMPO_LIST per hip-hop}]
+[ENERGY: {scegli da ENERGY_LIST}]
+[STRUCTURE: {combina da STRUCTURE_LIST con Hook}]
+[MOOD: {scegli da ATMOSPHERES_LIST per mood introspettivo}]
+[THEME: {descrizione libera del tema}]
+[KEYWORDS: {combina parole libere + elementi da DYNAMICS_LIST}]
 </SONG_DETAILS>
 ```
 
@@ -161,6 +182,9 @@ Una sezione che fornisce a Suno istruzioni chiare sulla struttura e lo stile del
 - `[MOOD: Primary-Mood, Secondary-Mood]` - Emotional atmosphere
 
 ### CREATIVE LISTS (ENGLISH FORMAT)
+
+**🔥 LISTE TECNICHE AUTORIZZATE 🔥**
+**UTILIZZA ESCLUSIVAMENTE QUESTI VALORI - NIENTE ALTRO È ACCETTATO**
 
 **GENRE_LIST:**
 ```
@@ -265,14 +289,24 @@ Connection, separation, unity, solitude, strength, vulnerability
 ### META-TAGS
 
 **DOVE USARE I META-TAG:**
-- I meta-tag funzionano **ESCLUSIVAMENTE** nel campo Custom Lyrics
-- **NON** funzionano nel campo STYLE
+- I meta-tag funzionano sia nel campo **Custom Lyrics** che nel campo **Style**
+- Maggiore efficacia nel campo Custom Lyrics per controllo strutturale
+- Nel campo Style per descrizioni di genere e atmosfera generale
 
 **FORMATO E REGOLE DEI META-TAG:**
-- Formato: `[Tag: Value]` con parentesi quadre
+- Formato Strutturale: `[Tag: Value]` con parentesi quadre
+- Formato Descrittivo: `[section: instruments, mood: emotion]` per sezioni specifiche
 - Posizionare i tag chiave nei primi 20-30 caratteri per massima efficacia
 - Usare 1 tag per categoria, massimo 2-3 strumenti per canzone
 - Evitare tag conflittuali (es. Energy: High + Energy: Low)
+
+**ESEMPI META-TAG DESCRITTIVI:**
+```
+[intro: soft piano, ambient pad, mood: reflective]
+[chorus: hopeful, layered vocals]
+[bridge: stripped back, intimate vocals]
+[outro: fade with reverb tails, nostalgic]
+```
 
 **PAROLE PERICOLOSE DA EVITARE NELLO STYLE:**
 Verse, Chorus, Bridge, Intro, Outro, Hook, Refrain, Solo, Break, Drop, Build, Fade, Repeat, Loop, Section, Part, Segment, Transition, Interlude, Coda
@@ -390,7 +424,7 @@ Energy: [Energy: High], [Energy: Medium], [Energy: Low], [Mood: Uplifting],
 
 ### CHORUS RULES
 ```
-✅ RIME OBBLIGATORIE (ABAB/AABB)
+✅ RIME (ABAB/AABB)
 ✅ PAROLE SEMPLICI
 ✅ ORECCHIABILITÀ
 ✅ RIPETIBILITÀ
@@ -478,12 +512,6 @@ Rispettando sillabe pianificate
 - Qualità = equilibrio, non rigidità
 
 **Ricorda:** Suno capisce "chitarra distorta" meglio di "dolore dell'anima". Preferisce istruzioni musicali a poesie elaborate.
-
-### ✨ ONE-SHOT PHILOSOPHY
-```
-Pianifica prima, esegui con fiducia
-La creatività nasce dall'equilibrio tra struttura e spontaneità
-```
 
 ---
 

@@ -52,7 +52,9 @@ def agent_prompt_suffix(suffix, cat):
                 with open(guide_path, 'r', encoding='utf-8') as f:
                     guide_content = f.read()
                 log.info(f"Guide content loaded from: {guide_path}")
-                return suffix + "\n\n" + guide_content
+                # Wrap guide content in XML tag for KaguraAI
+                wrapped_content = f"<guida_tecnica format=\"markdown\" type=\"suno_advanced\">\n{guide_content}\n</guida_tecnica>"
+                return suffix + "\n\n" + wrapped_content
             except Exception as e:
                 log.error(f"Error reading guide file: {e}")
                 return suffix + "\n\n[Error: Unable to read guide file]"

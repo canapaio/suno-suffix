@@ -47,7 +47,7 @@ User: "Review my code :style:"
 You can customize the plugin through the Cheshire Cat settings:
 
 - **`trigger`**: The text that activates the plugin (default: `:s:`)
-- **`guide_filename`**: Name of your content file (default: `guida_unificata_llm.md`)
+- **`guide_filename`**: Name of your content file (default: `guida_unificata_ottimizzata_V2.md`)
 - **`guida_folder`**: Custom folder path for your content file (optional)
 
 ### Customization Examples
