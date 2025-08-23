@@ -31,6 +31,8 @@ Prima di utilizzare le varie fasi, dedica un momento a riflettere:
 
 ## [A] FASE A: CONFIGURATION
 
+**PERCHÉ QUESTA FASE:** Stabilisci le fondamenta tecniche del tuo brano prima di entrare nel creativo. Questi parametri influenzano direttamente come Suno interpreterà le tue istruzioni successive, garantendo coerenza tra visione artistica e risultato finale. Configurare correttamente significa avere controllo totale sul processo generativo.
+
 ### ADVANCED OPTIONS
 ```
 [♪] TITOLO: Evocativo, 5-6 parole max, senza caratteri speciali
@@ -51,10 +53,14 @@ Exclude: "country, classical, opera" (rimuovi generi desiderati)
 
 ## [B] FASE B: STYLE
 
+**PERCHÉ QUESTA FASE:** Traduci la tua visione musicale in linguaggio che Suno comprende perfettamente. Lo STYLE è il DNA sonoro del tuo brano - definisce strumenti, atmosfere e dinamiche che daranno vita alla tua idea. Una descrizione precisa **IN INGLESE** qui determina il 70% del carattere finale della canzone. L'inglese è fondamentale per l'efficacia del sistema.
+
 ### STYLE RULES
 ```
-[+] UN PARAGRAFO, max 1000 caratteri
-[+] INGLESE per terminologia musicale (consigliato scrivere tutto lo style in inglese anche se la canzone sarà in italiano)
+[+] TESTO TECNICO: Linguaggio musicale preciso e professionale
+[+] LUNGHEZZA OTTIMALE: 350-450 caratteri (massimo 1000 ma sconsigliato)
+[+] UN PARAGRAFO unico senza a capo
+[+] INGLESE OBBLIGATORIO: Scrivere TUTTO lo style in inglese - è FONDAMENTALE per l'efficacia
 [+] Frasi separate da punti
 [-] NO a capo, elenchi, parentesi complesse
 [-] NO "come se", "sembra", "storia", riferimenti culturali
@@ -135,130 +141,54 @@ Vocal-Effect-Reverb, Vocal-Effect-Delay, Vocal-Tone-Whisper
 
 ## [C] FASE C: TEMPO E METRICA
 
-### [♪] **MAPPATURA BPM E METRICA INTEGRATA**
+**PERCHÉ QUESTA FASE:** Sincronizza matematicamente testo e musica per creare fluidità naturale. Il rapporto BPM-sillabe non è teoria musicale astratta, ma la chiave per testi che "suonano giusti". Questa mappatura elimina il trial-and-error e garantisce che ogni parola si incastri perfettamente nel groove musicale.
 
-**Generi Lenti (60-90 BPM) → Metrica Estesa:**
-```
-BALLAD: 60-80 BPM → Verse(11), Chorus(8) - "Slow ballad with gentle piano, intimate vocals"
-AMBIENT: 70-85 BPM → Verse(9), Chorus(7) - "Atmospheric pads with floating melodies"
-DOWNTEMPO: 80-90 BPM → Verse(10), Chorus(8) - "Relaxed groove with subtle percussion"
-SOUL/R&B: 70-85 BPM → Verse(9), Chorus(8) - "Smooth bass with laid-back drums"
-```
+### [♪] **MAPPATURA BPM-METRICA RAPIDA**
 
-**Generi Medi (90-120 BPM) → Metrica Standard:**
-```
-POP: 100-120 BPM → Verse(8), Chorus(7) - "Upbeat pop with driving rhythm"
-ROCK: 110-130 BPM → Verse(8), Chorus(8) - "Steady rock beat with powerful drums"
-FUNK: 95-110 BPM → Verse(7), Chorus(8) - "Groovy bass with syncopated rhythm"
-REGGAE: 90-110 BPM → Verse(8), Chorus(7) - "Laid-back reggae with off-beat emphasis"
-```
+**Range BPM → Sillabe Target:**
+- **60-90 BPM (Lenti):** 10-14 sillabe | Ballad, Ambient, Soul
+- **90-120 BPM (Medi):** 8-10 sillabe | Pop, Rock, Funk, Reggae  
+- **120+ BPM (Veloci):** 4-8 sillabe | Dance, Trap, D&B, Hardcore
 
-**Generi Veloci (120+ BPM) → Metrica Compatta:**
-```
-DANCE/EDM: 120-140 BPM → Verse(6), Chorus(7) - "Four-on-the-floor with pulsing energy"
-TRAP: 130-160 BPM → Verse(variabile), Chorus(8) - "Hard-hitting 808s with rapid hi-hats"
-DRUM & BASS: 160-180 BPM → Verse(6), Chorus(6) - "Fast breakbeats with heavy bass"
-HARDCORE: 180+ BPM → Verse(5), Chorus(6) - "Aggressive drums with intense energy"
-```
+### [>] **SINTASSI CORRETTA**
 
-### [>] **SINTASSI TEMPO-METRICA CORRETTA**
+**✓ Formato OK:** "Upbeat pop at 120 BPM" → 8 sillabe | "Slow ballad 70 BPM" → 11 sillabe
+**✗ Evitare:** [TEMPO: 120 BPM] ripetuto | Cambi BPM numerici | Metrica casuale
 
-**Formato Raccomandato:**
-```
-[+] CORRETTO: "Upbeat pop track at 120 BPM with driving four-on-the-floor" → 8 sillabe verso
-[+] CORRETTO: "Slow ballad with gentle 70 BPM feel, intimate piano" → 11 sillabe verso
-[+] CORRETTO: "High-energy dance track with pulsing 128 BPM rhythm" → 6 sillabe verso
+### [~] **TAG TEMPO DINAMICI**
 
-[-] EVITARE: [TEMPO: 120 BPM] ripetuto multiple volte
-[-] EVITARE: Cambi di BPM numerici nella stessa canzone
-[-] EVITARE: Metrica casuale senza considerare il tempo
-```
+**Lista Tag:** [Accelerando], [Ritardando], [Rubato], [Tempo primo], [Stringendo], [Rallentando]
 
-### [~] **CAMBI DI TEMPO DINAMICI**
+**Esempio Struttura:**
+- Verse: 100 BPM → 8 sillabe
+- Pre-Chorus: Accelerando → 7 sillabe  
+- Chorus: 110 BPM → 8 sillabe
+- Bridge: Ritardando 80 BPM → 11 sillabe
 
-**Tag di Espressione Temporale:**
-```
-[Accelerando] - Accelerazione graduale
-[Ritardando] - Rallentamento graduale  
-[Rubato] - Tempo flessibile ed espressivo
-[Tempo primo] - Ritorno al tempo originale
-[Stringendo] - Accelerazione con intensità crescente
-[Rallentando] - Rallentamento dolce
-```
+### [♪] **TEMPLATE GENERI**
 
-**Esempi Pratici con Metrica:**
-```
-[Verse: Steady 100 BPM with relaxed groove] → 8 sillabe
-[Pre-Chorus: Building energy, slight accelerando feel] → 7 sillabe
-[Chorus: Driving 110 BPM with powerful rhythm] → 8 sillabe
-[Bridge: Ritardando to intimate 80 BPM feel] → 11 sillabe
-[Final Chorus: Return to energetic 110 BPM drive] → 8 sillabe
-```
+**Lista Template:**
+- **Rock:** 120 BPM → V(8), C(8) | "Driving rock with pounding drums"
+- **Electronic:** 128 BPM → V(6), C(7) | "Pulsing track with four-on-the-floor"
+- **Pop:** 110 BPM → V(8), C(7) | "Upbeat anthem with catchy hooks"
+- **Trap:** 140 BPM → V(6), C(8) | "Hard-hitting with booming 808s"
+- **R&B:** 85 BPM → V(12), C(10) | "Smooth groove with warm bass"
 
-### [♪] **INTEGRAZIONE TEMPO-GENERE-METRICA**
+### [=] **PROCESSO RAPIDO**
 
-**Template Completi:**
+**Steps:**
+1. Scegli genere + BPM
+2. Identifica target sillabe (vedi mappatura)
+3. Scrivi verso nel range
+4. Conta battendo ritmo
+5. Se fuori → Riscrivi | Se dentro → Procedi
 
-**Rock/Alternative (120 BPM → 8 sillabe):**
-```
-"Driving rock anthem at 120 BPM with pounding drums and power chords, 
-building from intimate verse to explosive chorus energy"
-Verse(8), Chorus(8), Bridge(11)
-```
+**Fix Veloce:**
+- Troppo lungo → Rimuovi aggettivi
+- Troppo corto → Aggiungi parole brevi
+- Rima forzata → Cambia ultima parola
 
-**Electronic/Dance (128 BPM → 6-7 sillabe):**
-```
-"Pulsing electronic track at 128 BPM with four-on-the-floor kick, 
-layered synths building to euphoric drop"
-Verse(6), Chorus(7), Bridge(8)
-```
-
-**Pop/Commercial (110 BPM → 8-7 sillabe):**
-```
-"Upbeat pop anthem at 110 BPM with catchy hooks and driving rhythm, 
-polished production with radio-ready appeal"
-Verse(8), Chorus(7), Bridge(10)
-```
-
-**Hip-Hop/Trap (140 BPM → variabile-8 sillabe):**
-```
-"Hard-hitting trap beat at 140 BPM with booming 808s and crisp hi-hats, 
-dark atmospheric pads with aggressive energy"
-Verse(variabile), Chorus(8), Bridge(6)
-```
-
-### [=] **PROCESSO METRICO INTEGRATO**
-
-### PROCESS
-```
-1. SCEGLI genere e BPM dalla mappatura integrata
-2. IDENTIFICA target sillabe automatico (es. 120 BPM → 8 sillabe)
-3. SCRIVI verso rispettando il target
-4. CONTA battendo ritmo mentalmente
-5. Se ≠ target → RISCRIVI
-6. Se = target → PROCEDI alla sezione successiva
-```
-
-### [*] CONTEGGIO VELOCE TEMPO-METRICA
-```
-Batti il ritmo mentalmente mentre leggi
-Se non "suona" giusto → troppo lungo/corto per il BPM
-Tempo veloce = sillabe compatte | Tempo lento = sillabe estese
-```
-
-### [!] FIX VELOCE INTEGRATO
-```
-Troppo lungo per BPM → Rimuovi aggettivi | Troppo corto → Aggiungi articoli
-Rima forzata → Cambia ultima parola mantenendo target sillabico
-Tempo-metrica non coerente → Rivedi mappatura BPM-sillabe
-```
-
-**REGOLA D'ORO TEMPO-METRICA:**
-```
-[♪] Più veloce il BPM → Meno sillabe per verso
-[♪] Più lento il BPM → Più sillabe per verso
-[♪] Un solo BPM per canzone → Target sillabico coerente
-```
+**REGOLA D'ORO:** Un BPM per canzone → Target sillabico coerente
 
 **SOUND_EFFECTS_LIST:**
 ```
@@ -294,6 +224,8 @@ Energy: [Energy: High], [Energy: Medium], [Energy: Low], [Mood: Uplifting],
 ---
 
 ## [D] FASE D: FINAL TEXT
+
+**PERCHÉ QUESTA FASE:** Trasforma tutto il lavoro preparatorio in testo cantabile che Suno può processare immediatamente. Qui applichi concretamente le scelte delle fasi precedenti, creando un prodotto finale pulito e professionale. La formattazione corretta è cruciale: un tag sbagliato può vanificare ore di pianificazione.
 
 ### FORMAT
 ```
