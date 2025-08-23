@@ -104,18 +104,18 @@ High-energy GENERE_LIST with pulsing INSTRUMENTS_LIST, four-on-floor kick, filte
 ```
 *Riferimenti: GENERE_LIST, INSTRUMENTS_LIST, STYLE_LIST - vedi sezioni LISTS*
 
-### SEMANTIC TECHNIQUES
-```
-1. Musical Storytelling: "narrative progression"
-2. Sound Metaphors: "notes like raindrops"
-3. Emotional Arc: "starts shy, explodes into passion"
-4. Cinematic Feel: "sunset atmosphere"
-5. Layered Description: strumenti + emozioni + dinamiche
-```
-
 ### [♪] FUSIONI SEMANTICHE CREATIVE
 
 **PRINCIPIO BASE:** Le fusioni più efficaci nascono dall'unione di elementi contrastanti che creano tensione creativa. Non limitarti a generi simili - l'innovazione nasce dal contrasto controllato.
+
+**TECNICHE SEMANTICHE BASE:**
+```
+• Musical Storytelling: "narrative progression"
+• Sound Metaphors: "notes like raindrops"
+• Emotional Arc: "starts shy, explodes into passion"
+• Cinematic Feel: "sunset atmosphere"
+• Layered Description: strumenti + emozioni + dinamiche
+```
 
 **CRITERI SEMANTICI PER FUSIONI PERSONALIZZATE:**
 
@@ -267,9 +267,8 @@ Fingerpicked-Guitar, Deep-808s, Ethereal-Synths, Analog-Warmth,
 Distorted-Bass, Crisp-Drums, Lush-Strings, Vintage-Keys, Glitchy-Beats,
 Ambient-Pads, Brass-Stabs, Vinyl-Crackle, Tape-Saturation, Reverb-Tails,
 Sidechain-Pump, Filter-Sweeps, Granular-Texture, Field-Recordings,
-Electric Guitar (Distorted), Acoustic Guitar, Strings (Legato), 808, 
-Slap Bass, Crunchy Guitar Riffs, Piano-driven, Ambient Beats, Groovy Rhythms, 
-Pounding Drums, Aggressive Riffs, Guitar Loops, Steady Rhythm
+Electric-Guitar-Distorted, Acoustic-Guitar, Strings-Legato, Slap-Bass, 
+Piano-Driven, Groovy-Rhythms, Pounding-Drums, Guitar-Loops, Steady-Rhythm
 ```
 
 **ATMOSPHERES_LIST:**
@@ -278,21 +277,20 @@ Melancholic-Introspection, Urban-Solitude, Nostalgic-Warmth, Euphoric-Release,
 Dark-Contemplation, Dreamy-Float, Gritty-Reality, Ethereal-Escape,
 Intimate-Vulnerability, Epic-Grandeur, Mysterious-Depth, Playful-Energy,
 Emotional-Catharsis, Cinematic-Drama, Minimalist-Space, Chaotic-Beauty,
-Atmospheric, Ambient, Emotional, Festive, Peaceful, Joyful, Heartfelt, 
+Atmospheric, Emotional, Festive, Peaceful-Reflection, Joyful, Heartfelt, 
 Vibrant, Cool, Eclectic, Progressive, Theatrical, Anthemic, Danceable, 
 Groovy, Futuristic, Unusual, Operatic, Psychedelic, Mystical, Youthful, 
-Intimate, Powerful, Leaf Textures, Uplifting Nostalgic Tones
+Powerful, Uplifting-Nostalgic
 ```
 
 **DYNAMICS_LIST:**
 ```
 Builds-Gradually, Explosive-Drops, Intimate-Whispers, Soaring-Climax,
 Stripped-Back-Moments, Layered-Complexity, Rhythmic-Pulse, Floating-Weightless,
-Driving-Forward, Gentle-Sway, Intense-Energy, Calm-Reflection,
-Tension-Release, Organic-Flow, Electronic-Precision, Raw-Emotion,
-Buildup, Drop, Breakdown, Crescendo, Diminuendo, Staccato, Legato, Syncopation, 
-Polyrhythm, Cross-rhythm, Tempo-shift, Dynamic-contrast, Rhythmic-displacement, 
-Metric-modulation, Energy-High, Energy-Medium, Energy-Low, Tempo-Mid, 
+Driving-Forward, Gentle-Sway, Tension-Release, Organic-Flow, Electronic-Precision, 
+Raw-Emotion, Buildup, Drop, Breakdown, Crescendo, Diminuendo, Staccato, Legato, 
+Syncopation, Polyrhythm, Cross-Rhythm, Tempo-Shift, Dynamic-Contrast, 
+Rhythmic-Displacement, Metric-Modulation, Energy-High, Energy-Medium, Energy-Low, 
 Texture-Gritty, Mood-Uplifting, Mood-Intense, Catchy-Hook, Emotional-Bridge, 
 Powerful-Outro, Pre-Chorus, Guitar-Solo, Female-Vocal, Male-Vocal, Harmony-Yes, 
 Vocal-Effect-Reverb, Vocal-Effect-Delay, Vocal-Tone-Whisper
@@ -306,36 +304,35 @@ Vocal-Effect-Reverb, Vocal-Effect-Delay, Vocal-Tone-Whisper
 
 **[!] RACCOMANDAZIONE SEMANTICA:** Nella fase successiva (FASE D), privilegia la semplicità lessicale e usa meno parole per rispettare naturalmente le sillabe pianificate. La creatività si esprime meglio attraverso concetti chiari che attraverso complessità verbale.
 
-### [♪] **MAPPATURA BPM-METRICA RAPIDA**
+### [♪] **MAPPATURA BPM-TEMPLATE INTEGRATA**
 
-**Range BPM → Sillabe Target:**
-- **60-90 BPM (Lenti):** 10-14 sillabe | Ballad, Ambient, Soul
-- **90-120 BPM (Medi):** 8-10 sillabe | Pop, Rock, Funk, Reggae  
-- **120+ BPM (Veloci):** 4-8 sillabe | Dance, Trap, D&B, Hardcore
+**TEMPLATE COMPLETI (BPM + Sillabe + Style):**
+```
+ROCK: 120 BPM → V(8), C(8) | "Driving rock with pounding drums"
+POP: 110 BPM → V(8), C(7) | "Upbeat anthem with catchy hooks"
+TRAP: 140 BPM → V(6), C(8) | "Hard-hitting with booming 808s"
+ELECTRONIC: 128 BPM → V(6), C(7) | "Pulsing track with four-on-the-floor"
+R&B: 85 BPM → V(12), C(10) | "Smooth groove with warm bass"
+BALLAD: 70 BPM → V(11), C(10) | "Emotional ballad with piano"
+```
 
-### [>] **SINTASSI CORRETTA**
+**RANGE RAPIDI:**
+```
+60-90 BPM (Lenti): 10-14 sillabe | Ballad, Ambient, Soul
+90-120 BPM (Medi): 8-10 sillabe | Pop, Rock, Funk, Reggae
+120+ BPM (Veloci): 4-8 sillabe | Dance, Trap, D&B, Hardcore
+```
 
-**✓ Formato OK:** "Upbeat pop at 120 BPM" → 8 sillabe | "Slow ballad 70 BPM" → 11 sillabe
-**✗ Evitare:** [TEMPO: 120 BPM] ripetuto | Cambi BPM numerici | Metrica casuale
+**TAG TEMPO DINAMICI:**
+```
+[Accelerando], [Ritardando], [Rubato], [Stringendo], [Rallentando]
+```
 
-### [~] **TAG TEMPO DINAMICI**
-
-**Lista Tag:** [Accelerando], [Ritardando], [Rubato], [Tempo primo], [Stringendo], [Rallentando]
-
-**Esempio Struttura:**
-- Verse: 100 BPM → 8 sillabe
-- Pre-Chorus: Accelerando → 7 sillabe  
-- Chorus: 110 BPM → 8 sillabe
-- Bridge: Ritardando 80 BPM → 11 sillabe
-
-### [♪] **TEMPLATE GENERI**
-
-**Lista Template:**
-- **Rock:** 120 BPM → V(8), C(8) | "Driving rock with pounding drums"
-- **Electronic:** 128 BPM → V(6), C(7) | "Pulsing track with four-on-the-floor"
-- **Pop:** 110 BPM → V(8), C(7) | "Upbeat anthem with catchy hooks"
-- **Trap:** 140 BPM → V(6), C(8) | "Hard-hitting with booming 808s"
-- **R&B:** 85 BPM → V(12), C(10) | "Smooth groove with warm bass"
+**SINTASSI CORRETTA:**
+```
+✓ "Upbeat pop at 120 BPM" → 8 sillabe
+✗ [TEMPO: 120 BPM] ripetuto | Cambi BPM numerici
+```
 
 ### [=] **PROCESSO RAPIDO**
 
@@ -375,13 +372,30 @@ Energy: [Energy: High], [Energy: Medium], [Energy: Low], [Mood: Uplifting],
 [Tempo: Mid], [Texture: Gritty]
 ```
 
-### CHORUS RULES
+### CHORUS OPTIMIZATION
+
+**REGOLE FONDAMENTALI:**
 ```
-[+] RIME OBBLIGATORIE (ABAB/AABB)
-[+] PAROLE SEMPLICI
-[+] ORECCHIABILITÀ
-[+] RIPETIBILITÀ
-[+] IMPATTO EMOTIVO
+[+] RIME OBBLIGATORIE: ABAB (alternata) o AABB (baciata)
+[+] PAROLE SEMPLICI: Max 3 sillabe per parola
+[+] HOOK RIPETIBILE: Frase chiave memorabile
+[+] IMPATTO EMOTIVO: Messaggio universale
+[+] METRICA COSTANTE: 8 sillabe per riga (standard)
+```
+
+**TEMPLATE HOOK EFFICACI:**
+```
+• RIPETIZIONE EMOTIVA: "Voglio volare, voglio sognare"
+• DOMANDA-RISPOSTA: "Dove vai? Verso il sole"
+• CONTRASTO: "Buio e luce, pace e guerra"
+• MANTRA: "Sempre avanti, mai indietro"
+```
+
+**RIME SEMPLICI:**
+```
+PERFETTE: amore/cuore, vita/infinita, sole/parole
+IMPERFETTE: notte/forte, mare/volare, tempo/momento
+EVITARE: rime forzate, parole rare, costruzioni complesse
 ```
 
 ---
@@ -392,37 +406,49 @@ Energy: [Energy: High], [Energy: Medium], [Energy: Low], [Mood: Uplifting],
 
 **[!] RACCOMANDAZIONE SEMANTICA:** Ricorda i target sillabici della Fase C e mantieni il testo semplice e diretto. Se una frase supera le sillabe previste, riduci aggettivi o sostituisci con parole più brevi. La fluidità ritmica è più importante della complessità lessicale.
 
-### FORMAT
+### FORMAT OTTIMIZZATO
+
+**STRUTTURA STANDARD:**
 ```
-[Sezione: (seleziona elemento da ATMOSPHERES_LIST della FASE B)]
-Testo pulito italiano
-Rispettando sillabe pianificate
+[Sezione: (ATMOSPHERES_LIST), (INSTRUMENTS_LIST), (DYNAMICS_LIST)]
+Testo cantabile italiano
+Rispettando target sillabico FASE C
+```
 
-[!] ESEMPIO CORRETTO (usando elementi dalle tabelle FASE B):
-[Verse: (da ATMOSPHERES_LIST: Intimate-storytelling), (da INSTRUMENTS_LIST: Fingerpicked-Guitar)]
-[Chorus: (da ATMOSPHERES_LIST: Explosive-anthem), (da DYNAMICS_LIST: Full-band-energy)]
+**ESEMPI CORRETTI:**
+```
+[Verse: Intimate-Vulnerability, Fingerpicked-Guitar, Gentle-Sway]
+[Chorus: Euphoric-Release, Electric-Guitar-Distorted, Explosive-Drops]
+[Bridge: Melancholic-Introspection, Piano-Driven, Floating-Weightless]
+```
 
-[-] SBAGLIATO:
-[Verse: Descrizione da ATMOSPHERES_LIST]
-[Chorus: dalla FASE B]
-[Verse: Intimate storytelling, fingerpicked guitar] (senza riferimento alle tabelle)
+**RIFERIMENTI LISTE FASE B:**
+```
+ATMOSPHERES_LIST: Melancholic-Introspection, Euphoric-Release, Intimate-Vulnerability...
+INSTRUMENTS_LIST: Fingerpicked-Guitar, Electric-Guitar-Distorted, Piano-Driven...
+DYNAMICS_LIST: Explosive-Drops, Gentle-Sway, Floating-Weightless...
+```
 
-[!] DIVIETI:
-[-] Note esplicative ([!] NOTA RIME)
+**DIVIETI ASSOLUTI:**
+```
+[-] Note esplicative ([!] NOTA)
 [-] Spiegazioni metrica
 [-] Commenti tra parentesi
-[+] Solo testo cantabile
+[+] Solo testo cantabile + tag dalle liste
 ```
 
-### SECTION TAGS
+### SECTION TAGS OTTIMIZZATI
 ```
-[+] CORRETTO:
-[Verse: Intimate storytelling, fingerpicked guitar]
-[Chorus: Explosive anthem, full band]
+[+] CORRETTO (usando liste ottimizzate):
+[Verse: Intimate-Vulnerability, Fingerpicked-Guitar]
+[Chorus: Euphoric-Release, Electric-Guitar-Distorted]
+[Bridge: Melancholic-Introspection, Piano-Driven]
 
 [-] SBAGLIATO:
 [Verse - 8 sillabe]
 [Chorus: 8 syllables per line]
+[Verse: descrizione generica]
+[Chorus: senza riferimento alle liste]
 ```
 
 ---
