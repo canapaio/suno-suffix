@@ -11,7 +11,9 @@ This plugin automatically adds comprehensive guide content to your prompt whenev
 - **🎯 Universal Content Injection**: Inject any guide content into prompts (documentation, instructions, examples, etc.)
 - **🔧 Smart Trigger System**: Configurable trigger text to activate content injection
 - **📁 Flexible File Search**: Automatically searches for content files in multiple locations
-- **⚙️ Configurable Settings**: Customize trigger text, content filename, and search folder
+- **⚙️ Advanced Configuration**: Customize trigger text, content filename, search folder, and output format
+- **🎨 Template Customization**: Fully configurable wrapper template for guide content
+- **📝 History Control**: Choose when to apply trigger substitution (before or after saving to memory)
 - **🛡️ Error Handling**: Graceful fallback when content files are not found
 - **🔄 Multi-Purpose**: Suitable for Suno AI, API documentation, coding guidelines, or any reference material
 
@@ -46,23 +48,42 @@ User: "Review my code :style:"
 
 You can customize the plugin through the Cheshire Cat settings:
 
+### Basic Settings
 - **`trigger`**: The text that activates the plugin (default: `:s:`)
 - **`guide_filename`**: Name of your content file (default: `guida_unificata_ottimizzata_V2.md`)
-- **`guida_folder`**: Custom folder path for your content file (optional)
+- **`guide_folder`**: Custom folder path for your content file (optional)
+
+### Advanced Settings
+- **`auto_add_instructions`**: Automatically add phase instructions when trigger is detected (default: `True`)
+- **`phase_instructions`**: Custom instructions to add with the trigger (configurable text)
+- **`save_in_history`**: Control when to apply trigger substitution (default: `True`)
+  - `True`: Apply before saving to memory (clean processing)
+  - `False`: Apply after saving to memory (clean history)
+- **`guide_wrapper_template`**: Customize the output format template (default: XML wrapper)
+  - Use `{guide_content}` as placeholder for the actual guide content
+  - Example: `"# GUIDE\n{guide_content}\n---"` for Markdown format
 
 ### Customization Examples
 
 **For API Documentation:**
 - `guide_filename`: `api_reference.md`
 - `trigger`: `:api:`
+- `guide_wrapper_template`: `"## API Reference\n{guide_content}\n---"`
 
 **For Coding Standards:**
 - `guide_filename`: `coding_guidelines.md`
 - `trigger`: `:style:`
+- `save_in_history`: `False` (keep history clean)
 
 **For Product Information:**
 - `guide_filename`: `product_specs.md`
 - `trigger`: `:specs:`
+- `auto_add_instructions`: `False` (no automatic instructions)
+
+**For Clean History Mode:**
+- `save_in_history`: `False`
+- `guide_wrapper_template`: `"<technical_guide>\n{guide_content}\n</technical_guide>"`
+- Result: Original message saved in history, guide injected in prompt only
 
 ## 📚 Available Guides
 
@@ -116,18 +137,23 @@ suno-suffix/
 
 ### How it Works
 
-1. **Hook Integration**: Uses Cheshire Cat's `agent_prompt_suffix` hook
+1. **Hook Integration**: Uses both `before_cat_reads_message` and `agent_prompt_suffix` hooks
 2. **Settings Loading**: Loads configuration via `cat.mad_hatter.get_plugin().load_settings()`
-3. **File Discovery**: Searches for content files in multiple locations:
+3. **Trigger Detection**: Monitors user messages for configured trigger text
+4. **Conditional Processing**: Applies trigger substitution based on `save_in_history` setting
+5. **File Discovery**: Searches for content files in multiple locations:
    - Custom folder (if specified)
    - Plugin directory
    - Parent directory
-4. **Content Injection**: Appends content to the prompt suffix
+6. **Template Processing**: Formats content using configurable wrapper template
+7. **Content Injection**: Appends formatted content to the prompt suffix
 
 ### Key Functions
 
-- **`find_guida_file()`**: Intelligent file search across multiple paths
-- **`agent_prompt_suffix()`**: Main hook that processes user messages
+- **`apply_trigger_substitution()`**: Centralized logic for trigger detection and substitution
+- **`find_guide_file()`**: Intelligent file search across multiple paths
+- **`before_cat_reads_message()`**: Pre-processing hook for message modification
+- **`agent_prompt_suffix()`**: Main hook that processes and injects content
 
 ### Performance
 
@@ -159,9 +185,35 @@ suno-suffix/
 - Consider splitting very large files into smaller, focused content
 - Use specific triggers to avoid unnecessary content injection
 
+**Template not working?**
+- Ensure `{guide_content}` placeholder is present in your template
+- Check template syntax for proper escaping of special characters
+- Test with the default template first
+
+**History behavior unexpected?**
+- Check `save_in_history` setting: `True` = clean processing, `False` = clean history
+- Verify `auto_add_instructions` setting matches your expectations
+- Review the message flow in your chat history
+
 ## 📝 Changelog
 
-### v1.0.0
+### v2.0.0 - Template Configurabile
+- ✅ **NEW**: Configurable wrapper template (`guide_wrapper_template`)
+- ✅ **NEW**: History control setting (`save_in_history`)
+- ✅ **NEW**: Automatic phase instructions (`auto_add_instructions`)
+- ✅ **NEW**: Customizable phase instructions (`phase_instructions`)
+- ✅ **IMPROVED**: Centralized trigger substitution logic
+- ✅ **IMPROVED**: Dual hook system for flexible processing
+- ✅ **IMPROVED**: Enhanced configuration options
+- ✅ **MATURE**: Stabilized API and core functionality architecture
+
+### v1.1.0 - Enhanced Functionality
+- ✅ Advanced trigger detection
+- ✅ Improved error handling
+- ✅ Better file search algorithm
+- ✅ Enhanced logging system
+
+### v1.0.0 - Initial Release
 - ✅ Initial release
 - ✅ Trigger-based activation
 - ✅ Configurable settings
