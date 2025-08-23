@@ -4,9 +4,11 @@
 
 ## [*] PIANIFICAZIONE STRATEGICA
 
-**PRIMA DI INIZIARE - FACCIO MENTE LOCALE:**
+## [A] FASE A: PROGETTAZIONE
 
-Prima di utilizzare le varie fasi, dedica un momento a riflettere:
+**PERCHÉ QUESTA FASE:** Prima di scrivere una singola parola, devi avere una visione chiara del risultato finale. Questa fase ti permette di prendere decisioni strategiche che guideranno tutto il processo creativo, evitando di dover rifare il lavoro in seguito.
+
+### MENTE LOCALE - DOMANDE CHIAVE
 
 1. **COSA VOGLIO OTTENERE?** 
    - Che tipo di canzone sto creando? (genere, mood, energia)
@@ -14,10 +16,10 @@ Prima di utilizzare le varie fasi, dedica un momento a riflettere:
    - Chi è il pubblico target?
 
 2. **COME USERÒ LE FASI?**
-   - FASE A: Quali opzioni avanzate mi servono per questo brano?
-   - FASE B: Che stile musicale descriverò? Quali strumenti e atmosfere?
-   - FASE C: Come integrerò tempo musicale e metrica del testo?
-   - FASE D: Come organizzerò le sezioni finali per massimo impatto?
+   - FASE B: Quali opzioni avanzate mi servono per questo brano?
+   - FASE C: Che stile musicale descriverò? Quali strumenti e atmosfere?
+   - FASE D: Come integrerò tempo musicale e metrica del testo?
+   - FASE E: Come organizzerò le sezioni finali per massimo impatto?
 
 3. **STRATEGIA IN PAROLE POVERE - GUIDA MENTALE:**
    - NON serve un piano tecnico, ma una bussola emotiva e creativa
@@ -29,7 +31,7 @@ Prima di utilizzare le varie fasi, dedica un momento a riflettere:
 
 ---
 
-## [A] FASE A: CONFIGURATION
+## [B] FASE B: CONFIGURATION
 
 **PERCHÉ QUESTA FASE:** Stabilisci le fondamenta tecniche del tuo brano prima di entrare nel creativo. Questi parametri influenzano direttamente come Suno interpreterà le tue istruzioni successive, garantendo coerenza tra visione artistica e risultato finale. Configurare correttamente significa avere controllo totale sul processo generativo.
 
@@ -58,7 +60,7 @@ Exclude: "country, classical, opera" (rimuovi generi desiderati)
 
 ---
 
-## [B] FASE B: STYLE
+## [C] FASE C: STYLE
 
 **PERCHÉ QUESTA FASE:** Traduci la tua visione musicale in linguaggio che Suno comprende perfettamente. Lo STYLE è il DNA sonoro del tuo brano - definisce strumenti, atmosfere e dinamiche che daranno vita alla tua idea. Una descrizione precisa **IN INGLESE** qui determina il 70% del carattere finale della canzone. L'inglese è fondamentale per l'efficacia del sistema.
 
@@ -298,11 +300,11 @@ Vocal-Effect-Reverb, Vocal-Effect-Delay, Vocal-Tone-Whisper
 
 ---
 
-## [C] FASE C: TEMPO E METRICA
+## [D] FASE D: TEMPO E METRICA
 
 **PERCHÉ QUESTA FASE:** Sincronizza matematicamente testo e musica per creare fluidità naturale. Il rapporto BPM-sillabe non è teoria musicale astratta, ma la chiave per testi che "suonano giusti". Questa mappatura elimina il trial-and-error e garantisce che ogni parola si incastri perfettamente nel groove musicale.
 
-**[!] RACCOMANDAZIONE SEMANTICA:** Nella fase successiva (FASE D), privilegia la semplicità lessicale e usa meno parole per rispettare naturalmente le sillabe pianificate. La creatività si esprime meglio attraverso concetti chiari che attraverso complessità verbale.
+**[!] RACCOMANDAZIONE SEMANTICA:** Nella fase successiva (FASE E), privilegia la semplicità lessicale e usa meno parole per rispettare naturalmente le sillabe pianificate. La creatività si esprime meglio attraverso concetti chiari che attraverso complessità verbale.
 
 ### [♪] **MAPPATURA BPM-TEMPLATE INTEGRATA**
 
@@ -400,11 +402,11 @@ EVITARE: rime forzate, parole rare, costruzioni complesse
 
 ---
 
-## [D] FASE D: FINAL TEXT
+## [E] FASE E: FINAL TEXT
 
 **PERCHÉ QUESTA FASE:** Trasforma tutto il lavoro preparatorio in testo cantabile che Suno può processare immediatamente. Qui applichi concretamente le scelte delle fasi precedenti, creando un prodotto finale pulito e professionale. La formattazione corretta è cruciale: un tag sbagliato può vanificare ore di pianificazione.
 
-**[!] RACCOMANDAZIONE SEMANTICA:** Ricorda i target sillabici della Fase C e mantieni il testo semplice e diretto. Se una frase supera le sillabe previste, riduci aggettivi o sostituisci con parole più brevi. La fluidità ritmica è più importante della complessità lessicale.
+**[!] RACCOMANDAZIONE SEMANTICA:** Ricorda i target sillabici della Fase D e mantieni il testo semplice e diretto. Se una frase supera le sillabe previste, riduci aggettivi o sostituisci con parole più brevi. La fluidità ritmica è più importante della complessità lessicale.
 
 ### FORMAT OTTIMIZZATO
 
@@ -412,7 +414,7 @@ EVITARE: rime forzate, parole rare, costruzioni complesse
 ```
 [Sezione: (ATMOSPHERES_LIST), (INSTRUMENTS_LIST), (DYNAMICS_LIST)]
 Testo cantabile italiano
-Rispettando target sillabico FASE C
+Rispettando target sillabico FASE D
 ```
 
 **ESEMPI CORRETTI:**
@@ -422,7 +424,7 @@ Rispettando target sillabico FASE C
 [Bridge: Melancholic-Introspection, Piano-Driven, Floating-Weightless]
 ```
 
-**RIFERIMENTI LISTE FASE B:**
+**RIFERIMENTI LISTE FASE C:**
 ```
 ATMOSPHERES_LIST: Melancholic-Introspection, Euphoric-Release, Intimate-Vulnerability...
 INSTRUMENTS_LIST: Fingerpicked-Guitar, Electric-Guitar-Distorted, Piano-Driven...
@@ -465,9 +467,9 @@ Aggettivi tecnici efficaci (evita metafore elaborate)
 
 ### STRUCTURAL
 ```
-Usa mappatura BPM-metrica integrata dalla FASE C per target sillabico (evita metrica casuale)
-Progressione dinamica Verse→Chorus→Bridge con coerenza tempo-metrica dalla FASE C (evita energia statica)
-Un solo BPM per canzone con target sillabico coerente dalla FASE C (evita tempi multipli e metrica scollegata)
+Usa mappatura BPM-metrica integrata dalla FASE D per target sillabico (evita metrica casuale)
+Progressione dinamica Verse→Chorus→Bridge con coerenza tempo-metrica dalla FASE D (evita energia statica)
+Un solo BPM per canzone con target sillabico coerente dalla FASE D (evita tempi multipli e metrica scollegata)
 ```
 
 ### CREATIVE

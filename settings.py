@@ -19,7 +19,7 @@ class SunoSettings(BaseModel):
         description="Automatically add phase instructions (A→B→C→D) when trigger is detected"
     )
     phase_instructions: str = Field(
-        default="(Segui rigorosamente le fasi A→B→C→D della guida in sequenza. Inizia sempre con una strategia chiara, poi procedi con FASE A (GENERE), FASE B (STYLE), FASE C (TEMPO E METRICA), FASE D (FINAL TEXT). Mantieni coerenza tra tutte le fasi.)",
+        default="(Segui le fasi A→B→C→D→E della guida in sequenza. Inizia sempre con una strategia chiara, poi procedi con FASE A (PROGETTAZIONE), FASE B (CONFIGURATION), FASE C (STYLE), FASE D (TEMPO E METRICA), FASE E (FINAL TEXT). Mantieni coerenza tra tutte le fasi.)",
         description="Instructions to add when trigger is detected",
         extra={"type": "TextArea"}
     )

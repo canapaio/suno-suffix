@@ -15,7 +15,7 @@ def apply_trigger_substitution(text, settings, cat):
         # Get phase instructions from settings
         if settings.get('auto_add_instructions', True):
             phase_instructions = settings.get('phase_instructions', 
-                'Segui rigorosamente le fasi A→B→C→D della guida in sequenza. Inizia sempre con una strategia chiara, poi procedi con FASE A (GENERE), FASE B (STYLE), FASE C (TEMPO E METRICA), FASE D (FINAL TEXT). Mantieni coerenza tra tutte le fasi.')
+                'Segui rigorosamente le fasi A→B→C→D→E della guida in sequenza. Inizia sempre con una strategia chiara, poi procedi con FASE A (PROGETTAZIONE), FASE B (CONFIGURATION), FASE C (STYLE), FASE D (TEMPO E METRICA), FASE E (FINAL TEXT). Mantieni coerenza tra tutte le fasi.')
             
             # Replace trigger with instructions in parentheses
             instructions_with_parentheses = f"({phase_instructions})"
