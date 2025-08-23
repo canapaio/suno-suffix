@@ -23,7 +23,7 @@
 
 3. **STRATEGIA IN PAROLE POVERE - GUIDA MENTALE:**
    - NON serve un piano tecnico, ma una bussola emotiva e creativa
-   - Scrivi in 2-3 frasi semplici la "sensazione" che vuoi creare
+   - Scrivi in 2 o 3 frasi semplici la "sensazione" che vuoi creare
    - Esempio: "Voglio che chi ascolta si senta nostalgico ma speranzoso. Inizierò dolce e piano, poi esploderò di energia nel ritornello."
    - Pensa come se stessi raccontando l'idea a un amico al bar
 
@@ -37,7 +37,7 @@
 
 ### ADVANCED OPTIONS
 ```
-[♪] TITOLO: Evocativo, 5-6 parole max, senza caratteri speciali
+[♪] TITOLO: Evocativo, 5 o 6 parole max, senza caratteri speciali
 [>] VOCAL GENDER: Male/Female/Auto - Imposta il genere della voce principale
 [>] WEIRDNESS: 0% (normale) → 100% (sperimentale) - Controlla quanto sarà sperimentale il brano
 [>] INFLUENCE: 0% (libero) → 100% (fedele) - Controlla quanto lo stile seguirà la descrizione
@@ -67,7 +67,7 @@ Exclude: "country, classical, opera" (rimuovi generi desiderati)
 ### STYLE RULES
 ```
 [+] TESTO TECNICO: Linguaggio musicale preciso e professionale
-[+] LUNGHEZZA OTTIMALE: 300-400 caratteri (massimo 1000 ma sconsigliato)
+[+] LUNGHEZZA OTTIMALE: 300 a 400 caratteri (massimo 1000 ma sconsigliato)
 [+] UN PARAGRAFO unico senza a capo
 [+] INGLESE OBBLIGATORIO: Scrivere TUTTO lo style in inglese - è FONDAMENTALE per l'efficacia
 [+] Frasi separate da punti
@@ -85,14 +85,14 @@ Exclude: "country, classical, opera" (rimuovi generi desiderati)
 
 **FORMATO E REGOLE DEI META-TAG:**
 - Formato: `[Tag: Value]` con parentesi quadre
-- Posizionare i tag chiave nei primi 20-30 caratteri per massima efficacia
-- Usare 1 tag per categoria, massimo 2-3 strumenti per canzone
+- Posizionare i tag chiave nei primi 20 a 30 caratteri per massima efficacia
+- Usare 1 tag per categoria, massimo 2 o 3 strumenti per canzone
 - Evitare tag conflittuali (es. Energy: High + Energy: Low)
 
 **PAROLE PERICOLOSE DA EVITARE NELLO STYLE:**
 Verse, Chorus, Bridge, Intro, Outro, Hook, Refrain, Solo, Break, Drop, Build, Fade, Repeat, Loop, Section, Part, Segment, Transition, Interlude, Coda
 
-### [♪] ESEMPI STYLE COMPATTI (300-400 caratteri)
+### [♪] ESEMPI STYLE COMPATTI (300 a 400 caratteri)
 
 **ESEMPIO 1 - POP ENERGICO (320 caratteri):**
 ```
@@ -122,7 +122,7 @@ High-energy GENERE_LIST with pulsing INSTRUMENTS_LIST, four-on-floor kick, filte
 **CRITERI SEMANTICI PER FUSIONI PERSONALIZZATE:**
 
 **1. CONTRASTO TEMPORALE**
-- Vintage + Modern: "80s synth-pop with modern trap production"
+- Vintage + Modern: "80s synth pop with modern trap production"
 - Classico + Contemporaneo: "baroque harpsichord with electronic beats"
 - Retro + Futuristico: "70s funk with cyberpunk synths"
 
@@ -139,21 +139,21 @@ High-energy GENERE_LIST with pulsing INSTRUMENTS_LIST, four-on-floor kick, filte
 **4. CONTRASTO STRUMENTALE**
 - Acustico + Elettronico: "fingerpicked guitar with heavy 808s"
 - Tradizionale + Moderno: "Celtic flute with dubstep drops"
-- Orchestrale + Digitale: "string quartet with trap hi-hats"
+- Orchestrale + Digitale: "string quartet with trap hi hats"
 
 **ESEMPI CONCRETI DI FUSIONI:**
 
 ```
 # FUSIONE TEMPORALE
-"Vintage 80s new-wave with modern future-bass drops and analog warmth"
-"Medieval gregorian chant with contemporary hip-hop beats and vinyl crackle"
+"Vintage 80s new wave with modern future bass drops and analog warmth"
+"Medieval gregorian chant with contemporary hip hop beats and vinyl crackle"
 
 # FUSIONE CULTURALE  
-"Brazilian bossa-nova guitar with Nordic ambient textures and soft vocals"
-"Japanese city-pop with American southern rock guitar and warm production"
+"Brazilian bossa nova guitar with Nordic ambient textures and soft vocals"
+"Japanese city pop with American southern rock guitar and warm production"
 
 # FUSIONE ENERGETICA
-"Lo-fi jazz piano with aggressive trap snares and ethereal vocal layers"
+"Lo fi jazz piano with aggressive trap snares and ethereal vocal layers"
 "Peaceful ambient pads with driving techno kicks and organic percussion"
 
 # FUSIONE STRUMENTALE
@@ -183,7 +183,7 @@ High-energy GENERE_LIST with pulsing INSTRUMENTS_LIST, four-on-floor kick, filte
 
 **ESEMPI FORMULA:**
 ```
-"Nostalgic indie-folk with futuristic synth leads and analog warmth"
+"Nostalgic indie folk with futuristic synth leads and analog warmth"
 "Energetic trap with ambient string pads and vintage tape saturation"
 "Melancholic jazz with uplifting gospel choir and modern production"
 ```
@@ -196,7 +196,7 @@ High-energy GENERE_LIST with pulsing INSTRUMENTS_LIST, four-on-floor kick, filte
 
 ### [♪] PROGRESSIONE ENERGETICA
 ```
-Verse: Intimo → Pre-Chorus: Crescendo → Chorus: Esplosivo → Bridge: Contrasto
+Verse: Intimo → Pre Chorus: Crescendo → Chorus: Esplosivo → Bridge: Contrasto
 Cambia strumentazione ogni sezione per varietà
 ```
 
@@ -205,124 +205,124 @@ Cambia strumentazione ogni sezione per varietà
 **GENERE_LIST:**
 ```
 # Rock & Alternative
-Grunge, Alternative-Rock, Indie-Rock, Post-Rock, Math-Rock, Shoegaze, 
-Punk-Rock, Pop-Punk, Hard-Rock, Classic-Rock, Progressive-Rock, Psychedelic-Rock
+Grunge, Alternative Rock, Indie Rock, Post Rock, Math Rock, Shoegaze, 
+Punk Rock, Pop Punk, Hard Rock, Classic Rock, Progressive Rock, Psychedelic Rock
 
 # Electronic & Dance
-Electro-Pop, Synth-Wave, Dance-Pop, EDM, House, Techno, Trance, Dubstep,
-Ambient-House, Future-Bass, Chillwave, Vaporwave, Hardstyle, Drum-and-Bass
+Electro Pop, Synth Wave, Dance Pop, EDM, House, Techno, Trance, Dubstep,
+Ambient House, Future Bass, Chillwave, Vaporwave, Hardstyle, Drum and Bass
 
-# Hip-Hop & R&B
-Hip-Hop, Trap, Alternative-Hip-Hop, Boom-Bap, Gangsta-Rap, Cloud-Rap,
-R&B, Neo-Soul, Alternative-R&B, Trap-Soul, Contemporary-R&B, Funk
+# Hip Hop & R&B
+Hip Hop, Trap, Alternative Hip Hop, Boom Bap, Gangsta Rap, Cloud Rap,
+R&B, Neo Soul, Alternative R&B, Trap Soul, Contemporary R&B, Funk
 
 # Pop & Indie
-Indie-Pop, Dream-Pop, Electropop, Synth-Pop, Alternative-Pop, K-Pop, J-Pop,
-Bubblegum-Pop, Dance-Pop, Folk-Pop, Indie-Folk, Alternative-Folk
+Indie Pop, Dream Pop, Electropop, Synth Pop, Alternative Pop, K Pop, J Pop,
+Bubblegum Pop, Dance Pop, Folk Pop, Indie Folk, Alternative Folk
 
 # Metal & Heavy
-Heavy-Metal, Thrash-Metal, Death-Metal, Black-Metal, Nu-Metal, Metalcore,
-Progressive-Metal, Industrial-Metal, Alternative-Metal, Power-Metal
+Heavy Metal, Thrash Metal, Death Metal, Black Metal, Nu Metal, Metalcore,
+Progressive Metal, Industrial Metal, Alternative Metal, Power Metal
 
 # Jazz & Soul
-Jazz-Fusion, Jazz-House, Cool-Jazz, Smooth-Jazz, Big-Band, Bebop,
-Soul, Gospel, Neo-Soul, Quiet-Storm
+Jazz Fusion, Jazz House, Cool Jazz, Smooth Jazz, Big Band, Bebop,
+Soul, Gospel, Neo Soul, Quiet Storm
 
 # Blues & Traditional
-Chicago-Blues, Delta-Blues, Electric-Blues, Gospel-Blues, Country-Blues,
-Rhythm-and-Blues, Acoustic-Blues, Slide-Guitar-Blues
+Chicago Blues, Delta Blues, Electric Blues, Gospel Blues, Country Blues,
+Rhythm and Blues, Acoustic Blues, Slide Guitar Blues
 
 # Country & Americana
-Bluegrass, Country-Pop, Country-Rock, Nashville-Sound, Americana,
-Outlaw-Country, Alt-Country, Folk-Country, Honky-Tonk
+Bluegrass, Country Pop, Country Rock, Nashville Sound, Americana,
+Outlaw Country, Alt Country, Folk Country, Honky Tonk
 
 # Folk & World
-Celtic-Music, Folk-Rock, Indie-Folk, Singer-Songwriter, Bossa-Nova,
-Reggae, Afrobeat, Samba, Dancehall, Highlife, C-Pop
+Celtic Music, Folk Rock, Indie Folk, Singer Songwriter, Bossa Nova,
+Reggae, Afrobeat, Samba, Dancehall, Highlife, C Pop
 
 # Easy Listening & Ambient
-Adult-Contemporary, Lounge-Music, Soft-Rock, Chillout, New-Age,
-Downtempo, Trip-Hop, Elevator-Music
+Adult Contemporary, Lounge Music, Soft Rock, Chillout, New Age,
+Downtempo, Trip Hop, Elevator Music
 
 # Punk & Hardcore
-Anarchos-Punk, Hardcore-Punk, Skate-Punk, Street-Punk, Post-Punk,
-Pop-Punk, Emo-Punk, Crust-Punk
+Anarchos Punk, Hardcore Punk, Skate Punk, Street Punk, Post Punk,
+Pop Punk, Emo Punk, Crust Punk
 
 # Experimental & Fusion
-Experimental, Avant-Garde, Industrial, Noise, Progressive, Post-Hardcore,
-Midwest-Emo, Gregorian-Chant, Jazz-Metal, Folk-Metal, Rap-Metal
+Experimental, Avant Garde, Industrial, Noise, Progressive, Post Hardcore,
+Midwest Emo, Gregorian Chant, Jazz Metal, Folk Metal, Rap Metal
 ```
 
 **STYLE_LIST:**
 ```
-Modern-Production, Vintage-Sound, Lo-Fi-Aesthetic, Hi-Fi-Polish, Analog-Warmth,
-Digital-Precision, Compressed-Punch, Dynamic-Range, Stereo-Width, Mono-Focus,
-Reverb-Space, Dry-Intimate, Distorted-Grit, Clean-Clarity, Saturated-Warmth,
-Crisp-Definition, Layered-Texture, Minimal-Space, Dense-Wall, Sparse-Arrangement,
-Tight-Rhythm, Loose-Groove, Quantized-Perfect, Human-Feel, Organic-Flow,
-Electronic-Grid, Live-Energy, Studio-Control, Raw-Emotion, Polished-Commercial
+Modern Production, Vintage Sound, Lo Fi Aesthetic, Hi Fi Polish, Analog Warmth,
+Digital Precision, Compressed Punch, Dynamic Range, Stereo Width, Mono Focus,
+Reverb Space, Dry Intimate, Distorted Grit, Clean Clarity, Saturated Warmth,
+Crisp Definition, Layered Texture, Minimal Space, Dense Wall, Sparse Arrangement,
+Tight Rhythm, Loose Groove, Quantized Perfect, Human Feel, Organic Flow,
+Electronic Grid, Live Energy, Studio Control, Raw Emotion, Polished Commercial
 ```
 
 **INSTRUMENTS_LIST:**
 ```
-Fingerpicked-Guitar, Deep-808s, Ethereal-Synths, Analog-Warmth,
-Distorted-Bass, Crisp-Drums, Lush-Strings, Vintage-Keys, Glitchy-Beats,
-Ambient-Pads, Brass-Stabs, Vinyl-Crackle, Tape-Saturation, Reverb-Tails,
-Sidechain-Pump, Filter-Sweeps, Granular-Texture, Field-Recordings,
-Electric-Guitar-Distorted, Acoustic-Guitar, Strings-Legato, Slap-Bass, 
-Piano-Driven, Groovy-Rhythms, Pounding-Drums, Guitar-Loops, Steady-Rhythm
+Fingerpicked Guitar, Deep 808s, Ethereal Synths, Analog Warmth,
+Distorted Bass, Crisp Drums, Lush Strings, Vintage Keys, Glitchy Beats,
+Ambient Pads, Brass Stabs, Vinyl Crackle, Tape Saturation, Reverb Tails,
+Sidechain Pump, Filter Sweeps, Granular Texture, Field Recordings,
+Electric Guitar Distorted, Acoustic Guitar, Strings Legato, Slap Bass, 
+Piano Driven, Groovy Rhythms, Pounding Drums, Guitar Loops, Steady Rhythm
 ```
 
 **ATMOSPHERES_LIST:**
 ```
-Melancholic-Introspection, Urban-Solitude, Nostalgic-Warmth, Euphoric-Release,
-Dark-Contemplation, Dreamy-Float, Gritty-Reality, Ethereal-Escape,
-Intimate-Vulnerability, Epic-Grandeur, Mysterious-Depth, Playful-Energy,
-Emotional-Catharsis, Cinematic-Drama, Minimalist-Space, Chaotic-Beauty,
-Atmospheric, Emotional, Festive, Peaceful-Reflection, Joyful, Heartfelt, 
+Melancholic Introspection, Urban Solitude, Nostalgic Warmth, Euphoric Release,
+Dark Contemplation, Dreamy Float, Gritty Reality, Ethereal Escape,
+Intimate Vulnerability, Epic Grandeur, Mysterious Depth, Playful Energy,
+Emotional Catharsis, Cinematic Drama, Minimalist Space, Chaotic Beauty,
+Atmospheric, Emotional, Festive, Peaceful Reflection, Joyful, Heartfelt, 
 Vibrant, Cool, Eclectic, Progressive, Theatrical, Anthemic, Danceable, 
 Groovy, Futuristic, Unusual, Operatic, Psychedelic, Mystical, Youthful, 
-Powerful, Uplifting-Nostalgic
+Powerful, Uplifting Nostalgic
 ```
 
 **DYNAMICS_LIST:**
 ```
-Builds-Gradually, Explosive-Drops, Intimate-Whispers, Soaring-Climax,
-Stripped-Back-Moments, Layered-Complexity, Rhythmic-Pulse, Floating-Weightless,
-Driving-Forward, Gentle-Sway, Tension-Release, Organic-Flow, Electronic-Precision, 
-Raw-Emotion, Buildup, Drop, Breakdown, Crescendo, Diminuendo, Staccato, Legato, 
-Syncopation, Polyrhythm, Cross-Rhythm, Tempo-Shift, Dynamic-Contrast, 
-Rhythmic-Displacement, Metric-Modulation, Energy-High, Energy-Medium, Energy-Low, 
-Texture-Gritty, Mood-Uplifting, Mood-Intense, Catchy-Hook, Emotional-Bridge, 
-Powerful-Outro, Pre-Chorus, Guitar-Solo, Female-Vocal, Male-Vocal, Harmony-Yes, 
-Vocal-Effect-Reverb, Vocal-Effect-Delay, Vocal-Tone-Whisper
+Builds Gradually, Explosive Drops, Intimate Whispers, Soaring Climax,
+Stripped Back Moments, Layered Complexity, Rhythmic Pulse, Floating Weightless,
+Driving Forward, Gentle Sway, Tension Release, Organic Flow, Electronic Precision, 
+Raw Emotion, Buildup, Drop, Breakdown, Crescendo, Diminuendo, Staccato, Legato, 
+Syncopation, Polyrhythm, Cross Rhythm, Tempo Shift, Dynamic Contrast, 
+Rhythmic Displacement, Metric Modulation, Energy High, Energy Medium, Energy Low, 
+Texture Gritty, Mood Uplifting, Mood Intense, Catchy Hook, Emotional Bridge, 
+Powerful Outro, Pre Chorus, Guitar Solo, Female Vocal, Male Vocal, Harmony Yes, 
+Vocal Effect Reverb, Vocal Effect Delay, Vocal Tone Whisper
 ```
 
 ---
 
 ## [D] FASE D: TEMPO E METRICA
 
-**PERCHÉ QUESTA FASE:** Sincronizza matematicamente testo e musica per creare fluidità naturale. Il rapporto BPM-sillabe non è teoria musicale astratta, ma la chiave per testi che "suonano giusti". Questa mappatura elimina il trial-and-error e garantisce che ogni parola si incastri perfettamente nel groove musicale.
+**PERCHÉ QUESTA FASE:** Sincronizza matematicamente testo e musica per creare fluidità naturale. Il rapporto BPM sillabe non è teoria musicale astratta, ma la chiave per testi che "suonano giusti". Questa mappatura elimina il trial and error e garantisce che ogni parola si incastri perfettamente nel groove musicale.
 
 **[!] RACCOMANDAZIONE SEMANTICA:** Nella fase successiva (FASE E), privilegia la semplicità lessicale e usa meno parole per rispettare naturalmente le sillabe pianificate. La creatività si esprime meglio attraverso concetti chiari che attraverso complessità verbale.
 
-### [♪] **MAPPATURA BPM-TEMPLATE INTEGRATA**
+### [♪] **MAPPATURA BPM TEMPLATE INTEGRATA**
 
 **TEMPLATE COMPLETI (BPM + Sillabe + Style):**
 ```
 ROCK: 120 BPM → V(8), C(8) | "Driving rock with pounding drums"
 POP: 110 BPM → V(8), C(7) | "Upbeat anthem with catchy hooks"
-TRAP: 140 BPM → V(6), C(8) | "Hard-hitting with booming 808s"
-ELECTRONIC: 128 BPM → V(6), C(7) | "Pulsing track with four-on-the-floor"
+TRAP: 140 BPM → V(6), C(8) | "Hard hitting with booming 808s"
+ELECTRONIC: 128 BPM → V(6), C(7) | "Pulsing track with four on the floor"
 R&B: 85 BPM → V(12), C(10) | "Smooth groove with warm bass"
 BALLAD: 70 BPM → V(11), C(10) | "Emotional ballad with piano"
 ```
 
 **RANGE RAPIDI:**
 ```
-60-90 BPM (Lenti): 10-14 sillabe | Ballad, Ambient, Soul
-90-120 BPM (Medi): 8-10 sillabe | Pop, Rock, Funk, Reggae
-120+ BPM (Veloci): 4-8 sillabe | Dance, Trap, D&B, Hardcore
+60 a 90 BPM (Lenti): 10 a 14 sillabe | Ballad, Ambient, Soul
+90 a 120 BPM (Medi): 8 a 10 sillabe | Pop, Rock, Funk, Reggae
+120+ BPM (Veloci): 4 a 8 sillabe | Dance, Trap, D&B, Hardcore
 ```
 
 **TAG TEMPO DINAMICI:**
@@ -354,18 +354,18 @@ BALLAD: 70 BPM → V(11), C(10) | "Emotional ballad with piano"
 
 **SOUND_EFFECTS_LIST:**
 ```
-Effetti Ambientali: Birds-chirping, Bell-dings, Phone-ringing, Whistling, 
+Effetti Ambientali: Birds chirping, Bell dings, Phone ringing, Whistling, 
 Applause, Cheering, Clapping
 Effetti Vocali: Whispers, Chuckles, Giggling, Sighs, Groaning, Cough, Screams
-Effetti Tecnici: Beeping, Bleep, Ringing, Static, Silence, Censored, Clears-throat
-Voci Narrative: Announcer, Reporter, Female-narrator, Man, Woman, Boy, Girl, 
-Audience-laughing
+Effetti Tecnici: Beeping, Bleep, Ringing, Static, Silence, Censored, Clears throat
+Voci Narrative: Announcer, Reporter, Female narrator, Man, Woman, Boy, Girl, 
+Audience laughing
 ```
 
 **STRUCTURAL_METATAGS_LIST:**
 ```
-Structure: [Intro], [Verse], [Chorus], [Bridge], [Drop], [Outro], [Pre-Chorus]
-Genre: [Genre: Pop], [Genre: Rock], [Style: Lo-fi], [Era: 2000s]
+Structure: [Intro], [Verse], [Chorus], [Bridge], [Drop], [Outro], [Pre Chorus]
+Genre: [Genre: Pop], [Genre: Rock], [Style: Lo fi], [Era: 2000s]
 Instruments: [Instrument: Piano], [Instrument: Electric Guitar (Distorted)], 
 [Instrument: Strings (Legato)]
 Vocals: [Vocalist: Female], [Vocalist: Alto], [Harmony: Yes], [Vocal Effect: Reverb], 
@@ -388,7 +388,7 @@ Energy: [Energy: High], [Energy: Medium], [Energy: Low], [Mood: Uplifting],
 **TEMPLATE HOOK EFFICACI:**
 ```
 • RIPETIZIONE EMOTIVA: "Voglio volare, voglio sognare"
-• DOMANDA-RISPOSTA: "Dove vai? Verso il sole"
+• DOMANDA RISPOSTA: "Dove vai? Verso il sole"
 • CONTRASTO: "Buio e luce, pace e guerra"
 • MANTRA: "Sempre avanti, mai indietro"
 ```
@@ -419,16 +419,16 @@ Rispettando target sillabico FASE D
 
 **ESEMPI CORRETTI:**
 ```
-[Verse: Intimate-Vulnerability, Fingerpicked-Guitar, Gentle-Sway]
-[Chorus: Euphoric-Release, Electric-Guitar-Distorted, Explosive-Drops]
-[Bridge: Melancholic-Introspection, Piano-Driven, Floating-Weightless]
+[Verse: Intimate Vulnerability, Fingerpicked Guitar, Gentle Sway]
+[Chorus: Euphoric Release, Electric Guitar Distorted, Explosive Drops]
+[Bridge: Melancholic Introspection, Piano Driven, Floating Weightless]
 ```
 
 **RIFERIMENTI LISTE FASE C:**
 ```
-ATMOSPHERES_LIST: Melancholic-Introspection, Euphoric-Release, Intimate-Vulnerability...
-INSTRUMENTS_LIST: Fingerpicked-Guitar, Electric-Guitar-Distorted, Piano-Driven...
-DYNAMICS_LIST: Explosive-Drops, Gentle-Sway, Floating-Weightless...
+ATMOSPHERES_LIST: Melancholic Introspection, Euphoric Release, Intimate Vulnerability...
+INSTRUMENTS_LIST: Fingerpicked Guitar, Electric Guitar Distorted, Piano Driven...
+DYNAMICS_LIST: Explosive Drops, Gentle Sway, Floating Weightless...
 ```
 
 **DIVIETI ASSOLUTI:**
@@ -442,9 +442,9 @@ DYNAMICS_LIST: Explosive-Drops, Gentle-Sway, Floating-Weightless...
 ### SECTION TAGS OTTIMIZZATI
 ```
 [+] CORRETTO (usando liste ottimizzate):
-[Verse: Intimate-Vulnerability, Fingerpicked-Guitar]
-[Chorus: Euphoric-Release, Electric-Guitar-Distorted]
-[Bridge: Melancholic-Introspection, Piano-Driven]
+[Verse: Intimate Vulnerability, Fingerpicked Guitar]
+[Chorus: Euphoric Release, Electric Guitar Distorted]
+[Bridge: Melancholic Introspection, Piano Driven]
 
 [-] SBAGLIATO:
 [Verse - 8 sillabe]
@@ -467,14 +467,14 @@ Aggettivi tecnici efficaci (evita metafore elaborate)
 
 ### STRUCTURAL
 ```
-Usa mappatura BPM-metrica integrata dalla FASE D per target sillabico (evita metrica casuale)
-Progressione dinamica Verse→Chorus→Bridge con coerenza tempo-metrica dalla FASE D (evita energia statica)
+Usa mappatura BPM metrica integrata dalla FASE D per target sillabico (evita metrica casuale)
+Progressione dinamica Verse→Chorus→Bridge con coerenza tempo metrica dalla FASE D (evita energia statica)
 Un solo BPM per canzone con target sillabico coerente dalla FASE D (evita tempi multipli e metrica scollegata)
 ```
 
 ### CREATIVE
 ```
-Mashup creativi di 2-3 generi (evita un solo genere)
+Mashup creativi di 2 o 3 generi (evita un solo genere)
 Immagini fresche e originali (evita cliché lirici)
 Cambia strumenti ogni sezione (evita strumentazione monotona)
 ```
