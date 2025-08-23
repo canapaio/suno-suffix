@@ -2,7 +2,7 @@
 
 *Flusso lineare: A→B→C→D*
 
-## 🧠 PIANIFICAZIONE STRATEGICA
+## [*] PIANIFICAZIONE STRATEGICA
 
 **PRIMA DI INIZIARE - FACCIO MENTE LOCALE:**
 
@@ -29,19 +29,19 @@ Prima di utilizzare le varie fasi, dedica un momento a riflettere:
 
 ---
 
-## 🔧 FASE A: CONFIGURATION
+## [A] FASE A: CONFIGURATION
 
 ### ADVANCED OPTIONS
 ```
-🎵 TITOLO: Evocativo, 5-6 parole max, senza caratteri speciali
-🎛️ VOCAL GENDER: Male/Female/Auto - Imposta il genere della voce principale
-🎛️ WEIRDNESS: 0% (normale) → 100% (sperimentale) - Controlla quanto sarà sperimentale il brano
-🎛️ INFLUENCE: 0% (libero) → 100% (fedele) - Controlla quanto lo stile seguirà la descrizione
-🎛️ EXCLUDE STYLES: "country, classical, opera, folk, bluegrass, gospel, traditional, orchestral, chamber music, baroque, romantic, medieval, gregorian, polka, waltz, tango, mariachi, flamenco, klezmer, bagpipe, didgeridoo, sitar, gamelan, throat singing, yodeling, sea shanty, military march, funeral dirge, lullaby, nursery rhyme, christmas carol, hymn, chant, ambient drone, field recording, nature sounds, white noise, silence"
+[♪] TITOLO: Evocativo, 5-6 parole max, senza caratteri speciali
+[>] VOCAL GENDER: Male/Female/Auto - Imposta il genere della voce principale
+[>] WEIRDNESS: 0% (normale) → 100% (sperimentale) - Controlla quanto sarà sperimentale il brano
+[>] INFLUENCE: 0% (libero) → 100% (fedele) - Controlla quanto lo stile seguirà la descrizione
+[>] EXCLUDE STYLES: "country, classical, opera, folk, bluegrass, gospel, traditional, orchestral, chamber music, baroque, romantic, medieval, gregorian, polka, waltz, tango, mariachi, flamenco, klezmer, bagpipe, didgeridoo, sitar, gamelan, throat singing, yodeling, sea shanty, military march, funeral dirge, lullaby, nursery rhyme, christmas carol, hymn, chant, ambient drone, field recording, nature sounds, white noise, silence"
 **NOTA:** Rimuovi da questa lista gli stili che desideri includere e lascia solo quelli che NON vuoi nel brano
 ```
 
-### 💡 ESEMPIO SETUP COMPLETO
+### [!] ESEMPIO SETUP COMPLETO
 ```
 Titolo: "Digital Echoes" | Vocal Gender: Female | Weirdness: 50% | Influence: 34%
 Exclude: "country, classical, opera" (rimuovi generi desiderati)
@@ -49,15 +49,15 @@ Exclude: "country, classical, opera" (rimuovi generi desiderati)
 
 ---
 
-## 🎸 FASE B: STYLE
+## [B] FASE B: STYLE
 
 ### STYLE RULES
 ```
-✅ UN PARAGRAFO, max 1000 caratteri
-✅ INGLESE per terminologia musicale (consigliato scrivere tutto lo style in inglese anche se la canzone sarà in italiano)
-✅ Frasi separate da punti
-❌ NO a capo, elenchi, parentesi complesse
-❌ NO "come se", "sembra", "storia", riferimenti culturali
+[+] UN PARAGRAFO, max 1000 caratteri
+[+] INGLESE per terminologia musicale (consigliato scrivere tutto lo style in inglese anche se la canzone sarà in italiano)
+[+] Frasi separate da punti
+[-] NO a capo, elenchi, parentesi complesse
+[-] NO "come se", "sembra", "storia", riferimenti culturali
 ```
 
 **IMPORTANTE:** Lo STYLE deve essere un paragrafo unico senza a capo, solo frasi separate da punti.
@@ -86,7 +86,7 @@ Verse, Chorus, Bridge, Intro, Outro, Hook, Refrain, Solo, Break, Drop, Build, Fa
 5. Layered Description: strumenti + emozioni + dinamiche
 ```
 
-### 🎵 PROGRESSIONE ENERGETICA
+### [♪] PROGRESSIONE ENERGETICA
 ```
 Verse: Intimo → Pre-Chorus: Crescendo → Chorus: Esplosivo → Bridge: Contrasto
 Cambia strumentazione ogni sezione per varietà
@@ -133,9 +133,9 @@ Vocal-Effect-Reverb, Vocal-Effect-Delay, Vocal-Tone-Whisper
 
 ---
 
-## ⏱️ FASE C: TEMPO E METRICA
+## [C] FASE C: TEMPO E METRICA
 
-### 🎵 **MAPPATURA BPM E METRICA INTEGRATA**
+### [♪] **MAPPATURA BPM E METRICA INTEGRATA**
 
 **Generi Lenti (60-90 BPM) → Metrica Estesa:**
 ```
@@ -161,20 +161,20 @@ DRUM & BASS: 160-180 BPM → Verse(6), Chorus(6) - "Fast breakbeats with heavy b
 HARDCORE: 180+ BPM → Verse(5), Chorus(6) - "Aggressive drums with intense energy"
 ```
 
-### 🎯 **SINTASSI TEMPO-METRICA CORRETTA**
+### [>] **SINTASSI TEMPO-METRICA CORRETTA**
 
 **Formato Raccomandato:**
 ```
-✅ CORRETTO: "Upbeat pop track at 120 BPM with driving four-on-the-floor" → 8 sillabe verso
-✅ CORRETTO: "Slow ballad with gentle 70 BPM feel, intimate piano" → 11 sillabe verso
-✅ CORRETTO: "High-energy dance track with pulsing 128 BPM rhythm" → 6 sillabe verso
+[+] CORRETTO: "Upbeat pop track at 120 BPM with driving four-on-the-floor" → 8 sillabe verso
+[+] CORRETTO: "Slow ballad with gentle 70 BPM feel, intimate piano" → 11 sillabe verso
+[+] CORRETTO: "High-energy dance track with pulsing 128 BPM rhythm" → 6 sillabe verso
 
-❌ EVITARE: [TEMPO: 120 BPM] ripetuto multiple volte
-❌ EVITARE: Cambi di BPM numerici nella stessa canzone
-❌ EVITARE: Metrica casuale senza considerare il tempo
+[-] EVITARE: [TEMPO: 120 BPM] ripetuto multiple volte
+[-] EVITARE: Cambi di BPM numerici nella stessa canzone
+[-] EVITARE: Metrica casuale senza considerare il tempo
 ```
 
-### 🎪 **CAMBI DI TEMPO DINAMICI**
+### [~] **CAMBI DI TEMPO DINAMICI**
 
 **Tag di Espressione Temporale:**
 ```
@@ -195,7 +195,7 @@ HARDCORE: 180+ BPM → Verse(5), Chorus(6) - "Aggressive drums with intense ener
 [Final Chorus: Return to energetic 110 BPM drive] → 8 sillabe
 ```
 
-### 🎵 **INTEGRAZIONE TEMPO-GENERE-METRICA**
+### [♪] **INTEGRAZIONE TEMPO-GENERE-METRICA**
 
 **Template Completi:**
 
@@ -227,7 +227,7 @@ dark atmospheric pads with aggressive energy"
 Verse(variabile), Chorus(8), Bridge(6)
 ```
 
-### 📐 **PROCESSO METRICO INTEGRATO**
+### [=] **PROCESSO METRICO INTEGRATO**
 
 ### PROCESS
 ```
@@ -239,14 +239,14 @@ Verse(variabile), Chorus(8), Bridge(6)
 6. Se = target → PROCEDI alla sezione successiva
 ```
 
-### 🧠 CONTEGGIO VELOCE TEMPO-METRICA
+### [*] CONTEGGIO VELOCE TEMPO-METRICA
 ```
 Batti il ritmo mentalmente mentre leggi
 Se non "suona" giusto → troppo lungo/corto per il BPM
 Tempo veloce = sillabe compatte | Tempo lento = sillabe estese
 ```
 
-### ⚡ FIX VELOCE INTEGRATO
+### [!] FIX VELOCE INTEGRATO
 ```
 Troppo lungo per BPM → Rimuovi aggettivi | Troppo corto → Aggiungi articoli
 Rima forzata → Cambia ultima parola mantenendo target sillabico
@@ -255,9 +255,9 @@ Tempo-metrica non coerente → Rivedi mappatura BPM-sillabe
 
 **REGOLA D'ORO TEMPO-METRICA:**
 ```
-🎵 Più veloce il BPM → Meno sillabe per verso
-🎵 Più lento il BPM → Più sillabe per verso
-🎵 Un solo BPM per canzone → Target sillabico coerente
+[♪] Più veloce il BPM → Meno sillabe per verso
+[♪] Più lento il BPM → Più sillabe per verso
+[♪] Un solo BPM per canzone → Target sillabico coerente
 ```
 
 **SOUND_EFFECTS_LIST:**
@@ -284,16 +284,16 @@ Energy: [Energy: High], [Energy: Medium], [Energy: Low], [Mood: Uplifting],
 
 ### CHORUS RULES
 ```
-✅ RIME OBBLIGATORIE (ABAB/AABB)
-✅ PAROLE SEMPLICI
-✅ ORECCHIABILITÀ
-✅ RIPETIBILITÀ
-✅ IMPATTO EMOTIVO
+[+] RIME OBBLIGATORIE (ABAB/AABB)
+[+] PAROLE SEMPLICI
+[+] ORECCHIABILITÀ
+[+] RIPETIBILITÀ
+[+] IMPATTO EMOTIVO
 ```
 
 ---
 
-## 🎤 FASE D: FINAL TEXT
+## [D] FASE D: FINAL TEXT
 
 ### FORMAT
 ```
@@ -301,36 +301,36 @@ Energy: [Energy: High], [Energy: Medium], [Energy: Low], [Mood: Uplifting],
 Testo pulito italiano
 Rispettando sillabe pianificate
 
-💡 ESEMPIO CORRETTO (usando elementi dalle tabelle FASE B):
+[!] ESEMPIO CORRETTO (usando elementi dalle tabelle FASE B):
 [Verse: (da ATMOSPHERES_LIST: Intimate-storytelling), (da INSTRUMENTS_LIST: Fingerpicked-Guitar)]
 [Chorus: (da ATMOSPHERES_LIST: Explosive-anthem), (da DYNAMICS_LIST: Full-band-energy)]
 
-❌ SBAGLIATO:
+[-] SBAGLIATO:
 [Verse: Descrizione da ATMOSPHERES_LIST]
 [Chorus: dalla FASE B]
 [Verse: Intimate storytelling, fingerpicked guitar] (senza riferimento alle tabelle)
 
-🚨 DIVIETI:
-❌ Note esplicative (💡 NOTA RIME)
-❌ Spiegazioni metrica
-❌ Commenti tra parentesi
-✅ Solo testo cantabile
+[!] DIVIETI:
+[-] Note esplicative ([!] NOTA RIME)
+[-] Spiegazioni metrica
+[-] Commenti tra parentesi
+[+] Solo testo cantabile
 ```
 
 ### SECTION TAGS
 ```
-✅ CORRETTO:
+[+] CORRETTO:
 [Verse: Intimate storytelling, fingerpicked guitar]
 [Chorus: Explosive anthem, full band]
 
-❌ SBAGLIATO:
+[-] SBAGLIATO:
 [Verse - 8 sillabe]
 [Chorus: 8 syllables per line]
 ```
 
 ---
 
-## 🚨 ERRORS TO AVOID
+## [!] ERRORS TO AVOID
 
 ### ANTI-GLITCH
 ```
@@ -356,7 +356,7 @@ Cambia strumenti ogni sezione (evita strumentazione monotona)
 
 ---
 
-## 🎯 PHILOSOPHY
+## [*] PHILOSOPHY
 
 *Questa guida è uno strumento, non una gabbia.*
 
@@ -376,4 +376,4 @@ La creatività nasce dall'equilibrio tra struttura e spontaneità
 
 ---
 
-**🎵 Crea con le regole, poi superale. 🎵**
+**[♪] Crea con le regole, poi superale. [♪]**
