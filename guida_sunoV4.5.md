@@ -301,10 +301,10 @@ BALLAD (60-100 BPM): 70 BPM → V(11), C(10) | Usa Adult Contemporary, Soft Rock
 
 **GESTIONE TEMPO CORRETTA CON LISTE:**
 ```
-[OK] UN SOLO BPM nel Style: "[GENERE_LIST] at 120 BPM"
-[OK] Cambiamenti con TEMPO_DINAMICI_LIST: [Accelerando], [Ritardando]
-[NO] [TEMPO: 120 BPM] ripetuto nelle sezioni
-[NO] Cambi BPM numerici nella stessa canzone
+[+] UN SOLO BPM nel Style: "[GENERE_LIST] at 120 BPM"
+[+] Cambiamenti con TEMPO_DINAMICI_LIST: [Accelerando], [Ritardando]
+[-] [TEMPO: 120 BPM] ripetuto nelle sezioni
+[-] Cambi BPM numerici nella stessa canzone
 ```
 
 **ESEMPIO CORRETTO:**
@@ -346,9 +346,9 @@ Rispettando target sillabico FASE D
 
 **SEQUENZA BPM→ACCELERAZIONI (FASE D→FASE E):**
 ```
-[OK] PRIMA SEZIONI_LIST: Include BPM nel Style (FASE B)
-[OK] SUCCESSIVE SEZIONI_LIST: Usa TEMPO_DINAMICI_LIST per cambiamenti (FASE D)
-[OK] Progressione: Verse (base) → Pre-Chorus (Accelerando) → Chorus (climax) → Bridge (Ritardando)
+[+] PRIMA SEZIONI_LIST: Include BPM nel Style (FASE B)
+[+] SUCCESSIVE SEZIONI_LIST: Usa TEMPO_DINAMICI_LIST per cambiamenti (FASE D)
+[+] Progressione: Verse (base) → Pre-Chorus (Accelerando) → Chorus (climax) → Bridge (Ritardando)
 ```
 
 ### CHORUS OPTIMIZATION CON LISTE
@@ -385,18 +385,18 @@ Rispettando target sillabico FASE D
 
 ### ANTI-GLITCH CON LISTE
 ```
-[OK] Usa solo elementi da GENERE_LIST, INSTRUMENTS_LIST, ATMOSPHERES_LIST
-[OK] Descrizioni da STYLE_LIST (evita metafore elaborate)
-[OK] Paragrafo fluido <1000 caratteri con riferimenti liste
-[OK] Aggettivi da DYNAMICS_LIST (evita termini non presenti)
+[+] Usa solo elementi da GENERE_LIST, INSTRUMENTS_LIST, ATMOSPHERES_LIST
+[+] Descrizioni da STYLE_LIST (evita metafore elaborate)
+[+] Paragrafo fluido <1000 caratteri con riferimenti liste
+[+] Aggettivi da DYNAMICS_LIST (evita termini non presenti)
 ```
 
 ### STRUCTURAL CON LISTE
 ```
-[OK] BPM da GENERE_LIST + target sillabico coerente
-[OK] Progressione SEZIONI_LIST→ATMOSPHERES_LIST→DYNAMICS_LIST
-[OK] Un solo BPM + TEMPO_DINAMICI_LIST per cambiamenti
-[OK] Cambia INSTRUMENTS_LIST ogni sezione per varietà
+[+] BPM da GENERE_LIST + target sillabico coerente
+[+] Progressione SEZIONI_LIST→ATMOSPHERES_LIST→DYNAMICS_LIST
+[+] Un solo BPM + TEMPO_DINAMICI_LIST per cambiamenti
+[+] Cambia INSTRUMENTS_LIST ogni sezione per varietà
 ```
 
 ---
@@ -423,13 +423,13 @@ La creatività nasce dall'equilibrio tra liste strutturate e combinazioni sponta
 
 ## [!] PROMEMORIA FINALE - USO CORRETTO DELLE LISTE
 
-### [NO] NON USARE I NOMI DELLE LISTE
+### [-] NON USARE I NOMI DELLE LISTE
 **SBAGLIATO:**
 - "Usa GENERE_LIST per il genere"
 - "Applica INSTRUMENTS_LIST"
 - "Riferisciti a DYNAMICS_LIST"
 
-### [SI] USA I TERMINI CONTENUTI NELLE LISTE
+### [+] USA I TERMINI CONTENUTI NELLE LISTE
 **CORRETTO:**
 - "Usa 'synthwave', 'ambient', 'trap' (da GENERE_LIST)"
 - "Applica 'electric guitar', 'synthesizer', 'drums' (da INSTRUMENTS_LIST)"
