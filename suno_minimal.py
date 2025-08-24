@@ -100,7 +100,7 @@ def agent_prompt_suffix(suffix, cat):
         log.info(f"Trigger '{trigger}' detected. Loading guide content...")
         
         # Search for the guide file
-        guide_filename = settings.get('guide_filename', 'guida_sunoV4.md')
+        guide_filename = settings.get('guide_filename', 'guida_sunoV4.5.md')
         guide_folder = settings.get('guide_folder', '')
         plugin_dir = os.path.dirname(__file__)
         guide_path = find_guide_file(guide_filename, guide_folder, plugin_dir)

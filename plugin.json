@@ -1,6 +1,6 @@
 {
     "name": "Content Injection Plugin",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Universal content injection system for Cheshire Cat. Automatically injects guide content, documentation, or reference material into prompts when triggered. Supports any use case: Suno AI, API docs, coding guidelines, and more.",
     "author_name": "Kael & Canapaio",
     "author_url": "https://github.com/canapaio/",
