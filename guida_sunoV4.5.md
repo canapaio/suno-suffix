@@ -4,7 +4,7 @@
 
 ---
 
-## [📋] LISTE DI RIFERIMENTO
+## [LISTE] LISTE DI RIFERIMENTO
 
 ### GENERE_LIST
 ```
@@ -264,19 +264,19 @@ Exclude: Rimuovi da lista sopra i generi da GENERE_LIST che vuoi mantenere
 [-] NO elementi non presenti nelle liste
 ```
 
-### ESEMPI STYLE OTTIMIZZATI (300-400 caratteri)
+### ESEMPI STYLE FASE C OTTIMIZZATI (300-400 caratteri)
 
-**ESEMPIO 1 - POP ENERGICO:**
+**ESEMPIO 1 - POP ENERGICO (FASE C):**
 ```
 Upbeat [GENERE_LIST: Dance Pop] with driving [INSTRUMENTS_LIST: Pounding Drums], bright [INSTRUMENTS_LIST: Vintage Keys], [DYNAMICS_LIST: Explosive Drops]. [STYLE_LIST: Modern Production] with punchy [INSTRUMENTS_LIST: Deep 808s], layered vocals, radio-friendly mix. [ATMOSPHERES_LIST: Euphoric Release], major key progressions.
 ```
 
-**ESEMPIO 2 - ELECTRONIC DANCE:**
+**ESEMPIO 2 - ELECTRONIC DANCE (FASE C):**
 ```
 High-energy [GENERE_LIST: House] with pulsing [INSTRUMENTS_LIST: Ethereal Synths], four-on-floor kick, filtered builds. [STYLE_LIST: Electronic Grid] production, [INSTRUMENTS_LIST: Sidechain Pump], melodic drops. [ATMOSPHERES_LIST: Euphoric Release] leads, [INSTRUMENTS_LIST: Ambient Pads], club-ready mix.
 ```
 
-**TEMPLATE UNIVERSALE:**
+**TEMPLATE UNIVERSALE FASE C:**
 ```
 [ATMOSPHERES_LIST] [GENERE_LIST] with [INSTRUMENTS_LIST principale], [INSTRUMENTS_LIST secondario], [DYNAMICS_LIST]. [STYLE_LIST] production with [INSTRUMENTS_LIST effetti]. [ATMOSPHERES_LIST finale] energy, [GENERE_LIST fusion] elements.
 ```
@@ -301,16 +301,18 @@ BALLAD (60-100 BPM): 70 BPM → V(11), C(10) | Usa Adult Contemporary, Soft Rock
 
 **GESTIONE TEMPO CORRETTA CON LISTE:**
 ```
-✓ UN SOLO BPM nel Style: "[GENERE_LIST] at 120 BPM"
-✓ Cambiamenti con TEMPO_DINAMICI_LIST: [Accelerando], [Ritardando]
-✗ [TEMPO: 120 BPM] ripetuto nelle sezioni
-✗ Cambi BPM numerici nella stessa canzone
+[OK] UN SOLO BPM nel Style: "[GENERE_LIST] at 120 BPM"
+[OK] Cambiamenti con TEMPO_DINAMICI_LIST: [Accelerando], [Ritardando]
+[NO] [TEMPO: 120 BPM] ripetuto nelle sezioni
+[NO] Cambi BPM numerici nella stessa canzone
 ```
 
 **ESEMPIO CORRETTO:**
 ```
+# FASE B - Style:
 Style: [GENERE_LIST: Progressive Rock], 105 BPM, [ATMOSPHERES_LIST: Epic Grandeur]
 
+# FASE D - Struttura canzone:
 [Verse: Tranquillo]
 [Pre-Chorus: Accelerando] (da TEMPO_DINAMICI_LIST)
 [Chorus: Allegro]
@@ -326,27 +328,27 @@ Style: [GENERE_LIST: Progressive Rock], 105 BPM, [ATMOSPHERES_LIST: Epic Grandeu
 
 ### FORMAT OTTIMIZZATO CON LISTE
 
-**STRUTTURA STANDARD:**
+**STRUTTURA STANDARD FASE E:**
 ```
 [SEZIONI_LIST: (ATMOSPHERES_LIST), (INSTRUMENTS_LIST), (DYNAMICS_LIST)]
 Testo cantabile italiano
 Rispettando target sillabico FASE D
 ```
 
-**ESEMPI CORRETTI CON LISTE:**
+**ESEMPI CORRETTI FASE E CON LISTE:**
 ```
 [Verse: Intimate Vulnerability, Fingerpicked Guitar, Gentle Sway]
 [Chorus: Euphoric Release, Electric Guitar Distorted, Explosive Drops]
-[Accelerando] (da TEMPO_DINAMICI_LIST)
+[Accelerando] (da TEMPO_DINAMICI_LIST - FASE D)
 [Bridge: Melancholic Introspection, Piano Driven, Floating Weightless]
-[Ritardando] (da TEMPO_DINAMICI_LIST)
+[Ritardando] (da TEMPO_DINAMICI_LIST - FASE D)
 ```
 
-**SEQUENZA BPM→ACCELERAZIONI:**
+**SEQUENZA BPM→ACCELERAZIONI (FASE D→FASE E):**
 ```
-✓ PRIMA SEZIONI_LIST: Include BPM nel Style
-✓ SUCCESSIVE SEZIONI_LIST: Usa TEMPO_DINAMICI_LIST per cambiamenti
-✓ Progressione: Verse (base) → Pre-Chorus (Accelerando) → Chorus (climax) → Bridge (Ritardando)
+[OK] PRIMA SEZIONI_LIST: Include BPM nel Style (FASE B)
+[OK] SUCCESSIVE SEZIONI_LIST: Usa TEMPO_DINAMICI_LIST per cambiamenti (FASE D)
+[OK] Progressione: Verse (base) → Pre-Chorus (Accelerando) → Chorus (climax) → Bridge (Ritardando)
 ```
 
 ### CHORUS OPTIMIZATION CON LISTE
@@ -383,18 +385,18 @@ Rispettando target sillabico FASE D
 
 ### ANTI-GLITCH CON LISTE
 ```
-✓ Usa solo elementi da GENERE_LIST, INSTRUMENTS_LIST, ATMOSPHERES_LIST
-✓ Descrizioni da STYLE_LIST (evita metafore elaborate)
-✓ Paragrafo fluido <1000 caratteri con riferimenti liste
-✓ Aggettivi da DYNAMICS_LIST (evita termini non presenti)
+[OK] Usa solo elementi da GENERE_LIST, INSTRUMENTS_LIST, ATMOSPHERES_LIST
+[OK] Descrizioni da STYLE_LIST (evita metafore elaborate)
+[OK] Paragrafo fluido <1000 caratteri con riferimenti liste
+[OK] Aggettivi da DYNAMICS_LIST (evita termini non presenti)
 ```
 
 ### STRUCTURAL CON LISTE
 ```
-✓ BPM da GENERE_LIST + target sillabico coerente
-✓ Progressione SEZIONI_LIST→ATMOSPHERES_LIST→DYNAMICS_LIST
-✓ Un solo BPM + TEMPO_DINAMICI_LIST per cambiamenti
-✓ Cambia INSTRUMENTS_LIST ogni sezione per varietà
+[OK] BPM da GENERE_LIST + target sillabico coerente
+[OK] Progressione SEZIONI_LIST→ATMOSPHERES_LIST→DYNAMICS_LIST
+[OK] Un solo BPM + TEMPO_DINAMICI_LIST per cambiamenti
+[OK] Cambia INSTRUMENTS_LIST ogni sezione per varietà
 ```
 
 ---
@@ -411,11 +413,32 @@ Rispettando target sillabico FASE D
 
 **Ricorda:** Suno 4.5 capisce perfettamente gli elementi delle liste ottimizzate. Preferisce combinazioni precise a descrizioni elaborate.
 
-### ✨ ONE-SHOT PHILOSOPHY OTTIMIZZATA
+### [*] ONE-SHOT PHILOSOPHY OTTIMIZZATA
 ```
 Pianifica con le liste, esegui con fiducia semantica
 La creatività nasce dall'equilibrio tra liste strutturate e combinazioni spontanee
 ```
+
+---
+
+## [!] PROMEMORIA FINALE - USO CORRETTO DELLE LISTE
+
+### [NO] NON USARE I NOMI DELLE LISTE
+**SBAGLIATO:**
+- "Usa GENERE_LIST per il genere"
+- "Applica INSTRUMENTS_LIST"
+- "Riferisciti a DYNAMICS_LIST"
+
+### [SI] USA I TERMINI CONTENUTI NELLE LISTE
+**CORRETTO:**
+- "Usa 'synthwave', 'ambient', 'trap' (da GENERE_LIST)"
+- "Applica 'electric guitar', 'synthesizer', 'drums' (da INSTRUMENTS_LIST)"
+- "Riferisciti a 'energetic', 'melancholic', 'uplifting' (da DYNAMICS_LIST)"
+
+### RICORDA SEMPRE
+Le liste sono come un **dizionario**: guardi dentro e prendi le parole che ti servono.
+
+Quando scegli un genere, prendi direttamente "synthwave", "ambient" così Suno capisce subito!
 
 ---
 
