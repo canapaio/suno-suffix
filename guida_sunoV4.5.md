@@ -314,10 +314,10 @@ Style: [GENERE_LIST: Progressive Rock], 105 BPM, [ATMOSPHERES_LIST: Epic Grandeu
 
 # FASE D - Struttura canzone:
 [Verse: Tranquillo]
-[Pre-Chorus: Accelerando] (da TEMPO_DINAMICI_LIST)
+[Pre-Chorus: Accelerando] <!-- da TEMPO_DINAMICI_LIST -->
 [Chorus: Allegro]
-[Bridge: Ritardando] (da TEMPO_DINAMICI_LIST)
-[Final Chorus: Tempo primo] (da TEMPO_DINAMICI_LIST)
+[Bridge: Ritardando] <!-- da TEMPO_DINAMICI_LIST -->
+[Final Chorus: Tempo primo] <!-- da TEMPO_DINAMICI_LIST -->
 ```
 
 ---
@@ -339,9 +339,9 @@ Rispettando target sillabico FASE D
 ```
 [Verse: Intimate Vulnerability, Fingerpicked Guitar, Gentle Sway]
 [Chorus: Euphoric Release, Electric Guitar Distorted, Explosive Drops]
-[Accelerando] (da TEMPO_DINAMICI_LIST - FASE D)
+[Accelerando] <!-- da TEMPO_DINAMICI_LIST - FASE D -->
 [Bridge: Melancholic Introspection, Piano Driven, Floating Weightless]
-[Ritardando] (da TEMPO_DINAMICI_LIST - FASE D)
+[Ritardando] <!-- da TEMPO_DINAMICI_LIST - FASE D -->
 ```
 
 **SEQUENZA BPM→ACCELERAZIONI (FASE D→FASE E):**
@@ -431,9 +431,9 @@ La creatività nasce dall'equilibrio tra liste strutturate e combinazioni sponta
 
 ### [+] USA I TERMINI CONTENUTI NELLE LISTE
 **CORRETTO:**
-- "Usa 'synthwave', 'ambient', 'trap' (da GENERE_LIST)"
-- "Applica 'electric guitar', 'synthesizer', 'drums' (da INSTRUMENTS_LIST)"
-- "Riferisciti a 'energetic', 'melancholic', 'uplifting' (da DYNAMICS_LIST)"
+- "Usa 'synthwave', 'ambient', 'trap' <!-- da GENERE_LIST -->"
+- "Applica 'electric guitar', 'synthesizer', 'drums' <!-- da INSTRUMENTS_LIST -->"
+- "Riferisciti a 'energetic', 'melancholic', 'uplifting' <!-- da DYNAMICS_LIST -->"
 
 ### RICORDA SEMPRE
 Le liste sono come un **dizionario**: guardi dentro e prendi le parole che ti servono.
