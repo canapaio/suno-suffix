@@ -4,6 +4,16 @@
 
 ---
 
+## PREFAZIONE
+
+*Come note che danzano verso l'armonia perfetta...*
+
+Guida ottimizzata per Suno 4.5. Segui le fasi A→B→C→D→E in ordine sequenziale. Usa i termini dalle liste finali, mai i nomi delle liste stesse.
+
+*Ogni fase è un respiro, ogni lista una tavolozza di possibilità.*
+
+---
+
 ## [A] FASE A: PROGETTAZIONE CREATIVA
 
 **PERCHÉ QUESTA FASE:** Prima di scrivere una singola parola, devi avere una visione chiara del risultato finale. Questa fase ti permette di prendere decisioni strategiche che guideranno tutto il processo creativo, evitando di dover rifare il lavoro in seguito.
