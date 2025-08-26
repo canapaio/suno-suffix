@@ -193,9 +193,9 @@ Rispettando target sillabico FASE D
 ```
 [Verse: Intimate Vulnerability, Fingerpicked Guitar, Gentle Sway]
 [Chorus: Euphoric Release, Electric Guitar Distorted, Explosive Drops]
-[Accelerando] (da TEMPO_DINAMICI_LIST - FASE D)
+[Accelerando] <!-- da TEMPO_DINAMICI_LIST - FASE D -->
 [Bridge: Melancholic Introspection, Piano Driven, Floating Weightless]
-[Ritardando] (da TEMPO_DINAMICI_LIST - FASE D)
+[Ritardando] <!-- da TEMPO_DINAMICI_LIST - FASE D -->
 ```
 
 **SEQUENZA BPM→ACCELERAZIONI (FASE D→FASE E):**
@@ -354,16 +354,16 @@ Vocal Effect Delay, Vocal Tone Whisper
 
 ### SEZIONI_LIST
 ```
-Verse - Strofa principale, sviluppa la narrazione
-Chorus - Ritornello, parte più memorabile e energica
-Bridge - Ponte, contrasto melodico e lirico
-Pre-Chorus - Preparazione al ritornello, crescendo emotivo
-Outro - Conclusione, dissolvenza finale
-Intro - Apertura strumentale o vocale
-Interlude - Pausa strumentale, respiro nella canzone
-Hook - Gancio melodico, frase accattivante
-Refrain - Ritornello semplificato o variazione
-Coda - Finale esteso, chiusura elaborata
+Intro - Apertura strumentale o vocale | Importanza: 90% | Consigliati: 1 per brano
+Verse - Strofa principale, sviluppa la narrazione | Importanza: 100% | Consigliati: 2-3 per brano
+Pre-Chorus - Preparazione al ritornello, crescendo emotivo | Importanza: 80% | Consigliati: 1-2 per brano
+Chorus - Ritornello, parte più memorabile e energica | Importanza: 100% | Consigliati: 2-4 per brano
+Bridge - Ponte, contrasto melodico e lirico | Importanza: 70% | Consigliati: 1 per brano
+Hook - Gancio melodico, frase accattivante | Importanza: 85% | Consigliati: 1-2 per brano
+Interlude - Pausa strumentale, respiro nella canzone | Importanza: 60% | Consigliati: 0-1 per brano
+Refrain - Ritornello semplificato o variazione | Importanza: 65% | Consigliati: 0-1 per brano
+Outro - Conclusione, dissolvenza finale | Importanza: 75% | Consigliati: 1 per brano
+Coda - Finale esteso, chiusura elaborata | Importanza: 50% | Consigliati: 0-1 per brano
 ```
 
 ### SOUND_EFFECTS_LIST
