@@ -2,37 +2,38 @@ from cat.mad_hatter.decorators import plugin
 from pydantic import BaseModel, Field
 
 class SunoSettings(BaseModel):
-    guide_filename: str = Field(
-        default="guida_sunoV4.5.md",
-        description="Name of the guide file to load"
-    )
-    guide_folder: str = Field(
-        default="",
-        description="Custom folder for the guide file (empty = automatic search)"
-    )
-    trigger: str = Field(
-        default=":s:",
-        description="Trigger text to activate guide content injection"
-    )
-    auto_add_instructions: bool = Field(
+    """
+    Settings configuration for the Suno Plugin.
+    
+    This class defines the options available in the Cheshire Cat's admin panel.
+    It uses Pydantic for data validation and type checking.
+    """
+    
+    # === GLOBAL SETTINGS ===
+    educational_mode: bool = Field(
         default=True,
-        description="Automatically add phase instructions (A→B→C→D) when trigger is detected"
+        description="Educational Mode: Shows detailed instructions in chat when a trigger is detected. Useful for learning how prompts are constructed."
     )
-    phase_instructions: str = Field(
-        default="(Segui le fasi A→B→C→D→E della guida in sequenza. Inizia sempre con una strategia chiara, poi procedi con FASE A (PROGETTAZIONE), FASE B (CONFIGURATION), FASE C (STYLE), FASE D (TEMPO E METRICA), FASE E (FINAL TEXT). Mantieni coerenza tra tutte le fasi.)",
-        description="Instructions to add when trigger is detected",
-        extra={"type": "TextArea"}
+    
+    auto_reload_config: bool = Field(
+        default=True,
+        description="Smart Reload: Automatically checks if document files have changed on every message. If changed, it reloads the configuration and updates token counts. (Optimized for performance)"
     )
-    guide_wrapper_template: str = Field(
-        default="<guida_tecnica format=\"markdown\" type=\"suno_advanced\">\n{guide_content}\n</guida_tecnica>",
-        description="Template for wrapping guide content. Use {guide_content} as placeholder for the actual guide text",
-        extra={"type": "TextArea"}
+
+    documents_path: str = Field(
+        default="",
+        description="Absolute path to the documents folder. The plugin attempts to auto-detect this on startup using the 'suno_plugin_marker.txt' file."
     )
+
     save_in_history: bool = Field(
         default=True,
-        description="If True, apply trigger substitution before saving to memory (before_cat_reads_message). If False, apply after saving to memory (agent_prompt_suffix)"
+        description="Save modified prompt (with injected content) in chat history. If disabled, the injection happens 'silently' before the LLM sees it, but isn't saved in the user's chat log."
     )
 
 @plugin
 def settings_model():
+    """
+    Register the settings model with the Cheshire Cat.
+    This function is called by the Cat to know which settings to display.
+    """
     return SunoSettings

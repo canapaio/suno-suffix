@@ -1,0 +1,16 @@
+{
+    "s1": {
+        "trigger": ":s1:",
+        "filename": "s1.md",
+        "active": true,
+        "instructions": "(Follow the METRICS & LYRICS guide. Focus on rhymes, syllables, and grammar.)",
+        "wrapper_template": "<guide type=\"metrics\">\n{content}\n</guide>"
+    },
+    "s2": {
+        "trigger": ":s2:",
+        "filename": "s2.md",
+        "active": true,
+        "instructions": "(Follow the SUNO FORMATTING guide. Focus on tags and structure.)",
+        "wrapper_template": "<guide type=\"suno_formatting\">\n{content}\n</guide>"
+    }
+}
