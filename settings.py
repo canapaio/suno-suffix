@@ -30,6 +30,12 @@ class SunoSettings(BaseModel):
         description="Save modified prompt (with injected content) in chat history. If disabled, the injection happens 'silently' before the LLM sees it, but isn't saved in the user's chat log."
     )
 
+    commands_json: str = Field(
+        default="{}",
+        description="Edit the commands.json configuration directly. WARNING: Invalid JSON will be ignored.",
+        json_schema_extra={"type": "textarea"}
+    )
+
 @plugin
 def settings_model():
     """

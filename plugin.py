@@ -278,9 +278,47 @@ def after_cat_bootstrap(cat):
     
     # 2. Initial Scan (Force update on startup to ensure consistency)
     log.info("Suno Plugin: Performing initial document scan...")
+    # 2. Initial Scan (Force update on startup to ensure consistency)
+    log.info("Suno Plugin: Performing initial document scan...")
     current_config = load_config()
     # Pass 'cat' to allow instruction generation for new files found at startup
     scan_documents(current_config, settings, cat=cat, force=True)
+
+    # 3. Sync JSON to Settings (for UI editor)
+    # We load the fresh config (after scan) into the settings field
+    try:
+        with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
+            content = f.read()
+            settings["commands_json"] = content
+            cat.mad_hatter.get_plugin().save_settings(settings)
+    except Exception as e:
+        log.error(f"Suno Plugin: Error syncing config to settings: {e}")
+
+@hook
+def after_plugin_settings_update(settings, cat):
+    """
+    Hook called when plugin settings are updated in the UI.
+    
+    We use this to sync the 'commands_json' field back to the file.
+    """
+    # Check if this is our plugin
+    # Note: The hook might be generic, so we should be careful. 
+    # But usually it passes the specific settings dict.
+    
+    if "commands_json" in settings:
+        json_content = settings["commands_json"]
+        try:
+            # Validate JSON
+            new_config = json.loads(json_content)
+            
+            # Save to file
+            save_config(new_config)
+            log.info("Suno Plugin: Updated commands.json from settings UI.")
+            
+        except json.JSONDecodeError:
+            log.error("Suno Plugin: Invalid JSON in settings! Ignoring update.")
+        except Exception as e:
+            log.error(f"Suno Plugin: Error saving commands.json from settings: {e}")
 
 @hook
 def agent_prompt_suffix(suffix, cat):
