@@ -301,7 +301,11 @@ def agent_prompt_suffix(suffix, cat):
         
     # Get the current user message
     # We need to check the working memory for the latest user message
-    user_text = cat.working_memory.user_message_json.text
+    user_message = cat.working_memory.user_message_json
+    if not user_message:
+        return suffix
+        
+    user_text = user_message.text
     
     educational_mode = settings.get("educational_mode", True)
     docs_dir = get_documents_path(settings)
