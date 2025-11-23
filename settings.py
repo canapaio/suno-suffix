@@ -33,7 +33,7 @@ class SunoSettings(BaseModel):
     commands_json: str = Field(
         default="{}",
         description="Edit the commands.json configuration directly. WARNING: Invalid JSON will be ignored.",
-        json_schema_extra={"type": "textarea"}
+        extra={"type": "TextArea"}
     )
 
 @plugin
