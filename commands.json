@@ -4,13 +4,32 @@
         "filename": "s1.md",
         "active": true,
         "instructions": "(Follow the METRICS & LYRICS guide. Focus on rhymes, syllables, and grammar.)",
-        "wrapper_template": "<guide type=\"metrics\">\n{content}\n</guide>"
+        "wrapper_template": "<guide type=\"metrics\">\n{content}\n</guide>",
+        "stats": {
+            "chars": 2813,
+            "tokens": 948
+        }
     },
     "s2": {
         "trigger": ":s2:",
         "filename": "s2.md",
         "active": true,
         "instructions": "(Follow the SUNO FORMATTING guide. Focus on tags and structure.)",
-        "wrapper_template": "<guide type=\"suno_formatting\">\n{content}\n</guide>"
+        "wrapper_template": "<guide type=\"suno_formatting\">\n{content}\n</guide>",
+        "stats": {
+            "chars": 6705,
+            "tokens": 2003
+        }
+    },
+    "s3": {
+        "trigger": ":s3:",
+        "filename": "guida_sunoV4.5b.md",
+        "active": true,
+        "instructions": "(Injecting content from document)",
+        "wrapper_template": "<guide type=\"s3\">\n{content}\n</guide>",
+        "stats": {
+            "chars": 18469,
+            "tokens": 5814
+        }
     }
 }
